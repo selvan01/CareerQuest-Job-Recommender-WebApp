@@ -1,0 +1,1297 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "hello",
+        "hey"      
+      ],
+      "responses": [
+        "Hey Bitch!"
+      ]
+    },
+    {
+      "tag": "common_courses_jobs",
+      "patterns": [
+        "Job opportunities after completing common courses",
+        "Career options with general degrees",
+        "Common courses job prospects"
+      ],
+      "responses": [
+        "- Sales Representative: Average CTC $60,000, 1-3 years of experience. 2. Customer Service Representative: Average CTC $50,000, 1-3 years of experience. 3. Administrative Assistant: Average CTC $55,000, 1-3 years of experience."
+      ]
+    },
+    {
+      "tag": "ece_jobs",
+      "patterns": [
+        "Job opportunities after completing Electronics and Communication Engineering",
+        "Career options with ECE degree",
+        "Jobs after ECE",
+        "be eee jobs",
+        "be Electronics and Communication Engineering jobs"
+      ],
+      "responses": [
+        "- ELECTRONICS ENGINEER: Average CTC ₹70,000, 2-4 years of experience. COMMUNICATIONS ENGINEER: Average CTC ₹72,000, 2-4 years of experience. HARDWARE DESIGN ENGINEER: Average CTC ₹75,000, 3-5 years of experience. NETWORK ENGINEER: Average CTC ₹68,000, 2-4 years of experience. SIGNAL PROCESSING ENGINEER: Average CTC ₹78,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
+      ]
+    },
+    {
+      "tag": "mechanical_engineering_jobs",
+      "patterns": [
+        "Job opportunities after completing Mechanical Engineering",
+        "Career options with Mechanical Engineering degree",
+        "Jobs after Mechanical Engineering",
+        "be mechanical engineering jobs"
+      ],
+      "responses": [
+        "- MECHANICAL ENGINEER: Average CTC ₹70,000, 2-5 years of experience. DESIGN ENGINEER: Average CTC ₹75,000, 3-6 years of experience. MANUFACTURING ENGINEER: Average CTC ₹80,000, 3-5 years of experience. AUTOMATION ENGINEER: Average CTC ₹68,000, 2-4 years of experience. PROJECT ENGINEER: Average CTC ₹78,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
+      ]
+    },
+    {
+      "tag": "cse_jobs",
+      "patterns": [
+        "Job opportunities after completing Computer Science Engineering",
+        "Career options with CSE degree",
+        "Jobs after CSE",
+        "be cse jobs",
+        "be computer science jobs"
+      ],
+      "responses": [
+        "- SOFTWARE ENGINEER: Average CTC ₹75,000, 2-5 years of experience. DATA SCIENTIST: Average CTC ₹85,000, 3-6 years of experience. CYBERSECURITY ANALYST: Average CTC ₹80,000, 3-5 years of experience. WEB DEVELOPER: Average CTC ₹70,000, 2-4 years of experience. IT PROJECT MANAGER: Average CTC ₹90,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+      ]
+    },
+    {
+      "tag": "civil_engineering_jobs",
+      "patterns": [
+        "Job opportunities after completing Civil Engineering",
+        "Career options with Civil Engineering degree",
+        "Jobs after Civil Engineering",
+        "be civil jobs",
+        "be civil engineering jobs"
+      ],
+      "responses": [
+        "- CIVIL ENGINEER: Average CTC ₹70,000, 2-5 years of experience. STRUCTURAL ENGINEER: Average CTC ₹75,000, 3-6 years of experience. PROJECT MANAGER (CIVIL): Average CTC ₹80,000, 3-5 years of experience. GEOTECHNICAL ENGINEER: Average CTC ₹68,000, 2-4 years of experience. CONSTRUCTION MANAGER: Average CTC ₹78,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
+      ]
+    },
+    {
+      "tag": "ece_jobs",
+      "patterns": [
+        "Job opportunities after completing Electronics and Communication Engineering",
+        "Career options with ECE degree",
+        "Jobs after ECE",
+        "be ece jobs"
+      ],
+      "responses": [
+        "- ELECTRONICS ENGINEER: Average CTC ₹70,000, 2-4 years of experience. COMMUNICATIONS ENGINEER: Average CTC ₹72,000, 2-4 years of experience. HARDWARE DESIGN ENGINEER: Average CTC ₹75,000, 3-5 years of experience. NETWORK ENGINEER: Average CTC ₹68,000, 2-4 years of experience. SIGNAL PROCESSING ENGINEER: Average CTC ₹78,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
+      ]
+    },
+    {
+      "tag": "mbbs_jobs",
+      "patterns": [
+        "Job opportunities after completing MBBS",
+        "Career options with MBBS degree",
+        "Jobs after MBBS",
+        "mbbs jobs",
+        "mbbs",
+        "(Bachelor of Medicine, Bachelor of Surgery jobs"
+      ],
+      "responses": [
+        "- DOCTOR: Average CTC ₹1,00,000, 5-8 years of experience. SURGEON: Average CTC ₹1,20,000, 6-10 years of experience. PHYSICIAN: Average CTC ₹90,000, 3-6 years of experience. MEDICAL RESEARCHER: Average CTC ₹1,10,000, 5-8 years of experience. PROFESSOR OF MEDICINE: Average CTC ₹1,25,000, 8-12 years of experience. These figures are approximate and may vary based on location and individual factors."
+      ]
+    },
+    
+    {
+      "tag": "bds_jobs",
+      "patterns": [
+        "Job opportunities after completing BDS",
+        "Career options with BDS degree",
+        "Jobs after BDS",
+        "bds jobs",
+        "bachelor od dental surgery jobs"
+      ],
+      "responses": [
+        "- DENTIST: Average CTC ₹70,000, 2-5 years of experience. ORAL SURGEON: Average CTC ₹80,000, 3-6 years of experience. DENTAL HYGIENIST: Average CTC ₹65,000, 1-3 years of experience. DENTAL CONSULTANT: Average CTC ₹75,000, 2-4 years of experience. DENTAL RESEARCHER: Average CTC ₹85,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+      ]
+    },
+    
+    {
+      "tag": "bams_jobs",
+      "patterns": [
+        "Job opportunities after completing BAMS",
+        "Career options with BAMS degree",
+        "Jobs after BAMS",
+        "bams jobs",
+        "Bachelor of Ayurvedic Medicine and Surgery jobs"
+      ],
+      "responses": [
+        "- AYURVEDIC DOCTOR: Average CTC ₹60,000, 2-4 years of experience. AYURVEDIC CONSULTANT: Average CTC ₹55,000, 1-3 years of experience. RESEARCHER IN AYURVEDA: Average CTC ₹65,000, 2-4 years of experience. AYURVEDIC PHARMACIST: Average CTC ₹50,000, 1-3 years of experience. YOGA THERAPIST: Average CTC ₹58,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+      ]
+    },
+    {
+      "tag": "bhms_jobs",
+      "patterns": [
+        "Job opportunities after completing BHMS",
+        "Career options with BHMS degree",
+        "Jobs after BHMS",
+        "bhms jobs",
+        "Bachelor of Homeopathic Medicine and Surgery jobs"
+      ],
+      "responses": [
+        "- HOMEOPATHIC DOCTOR: Average CTC ₹55,000, 2-4 years of experience. HOMEOPATHIC CONSULTANT: Average CTC ₹50,000, 1-3 years of experience. RESEARCHER IN HOMEOPATHY: Average CTC ₹60,000, 2-4 years of experience. HOMEOPATHIC PHARMACIST: Average CTC ₹45,000, 1-3 years of experience. LECTURER IN HOMEOPATHY COLLEGE: Average CTC ₹58,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+      ]
+    },
+    {
+      "tag": "bpt_jobs",
+      "patterns": [
+        "Job opportunities after completing BPT",
+        "Career options with BPT degree",
+        "Jobs after BPT",
+        "bpt jobs",
+        "bachelor of physiotheraphy jobs"
+      ],
+      "responses": [
+        "- PHYSIOTHERAPIST: Average CTC ₹45,000, 1-3 years of experience. REHABILITATION SPECIALIST: Average CTC ₹50,000, 1-3 years of experience. FITNESS CONSULTANT: Average CTC ₹42,000, 1-3 years of experience. SPORTS PHYSIOTHERAPIST: Average CTC ₹48,000, 1-3 years of experience. CLINICAL PHYSIOTHERAPIST: Average CTC ₹55,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+      ]
+    },
+    {
+      "tag": "bcom_jobs",
+      "patterns": [
+        "Job opportunities after completing B.Com",
+        "Career options with B.Com degree",
+        "Jobs after B.Com",
+        "bcom jobs",
+        "bachelor of commerce jobs"
+      ],
+      "responses": [
+        "- ACCOUNTANT: Average CTC ₹55,000, 1-3 years of experience. FINANCIAL ANALYST: Average CTC ₹60,000, 2-4 years of experience. AUDITOR: Average CTC ₹58,000, 1-3 years of experience. TAX CONSULTANT: Average CTC ₹62,000, 2-4 years of experience. BUSINESS ANALYST: Average CTC ₹65,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+      ]
+    },
+    {
+      "tag": "bba_jobs",
+      "patterns": [
+        "Job opportunities after completing BBA",
+        "Career options with BBA degree",
+        "Jobs after BBA",
+        "bba jobs",
+        "bachelor of business administration jobs"
+      ],
+      "responses": [
+        "- MARKETING MANAGER: Average CTC ₹65,000, 2-4 years of experience. FINANCIAL ANALYST: Average CTC ₹60,000, 2-4 years of experience. HR MANAGER: Average CTC ₹62,000, 2-4 years of experience. OPERATIONS MANAGER: Average CTC ₹68,000, 3-5 years of experience. BUSINESS DEVELOPMENT EXECUTIVE: Average CTC ₹55,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
+      ]
+    },
+    
+    {
+      "tag": "ca_jobs",
+      "patterns": [
+        "Job opportunities after completing CA",
+        "Career options with CA degree",
+        "Jobs after CA",
+        "chartered accountancy jobs",
+        "ca jobs"
+      ],
+      "responses": [
+        "- CHARTERED ACCOUNTANT: Average CTC ₹80,000, 3-6 years of experience. TAX CONSULTANT: Average CTC ₹75,000, 2-4 years of experience. AUDITOR: Average CTC ₹78,000, 3-5 years of experience. FINANCIAL ANALYST: Average CTC ₹85,000, 4-7 years of experience. CONSULTING: Average CTC ₹90,000, 4-6 years of experience. These figures are approximate and may vary based on location and individual factors."
+      ]
+    },
+    
+    {
+      "tag": "bba_jobs",
+      "patterns": [
+        "Job opportunities after completing BBA",
+        "Career options with BBA degree",
+        "Jobs after BBA",
+        "bba jobs",
+        "bba"
+      ],
+      "responses": [
+        "- BUSINESS ANALYST: Average CTC $75,000, 2-5 years of experience. - MARKETING EXECUTIVE: Average CTC $70,000, 2-4 years of experience. - HUMAN RESOURCE MANAGER: Average CTC $80,000, 3-5 years of experience. - FINANCIAL ADVISOR: Average CTC $78,000, 2-4 years of experience. - ENTREPRENEUR: Potential earnings vary. These figures are approximate and may vary based on location and individual factors."
+      ]
+    },
+    {
+      "tag": "cs_jobs",
+      "patterns": [
+        "Job opportunities after completing CS",
+        "Career options with CS degree",
+        "Jobs after CS",
+        "company secretary jobs"
+      ],
+      "responses": [
+        "- COMPANY SECRETARY: Average CTC ₹70,000, 2-5 years of experience. LEGAL ADVISOR: Average CTC ₹65,000, 1-3 years of experience. CORPORATE CONSULTANT: Average CTC ₹68,000, 2-4 years of experience. COMPLIANCE OFFICER: Average CTC ₹72,000, 3-5 years of experience. EXECUTIVE ASSISTANT: Average CTC ₹60,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
+      ]
+    },
+    {
+      "tag": "cma_jobs",
+      "patterns": [
+        "Job opportunities after completing CMA",
+        "Career options with CMA degree",
+        "Jobs after CMA",
+        "cma jobs",
+        "cost and management accountancy jobs"
+      ],
+      "responses": [
+        "- COST ACCOUNTANT: Average CTC ₹65,000, 2-4 years of experience. MANAGEMENT ACCOUNTANT: Average CTC ₹68,000, 2-4 years of experience. FINANCIAL ANALYST: Average CTC ₹70,000, 2-4 years of experience. BUDGET ANALYST: Average CTC ₹62,000, 1-3 years of experience. TREASURY ANALYST: Average CTC ₹72,000, 3-5 years of experience. These figures are approximate and may vary based on location and individual factors."
+      ]
+    },
+    {
+      "tag": "ba_jobs",
+      "patterns": [
+        "Job opportunities after completing BA",
+        "Career options with BA degree",
+        "Jobs after BA",
+        "bachelor of arts jobs",
+        "ba jobs"
+      ],
+      "responses": [
+        "- CONTENT WRITER: Average CTC ₹40,000, 1-3 years of experience. EVENT PLANNER: Average CTC ₹45,000, 1-3 years of experience. GRAPHIC DESIGNER: Average CTC ₹42,000, 1-3 years of experience. SOCIAL MEDIA MANAGER: Average CTC ₹38,000, 0-2 years of experience. PUBLIC RELATIONS SPECIALIST: Average CTC ₹40,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
+      ]
+    },
+    {
+      "tag": "bsc_jobs",
+      "patterns": [
+        "Job opportunities after completing B.Sc",
+        "Career options with B.Sc degree",
+        "Jobs after B.Sc",
+        "bsc jobs",
+        "bachelor of science jobs"
+      ],
+      "responses": [
+        "- RESEARCH SCIENTIST: Average CTC ₹70,000, 2-5 years of experience. DATA ANALYST: Average CTC ₹65,000, 2-4 years of experience. STATISTICIAN: Average CTC ₹68,000, 2-4 years of experience. PHYSICS TEACHER: Average CTC ₹55,000, 1-3 years of experience. LAB TECHNICIAN: Average CTC ₹50,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
+      ]
+    },
+    {
+      "tag": "bca_jobs",
+      "patterns": [
+        "Job opportunities after completing BCA",
+        "Career options with BCA degree",
+        "Jobs after BCA",
+        "bachelor of computer applications jobs",
+        "bachelor of computer application jobs",
+        "bca jobs"
+      ],
+      "responses": [
+        "- SOFTWARE DEVELOPER: Average CTC ₹65,000, 2-4 years of experience. SYSTEM ANALYST: Average CTC ₹70,000, 3-5 years of experience. NETWORK ADMINISTRATOR: Average CTC ₹68,000, 2-4 years of experience. DATABASE ADMINISTRATOR: Average CTC ₹72,000, 3-5 years of experience. WEB DEVELOPER: Average CTC ₹75,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
+      ]
+    },
+    {
+      "tag": "barch_jobs",
+      "patterns": [
+        "Job opportunities after completing B.Arch",
+        "Career options with B.Arch degree",
+        "Jobs after B.Arch",
+        "b arch jobs",
+        "bachelor of architecture jobs"
+      ],
+      "responses": [
+        "- ARCHITECT: Average CTC ₹80,000, 3-6 years of experience. URBAN PLANNER: Average CTC ₹75,000, 2-4 years of experience. INTERIOR DESIGNER: Average CTC ₹70,000, 2-4 years of experience. LANDSCAPE ARCHITECT: Average CTC ₹78,000, 3-6 years of experience. PROJECT MANAGER: Average CTC ₹85,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+      ]
+    },
+    {
+      "tag": "bdesign_jobs",
+      "patterns": [
+        "Job opportunities after completing B.Design",
+        "Career options with B.Design degree",
+        "Jobs after B.Design",
+        "bdesign jobs",
+        "bachelor of design jobs"
+      ],
+      "responses": [
+        "- FASHION DESIGNER: Average CTC ₹60,000, 2-4 years of experience. GRAPHIC DESIGNER: Average CTC ₹55,000, 1-3 years of experience. UX/UI DESIGNER: Average CTC ₹65,000, 2-4 years of experience. INDUSTRIAL DESIGNER: Average CTC ₹70,000, 3-5 years of experience. CREATIVE DIRECTOR: Average CTC ₹80,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+      ]
+    },
+    {
+      "tag": "law_jobs",
+      "patterns": [
+        "Job opportunities after completing Law",
+        "Career options with Law degree",
+        "Jobs after Law",
+        "law jobs",
+        "llb jobs"
+      ],
+      "responses": [
+        "- LAWYER: Average CTC ₹60,000, 2-4 years of experience. LEGAL CONSULTANT: Average CTC ₹70,000, 3-5 years of experience. JUDICIAL CLERK: Average CTC ₹55,000, 1-3 years of experience. CORPORATE COUNSEL: Average CTC ₹75,000, 3-6 years of experience. LEGAL RESEARCHER: Average CTC ₹65,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+      ]
+    },
+    {
+      "tag": "integrated_law_jobs",
+      "patterns": [
+        "Job opportunities after completing integrated law programs",
+        "Career options with integrated law degrees",
+        "Jobs after B.A. LLB, B.Com LLB, BBA LLB",
+        "B.A llb",
+        "b.com LLB",
+        "bba llb"
+
+      ],
+      "responses": [
+        "- LAWYER: Average CTC ₹70,000, 2-5 years of experience. - LEGAL ADVISOR: Average CTC ₹75,000, 3-7 years of experience. - CORPORATE COUNSEL: Average CTC ₹80,000, 3-6 years of experience. - JUDICIAL SERVICES: Average CTC ₹78,000, 2-5 years of experience. - LEGAL RESEARCHER: Average CTC  ₹68,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+      ]
+    },
+    {
+      "tag": "bhm_jobs",
+      "patterns": [
+        "Job opportunities after completing BHM",
+        "Career options with BHM degree",
+        "Jobs after BHM",
+        "hotel management jobs"
+      ],
+      "responses": [
+        "- HOTEL MANAGER: Average CTC ₹75,000, 3-5 years of experience. EVENT MANAGER: Average CTC ₹70,000, 2-4 years of experience. FRONT OFFICE MANAGER: Average CTC ₹68,000, 2-4 years of experience. FOOD AND BEVERAGE MANAGER: Average CTC ₹72,000, 3-5 years of experience. EXECUTIVE CHEF: Average CTC ₹80,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+      ]
+    },
+
+
+    {
+      "tag": "bjmc_jobs",
+      "patterns": [
+        "Job opportunities after completing BJMC",
+        "Career options with BJMC degree",
+        "Jobs after BJMC",
+        "bjmc jobs",
+        "mass communication and journalism jobs"
+      ],
+      "responses": [
+        "- JOURNALIST: Average CTC ₹50,000, 1-3 years of experience. EDITOR: Average CTC ₹55,000, 2-4 years of experience. PUBLIC RELATIONS SPECIALIST: Average CTC ₹48,000, 1-3 years of experience. MEDIA PLANNER: Average CTC ₹52,000, 2-4 years of experience. CONTENT WRITER: Average CTC ₹45,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
+      ]
+    },
+{
+  "tag": "fashion_design_jobs",
+  "patterns": [
+    "Job opportunities after completing Fashion Design",
+    "Career options with Fashion Design degree",
+    "Jobs after Fashion Design",
+    "bf tech jobs",
+    "bdes jobs",
+    "bachelor of fashion technology jobs"
+
+  ],
+  "responses": [
+    "- FASHION DESIGNER: Average CTC ₹60,000, 2-4 years of experience. FASHION MERCHANDISER: Average CTC ₹55,000, 1-3 years of experience. TEXTILE DESIGNER: Average CTC ₹58,000, 2-4 years of experience. STYLIST: Average CTC ₹52,000, 1-3 years of experience. RETAIL BUYER: Average CTC ₹65,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "bfa_jobs",
+  "patterns": [
+    "Job opportunities after completing BFA",
+    "Career options with BFA degree",
+    "Jobs after BFA",
+    "bachelor of fine arts jobs",
+    "bfa jobs"
+  ],
+  "responses": [
+    "- GRAPHIC DESIGNER: Average CTC ₹40,000, 1-3 years of experience. VISUAL ARTIST: Average CTC ₹35,000, 0-2 years of experience. CREATIVE DIRECTOR: Average CTC ₹55,000, 3-5 years of experience. ILLUSTRATOR: Average CTC ₹38,000, 1-3 years of experience. ART TEACHER: Average CTC ₹30,000, 0-2 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+
+{
+  "tag": "bsc_nursing_jobs",
+  "patterns": [
+    "Job opportunities after completing B.Sc. Nursing",
+    "Career options with B.Sc. Nursing degree",
+    "Jobs after B.Sc. Nursing",
+    "BSc Nursing jobs"
+  ],
+  "responses": [
+    "- REGISTERED NURSE: Average CTC ₹45,000, 1-3 years of experience. NURSE PRACTITIONER: Average CTC ₹50,000, 2-4 years of experience. NURSING SUPERVISOR: Average CTC ₹55,000, 3-5 years of experience. ICU NURSE: Average CTC ₹48,000, 1-3 years of experience. PEDIATRIC NURSE: Average CTC ₹50,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+
+{
+  "tag": "bsc_cs_jobs",
+  "patterns": [
+    "Job opportunities after completing B.Sc. Computer Science",
+    "Career options with B.Sc. CS degree",
+    "Jobs after B.Sc. Computer Science",
+    "bsc computer science jobs",
+    "bsc cs jobs"
+  ],
+  "responses": [
+    "- SOFTWARE ENGINEER: Average CTC ₹75,000, 2-5 years of experience. DATA SCIENTIST: Average CTC ₹85,000, 3-6 years of experience. CYBERSECURITY ANALYST: Average CTC ₹80,000, 3-5 years of experience. WEB DEVELOPER: Average CTC ₹70,000, 2-4 years of experience. IT PROJECT MANAGER: Average CTC ₹90,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+}
+,
+{
+  "tag": "bsc_it_jobs",
+  "patterns": [
+    "Job opportunities after completing B.Sc. IT",
+    "Career options with B.Sc. IT degree",
+    "Jobs after B.Sc. IT",
+    "BSc IT jobs",
+    "bsc information technology jobs"
+  ],
+  "responses": [
+    "- IT SUPPORT SPECIALIST: Average CTC ₹65,000, 2-4 years of experience. NETWORK ADMINISTRATOR: Average CTC ₹70,000, 3-5 years of experience. WEB DEVELOPER: Average CTC ₹68,000, 2-4 years of experience. DATABASE ANALYST: Average CTC ₹72,000, 3-5 years of experience. SYSTEMS ANALYST: Average CTC ₹75,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "bsc_physics_jobs",
+  "patterns": [
+    "Job opportunities after completing B.Sc. Physics",
+    "Career options with B.Sc. Physics degree",
+    "Jobs after B.Sc. Physics",
+    "BSc Physics jobs"
+  ],
+  "responses": [
+    "- RESEARCH SCIENTIST: Average CTC ₹70,000, 2-5 years of experience. DATA ANALYST: Average CTC ₹65,000, 2-4 years of experience. STATISTICIAN: Average CTC ₹68,000, 2-4 years of experience. PHYSICS TEACHER: Average CTC ₹55,000, 1-3 years of experience. LAB TECHNICIAN: Average CTC ₹50,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "bsc_chemistry_jobs",
+  "patterns": [
+    "Job opportunities after completing B.Sc. Chemistry",
+    "Career options with B.Sc. Chemistry degree",
+    "Jobs after B.Sc. Chemistry",
+    "BSc Chemistry jobs"
+  ],
+  "responses": [
+    "- CHEMIST: Average CTC ₹60,000, 2-4 years of experience. PHARMACEUTICAL RESEARCHER: Average CTC ₹65,000, 2-4 years of experience. CHEMICAL ANALYST: Average CTC ₹58,000, 2-4 years of experience. QUALITY CONTROL OFFICER: Average CTC ₹55,000, 1-3 years of experience. LAB TECHNICIAN: Average CTC ₹50,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "bsc_mathematics_jobs",
+  "patterns": [
+    "Job opportunities after completing B.Sc. Mathematics",
+    "Career options with B.Sc. Mathematics degree",
+    "Jobs after B.Sc. Mathematics",
+    "BSc Mathematics jobs",
+    "bsc maths jobs"
+  ],
+  "responses": [
+    "- ACTUARY: Average CTC ₹80,000, 3-6 years of experience. DATA ANALYST: Average CTC ₹70,000, 2-4 years of experience. STATISTICIAN: Average CTC ₹75,000, 3-5 years of experience. FINANCIAL ANALYST: Average CTC ₹85,000, 4-7 years of experience. OPERATIONS RESEARCH ANALYST: Average CTC ₹78,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "after_10th_jobs",
+  "patterns": [
+    "Job opportunities after completing 10th grade",
+    "Career options after 10th",
+    "Jobs after 10th",
+    "after 10 standard jobs",
+    "10 standard jobs"
+  ],
+  "responses": [
+    "- SALES ASSOCIATE: Average CTC ₹25,000, 0-2 years of experience. RETAIL ASSISTANT: Average CTC ₹22,000, 0-1 year of experience. DATA ENTRY OPERATOR: Average CTC ₹20,000, 0-1 year of experience. CUSTOMER SERVICE REPRESENTATIVE: Average CTC ₹23,000, 0-1 year of experience. DELIVERY PERSON: Average CTC ₹18,000, 0-1 year of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "after_12th_pcm_jobs",
+  "patterns": [
+    "Job opportunities after completing 12th Science (PCM)",
+    "Career options after 12th PCM",
+    "Jobs after 12th Science (PCM)",
+    "pcm jobs",
+    "12 science jobs"
+  ],
+  "responses": [
+    "- ENGINEER: Average CTC ₹70,000, 2-5 years of experience. DATA ANALYST: Average CTC ₹65,000, 2-4 years of experience. STATISTICIAN: Average CTC ₹68,000, 2-4 years of experience. PHYSICS TEACHER: Average CTC ₹55,000, 1-3 years of experience. LAB TECHNICIAN: Average CTC ₹50,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+
+{
+  "tag": "after_12th_commerce_jobs",
+  "patterns": [
+    "Job opportunities after completing 12th Commerce",
+    "Career options after 12th Commerce",
+    "Jobs after 12th Commerce",
+    "12 commerce jobs",
+    "12 commerce group jobs"
+  ],
+  "responses": [
+    "- ACCOUNTANT: Average CTC ₹50,000, 1-3 years of experience. FINANCIAL ANALYST: Average CTC ₹55,000, 2-4 years of experience. MARKETING EXECUTIVE: Average CTC ₹48,000, 1-3 years of experience. HUMAN RESOURCE ASSISTANT: Average CTC ₹45,000, 0-2 years of experience. CUSTOMER SERVICE REPRESENTATIVE: Average CTC ₹42,000, 0-2 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "after_12th_arts_jobs",
+  "patterns": [
+    "Job opportunities after completing 12th Arts",
+    "Career options after 12th Arts",
+    "Jobs after 12th Arts",
+    "12 Arts jobs",
+    "12 arts group jobs"
+    
+  ],
+  "responses": [
+    "- CONTENT WRITER: Average CTC ₹40,000, 1-3 years of experience. EVENT PLANNER: Average CTC ₹45,000, 1-3 years of experience. GRAPHIC DESIGNER: Average CTC ₹42,000, 1-3 years of experience. SOCIAL MEDIA MANAGER: Average CTC ₹38,000, 0-2 years of experience. PUBLIC RELATIONS SPECIALIST: Average CTC ₹40,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "bsc_agriculture_jobs",
+  "patterns": [
+    "Job opportunities after completing B.Sc. Agriculture",
+    "Career options with B.Sc. Agriculture degree",
+    "Jobs after B.Sc. Agriculture",
+    "BSc Agriculture jobs",
+    "bsc agri jobs"
+  ],
+  "responses": [
+    "- AGRICULTURAL OFFICER: Average CTC ₹5,00,000, 1-3 years of experience. - FARM MANAGER: Average CTC ₹4,50,000, 1-3 years of experience. - AGRICULTURAL CONSULTANT: Average CTC ₹6,00,000, 2-4 years of experience. - AGRICULTURAL RESEARCH SCIENTIST: Average CTC ₹5,50,000, 2-4 years of experience. - AGRICULTURAL TECHNICIAN: Average CTC ₹4,00,000, 0-2 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+}
+,
+{
+  "tag": "btech_agricultural_engineering_jobs",
+  "patterns": [
+    "Job opportunities after completing B.Tech. Agricultural Engineering",
+    "Career options with B.Tech. Agricultural Engineering degree",
+    "Jobs after B.Tech. Agricultural Engineering",
+    "BTech Agricultural Engineering jobs",
+    "BTech Agricultural jobs"
+  ],
+  "responses": [
+    "- AGRICULTURAL ENGINEER: Average CTC ₹6,00,000, 2-4 years of experience. - FARM MECHANIZATION ENGINEER: Average CTC ₹5,50,000, 2-4 years of experience. - IRRIGATION ENGINEER: Average CTC ₹5,80,000, 2-4 years of experience. - FOOD PROCESSING ENGINEER: Average CTC ₹6,20,000, 2-4 years of experience. - AGRICULTURAL CONSULTANT: Average CTC ₹6,00,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+
+{
+  "tag": "bsc_horticulture_jobs",
+  "patterns": [
+    "Job opportunities after completing B.Sc. Horticulture",
+    "Career options with B.Sc. Horticulture degree",
+    "Jobs after B.Sc. Horticulture",
+    "bsc horticulture jobs",
+    "bsc horti jobs"
+  ],
+  "responses": [
+    "- HORTICULTURIST: Average CTC ₹5,50,000, 1-3 years of experience. - LANDSCAPE DESIGNER: Average CTC ₹5,00,000, 1-3 years of experience. - NURSERY MANAGER: Average CTC ₹4,80,000, 1-3 years of experience. - PLANTATION MANAGER: Average CTC ₹5,20,000, 1-3 years of experience. - HORTICULTURE TECHNICIAN: Average CTC ₹4,00,000, 0-2 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "bsc_forestry_jobs",
+  "patterns": [
+    "Job opportunities after completing B.Sc. Forestry",
+    "Career options with B.Sc. Forestry degree",
+    "Jobs after B.Sc. Forestry",
+    "bsc forestry jobs"
+  ],
+  "responses": [
+    "- FORESTER: Average CTC ₹5,20,000, 1-3 years of experience. - WILDLIFE MANAGER: Average CTC ₹5,50,000, 1-3 years of experience. - CONSERVATION OFFICER: Average CTC ₹5,00,000, 1-3 years of experience. - TIMBER BUYER: Average CTC ₹4,80,000, 1-3 years of experience. - FOREST RANGER: Average CTC ₹4,50,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "btech_food_technology_jobs",
+  "patterns": [
+    "Job opportunities after completing B.Tech. Food Technology",
+    "Career options with B.Tech. Food Technology degree",
+    "Jobs after B.Tech. Food Technology",
+    "btech food technology jobs"
+  ],
+  "responses": [
+    "- FOOD TECHNOLOGIST: Average CTC ₹5,50,000, 2-4 years of experience. - QUALITY CONTROL ANALYST: Average CTC ₹5,20,000, 2-4 years of experience. - FOOD SAFETY OFFICER: Average CTC ₹5,80,000, 2-4 years of experience. - PRODUCT DEVELOPMENT MANAGER: Average CTC ₹6,00,000, 3-5 years of experience. - RESEARCH AND DEVELOPMENT SCIENTIST: Average CTC ₹6,20,000, 3-5 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "msc_agriculture_jobs",
+  "patterns": [
+    "Job opportunities after completing M.Sc. Agriculture",
+    "Career options with M.Sc. Agriculture degree",
+    "Jobs after M.Sc. Agriculture",
+    "MSc Agriculture jobs",
+    "MSc Agri jobs"
+  ],
+  "responses": [
+    "- AGRICULTURAL SCIENTIST: Average CTC ₹8,00,000, 3-6 years of experience. - AGRICULTURAL ECONOMIST: Average CTC ₹7,50,000, 3-6 years of experience. - AGRICULTURAL EXTENSION OFFICER: Average CTC ₹7,00,000, 3-6 years of experience. - AGRICULTURAL CONSULTANT: Average CTC ₹8,50,000, 3-6 years of experience. - AGRICULTURAL RESEARCHER: Average CTC ₹8,20,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "mtech_agricultural_engineering_jobs",
+  "patterns": [
+    "Job opportunities after completing M.Tech. Agricultural Engineering",
+    "Career options with M.Tech. Agricultural Engineering degree",
+    "Jobs after M.Tech. Agricultural Engineering",
+    "MTech Agricultural Engineering jobs",
+    "mtech agri"
+  ],
+  "responses": [
+    "- SENIOR AGRICULTURAL ENGINEER: Average CTC ₹9,00,000, 4-7 years of experience. - AGRICULTURAL SYSTEMS ENGINEER: Average CTC ₹8,50,000, 4-7 years of experience. - RESEARCH AND DEVELOPMENT MANAGER: Average CTC ₹9,50,000, 5-8 years of experience. - PROFESSOR/LECTURER IN AGRICULTURAL ENGINEERING: Average CTC ₹10,00,000, 6-9 years of experience. - AGRICULTURAL CONSULTANT: Average CTC ₹9,20,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "msc_horticulture_jobs",
+  "patterns": [
+    "Job opportunities after completing M.Sc. Horticulture",
+    "Career options with M.Sc. Horticulture degree",
+    "Jobs after M.Sc. Horticulture",
+    "MSc Horticulture jobs",
+    "mtech horti"
+  ],
+  "responses": [
+    "- SENIOR HORTICULTURIST: Average CTC ₹8,50,000, 3-6 years of experience. - HORTICULTURE MANAGER: Average CTC ₹8,20,000, 3-6 years of experience. - RESEARCH AND DEVELOPMENT SPECIALIST: Average CTC ₹9,00,000, 4-7 years of experience. - PROFESSOR/LECTURER IN HORTICULTURE: Average CTC ₹9,50,000, 5-8 years of experience. - HORTICULTURE CONSULTANT: Average CTC ₹9,20,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "msc_forestry_jobs",
+  "patterns": [
+    "Job opportunities after completing M.Sc. Forestry",
+    "Career options with M.Sc. Forestry degree",
+    "Jobs after M.Sc. Forestry",
+    "MSc Forestry jobs"
+  ],
+  "responses": [
+    "- SENIOR FORESTER: Average CTC ₹8,20,000, 3-6 years of experience. - FOREST MANAGER: Average CTC ₹8,50,000, 3-6 years of experience. - RESEARCH AND DEVELOPMENT SPECIALIST: Average CTC ₹9,00,000, 4-7 years of experience. - PROFESSOR/LECTURER IN FORESTRY: Average CTC ₹9,50,000, 5-8 years of experience. - FORESTRY CONSULTANT: Average CTC ₹9,20,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "phd_agriculture_jobs",
+  "patterns": [
+    "Job opportunities after completing Ph.D. in Agriculture",
+    "Career options with Ph.D. in Agriculture",
+    "Jobs after Ph.D. in Agriculture",
+    "phd argriculture jobs",
+    "phd in argriculture jobs"
+  ],
+  "responses": [
+    "- SENIOR AGRICULTURAL SCIENTIST: Average CTC ₹12,00,000, 7-10 years of experience. - PROFESSOR/LECTURER IN AGRICULTURE: Average CTC ₹14,00,000, 8-12 years of experience. - RESEARCH AND DEVELOPMENT HEAD: Average CTC ₹15,00,000, 10+ years of experience. - AGRICULTURAL CONSULTANT: Average CTC ₹13,50,000, 9-12 years of experience. - CHIEF AGRICULTURAL OFFICER: Average CTC ₹14,50,000, 10+ years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "msc_physics_jobs",
+  "patterns": [
+    "Job opportunities after completing M.Sc. Physics",
+    "Career options with M.Sc. Physics degree",
+    "Jobs after M.Sc. Physics",
+    "MSc Physics jobs"
+  ],
+  "responses": [
+    "- PHYSICIST: Average CTC ₹8,00,000, 4-7 years of experience. - RESEARCH SCIENTIST (PHYSICS): Average CTC ₹7,50,000, 3-6 years of experience. - DATA SCIENTIST: Average CTC ₹8,50,000, 4-7 years of experience. - PROFESSOR OF PHYSICS: Average CTC ₹9,00,000, 5-8 years of experience. - SCIENCE WRITER: Average CTC ₹7,00,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "msc_chemistry_jobs",
+  "patterns": [
+    "Job opportunities after completing M.Sc. Chemistry",
+    "Career options with M.Sc. Chemistry degree",
+    "Jobs after M.Sc. Chemistry",
+    "MSc Chemistry jobs"
+  ],
+  "responses": [
+    "- CHEMIST: Average CTC ₹8,00,000, 4-7 years of experience. - RESEARCH SCIENTIST (CHEMISTRY): Average CTC ₹7,50,000, 3-6 years of experience. - LABORATORY TECHNICIAN: Average CTC ₹7,00,000, 2-5 years of experience. - PROFESSOR OF CHEMISTRY: Average CTC ₹9,00,000, 5-8 years of experience. - PHARMACEUTICAL RESEARCHER: Average CTC ₹8,50,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "msc_mathematics_jobs",
+  "patterns": [
+    "Job opportunities after completing M.Sc. Mathematics",
+    "Career options with M.Sc. Mathematics degree",
+    "Jobs after M.Sc. Mathematics",
+    "msc mathematics jobs"
+  ],
+  "responses": [
+    "- MATHEMATICIAN: Average CTC ₹8,50,000, 4-7 years of experience. - STATISTICIAN: Average CTC ₹8,00,000, 3-6 years of experience. - DATA ANALYST: Average CTC ₹7,50,000, 2-5 years of experience. - PROFESSOR OF MATHEMATICS: Average CTC ₹9,00,000, 5-8 years of experience. - ACTUARY: Average CTC ₹9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "msc_botany_jobs",
+  "patterns": [
+    "Job opportunities after completing M.Sc. Botany",
+    "Career options with M.Sc. Botany degree",
+    "Jobs after M.Sc. Botany",
+    "msc botany jobs"
+  ],
+  "responses": [
+    "- BOTANIST: Average CTC ₹8,00,000, 4-7 years of experience. - ECOLOGIST: Average CTC ₹7,50,000, 3-6 years of experience. - ENVIRONMENTAL CONSULTANT: Average CTC ₹7,50,000, 3-6 years of experience. - PROFESSOR OF BOTANY: Average CTC ₹9,00,000, 5-8 years of experience. - PLANT BIOLOGIST: Average CTC ₹8,50,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "msc_zoology_jobs",
+  "patterns": [
+    "Job opportunities after completing M.Sc. Zoology",
+    "Career options with M.Sc. Zoology degree",
+    "Jobs after M.Sc. Zoology",
+    "msc zoology jobs"
+  ],
+  "responses": [
+    "- ZOOLOGIST: Average CTC ₹8,00,000, 4-7 years of experience. - WILDLIFE BIOLOGIST: Average CTC ₹7,50,000, 3-6 years of experience. - CONSERVATION BIOLOGIST: Average CTC ₹7,50,000, 3-6 years of experience. - PROFESSOR OF ZOOLOGY: Average CTC ₹9,00,000, 5-8 years of experience. - RESEARCH SCIENTIST (ZOLOGY): Average CTC ₹8,50,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "msc_computer_science_jobs",
+  "patterns": [
+    "Job opportunities after completing M.Sc. Computer Science",
+    "Career options with M.Sc. Computer Science degree",
+    "Jobs after M.Sc. Computer Science",
+    "msc computer science jobs"
+  ],
+  "responses": [
+    "- SOFTWARE DEVELOPER: Average CTC ₹9,00,000, 4-7 years of experience. - DATA SCIENTIST: Average CTC ₹8,50,000, 3-6 years of experience. - SYSTEMS ANALYST: Average CTC ₹8,50,000, 3-6 years of experience. - PROFESSOR OF COMPUTER SCIENCE: Average CTC ₹10,00,000, 5-8 years of experience. - NETWORK ARCHITECT: Average CTC ₹9,50,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+
+{
+  "tag": "msc_biotechnology_jobs",
+  "patterns": [
+    "Job opportunities after completing M.Sc. Biotechnology",
+    "Career options with M.Sc. Biotechnology degree",
+    "Jobs after M.Sc. Biotechnology",
+    "MSc Biotechnology jobs"
+  ],
+  "responses": [
+    "- BIOTECHNOLOGIST: Average CTC ₹8,50,000, 4-7 years of experience. - RESEARCH SCIENTIST (BIOTECHNOLOGY): Average CTC ₹8,00,000, 3-6 years of experience. - PHARMACEUTICAL RESEARCHER: Average CTC ₹7,50,000, 2-5 years of experience. - PROFESSOR OF BIOTECHNOLOGY: Average CTC ₹9,00,000, 5-8 years of experience. - CLINICAL RESEARCH ASSOCIATE: Average CTC ₹9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "msc_environmental_science_jobs",
+  "patterns": [
+    "Job opportunities after completing M.Sc. Environmental Science",
+    "Career options with M.Sc. Environmental Science degree",
+    "Jobs after M.Sc. Environmental Science",
+    "msc environmental scienec jobs"
+  ],
+  "responses": [
+    "- ENVIRONMENTAL SCIENTIST: Average CTC ₹8,00,000, 4-7 years of experience. - ENVIRONMENTAL CONSULTANT: Average CTC ₹7,50,000, 3-6 years of experience. - SUSTAINABILITY CONSULTANT: Average CTC ₹7,50,000, 3-6 years of experience. - PROFESSOR OF ENVIRONMENTAL SCIENCE: Average CTC ₹9,00,000, 5-8 years of experience. - WASTE MANAGEMENT SPECIALIST: Average CTC ₹8,50,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "msc_microbiology_jobs",
+  "patterns": [
+    "Job opportunities after completing M.Sc. Microbiology",
+    "Career options with M.Sc. Microbiology degree",
+    "Jobs after M.Sc. Microbiology",
+    "msc microbiology jobs"
+  ],
+  "responses": [
+    "- MICROBIOLOGIST: Average CTC ₹8,00,000, 4-7 years of experience. - RESEARCH SCIENTIST (MICROBIOLOGY): Average CTC ₹7,50,000, 3-6 years of experience. - CLINICAL MICROBIOLOGIST: Average CTC ₹7,50,000, 3-6 years of experience. - PROFESSOR OF MICROBIOLOGY: Average CTC ₹9,00,000, 5-8 years of experience. - PHARMACEUTICAL RESEARCHER: Average CTC ₹8,50,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "msc_statistics_jobs",
+  "patterns": [
+    "Job opportunities after completing M.Sc. Statistics",
+    "Career options with M.Sc. Statistics degree",
+    "Jobs after M.Sc. Statistics",
+    "msc statistics jobs"
+  ],
+  "responses": [
+    "- STATISTICIAN: Average CTC ₹8,50,000, 4-7 years of experience. - DATA SCIENTIST: Average CTC ₹8,00,000, 3-6 years of experience. - BUSINESS ANALYST: Average CTC ₹7,50,000, 2-5 years of experience. - PROFESSOR OF STATISTICS: Average CTC ₹9,00,000, 5-8 years of experience. - ECONOMETRICIAN: Average CTC ₹9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "ma_english_jobs",
+  "patterns": [
+    "Job opportunities after completing M.A. English",
+    "Career options with M.A. English degree",
+    "Jobs after M.A. English",
+    "ma english jobs"
+  ],
+  "responses": [
+    "- ENGLISH PROFESSOR: Average CTC ₹8,50,000, 4-7 years of experience. - CONTENT WRITER: Average CTC ₹8,00,000, 3-6 years of experience. - EDITOR: Average CTC ₹7,50,000, 2-5 years of experience. - COMMUNICATION SPECIALIST: Average CTC ₹9,00,000, 5-8 years of experience. - LITERARY AGENT: Average CTC ₹9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "ma_tamil_jobs",
+  "patterns": [
+    "Job opportunities after completing M.A. Tamil",
+    "Career options with M.A. Tamil degree",
+    "Jobs after M.A. Tamil",
+    "ma tamil jobs"
+  ],
+  "responses": [
+    "- TAMIL PROFESSOR: Average CTC ₹8,50,000, 4-7 years of experience. - LINGUIST: Average CTC ₹8,00,000, 3-6 years of experience. - TRANSLATOR: Average CTC ₹7,50,000, 2-5 years of experience. - CONTENT WRITER (TAMIL): Average CTC ₹9,00,000, 5-8 years of experience. - JOURNALIST (TAMIL): Average CTC ₹9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "ma_history_jobs",
+  "patterns": [
+    "Job opportunities after completing M.A. History",
+    "Career options with M.A. History degree",
+    "Jobs after M.A. History",
+    "ma history jobs"
+  ],
+  "responses": [
+    "- HISTORY PROFESSOR: Average CTC ₹8,50,000, 4-7 years of experience. - MUSEUM CURATOR: Average CTC ₹8,00,000, 3-6 years of experience. - HISTORICAL RESEARCHER: Average CTC ₹7,50,000, 2-5 years of experience. - ARCHIVIST: Average CTC ₹9,00,000, 5-8 years of experience. - TOUR GUIDE: Average CTC ₹9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "ma_economics_jobs",
+  "patterns": [
+    "Job opportunities after completing M.A. Economics",
+    "Career options with M.A. Economics degree",
+    "Jobs after M.A. Economics",
+    "ma economics jobs"
+  ],
+  "responses": [
+    "- ECONOMICS PROFESSOR: Average CTC ₹8,50,000, 4-7 years of experience. - ECONOMIC ANALYST: Average CTC ₹8,00,000, 3-6 years of experience. - FINANCIAL CONSULTANT: Average CTC ₹7,50,000, 2-5 years of experience. - POLICY ANALYST: Average CTC ₹9,00,000, 5-8 years of experience. - INVESTMENT BANKER: Average CTC ₹9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "ma_political_science_jobs",
+  "patterns": [
+    "Job opportunities after completing M.A. Political Science",
+    "Career options with M.A. Political Science degree",
+    "Jobs after M.A. Political Science",
+    "ma political science jobs"
+  ],
+  "responses": [
+    "- POLITICAL SCIENCE PROFESSOR: Average CTC ₹8,50,000, 4-7 years of experience. - POLITICAL ANALYST: Average CTC ₹8,00,000, 3-6 years of experience. - PUBLIC RELATIONS SPECIALIST: Average CTC ₹7,50,000, 2-5 years of experience. - POLICY ADVISOR: Average CTC ₹9,00,000, 5-8 years of experience. - DIPLOMAT: Average CTC ₹9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "ma_sociology_jobs",
+  "patterns": [
+    "Job opportunities after completing M.A. Sociology",
+    "Career options with M.A. Sociology degree",
+    "Jobs after M.A. Sociology",
+    "ma sociology jobs"
+  ],
+  "responses": [
+    "- SOCIOLOGY PROFESSOR: Average CTC ₹8,50,000, 4-7 years of experience. - SOCIAL WORKER: Average CTC ₹8,00,000, 3-6 years of experience. - HUMAN RESOURCE SPECIALIST: Average CTC ₹7,50,000, 2-5 years of experience. - COUNSELOR: Average CTC ₹9,00,000, 5-8 years of experience. - MARKET RESEARCH ANALYST: Average CTC ₹9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "ma_psychology_jobs",
+  "patterns": [
+    "Job opportunities after completing M.A. Psychology",
+    "Career options with M.A. Psychology degree",
+    "Jobs after M.A. Psychology",
+    "master of arts psychology jobs",
+    "ma psychology"
+  ],
+  "responses": [
+    "- PSYCHOLOGY PROFESSOR: Average CTC ₹8,50,000, 4-7 years of experience. - CLINICAL PSYCHOLOGIST: Average CTC ₹8,00,000, 3-6 years of experience. - COUNSELING PSYCHOLOGIST: Average CTC ₹7,50,000, 2-5 years of experience. - INDUSTRIAL-ORGANIZATIONAL PSYCHOLOGIST: Average CTC ₹9,00,000, 5-8 years of experience. - SCHOOL PSYCHOLOGIST: Average CTC ₹9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "mft_jobs",
+  "patterns": [
+    "Job opportunities after completing M.F.Tech",
+    "Career options with M.F.Tech degree",
+    "Jobs after M.F.Tech",
+    "mftech jobs",
+    "master of fashion technology"
+  ],
+  "responses": [
+    "- FASHION DESIGNER: Average CTC ₹8,50,000, 4-7 years of experience. - FASHION MERCHANDISER: Average CTC ₹8,00,000, 3-6 years of experience. - TEXTILE DESIGNER: Average CTC ₹7,50,000, 2-5 years of experience. - GARMENT TECHNOLOGIST: Average CTC ₹9,00,000, 5-8 years of experience. - FASHION CONSULTANT: Average CTC ₹9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "mba_marketing_jobs",
+  "patterns": [
+    "Job opportunities after completing MBA in Marketing",
+    "Career options with MBA in Marketing degree",
+    "Jobs after MBA in Marketing",
+    "mba marketing jobs"
+  ],
+  "responses": [
+    "- MARKETING MANAGER: Average CTC ₹10,00,000, 4-7 years of experience. - BRAND MANAGER: Average CTC ₹8,50,000, 3-5 years of experience. - SALES MANAGER: Average CTC ₹9,00,000, 4-6 years of experience. - DIGITAL MARKETING MANAGER: Average CTC ₹12,00,000, 5-8 years of experience. - PRODUCT MANAGER: Average CTC ₹11,00,000, 6-10 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+}
+,
+{
+  "tag": "mba_hr_jobs",
+  "patterns": [
+    "Job opportunities after completing MBA in Human Resource Management",
+    "Career options with MBA in HR degree",
+    "Jobs after MBA HR",
+    "mba human resource management jobs"
+  ],
+  "responses": [
+    "- HR MANAGER: Average CTC ₹9,00,000, 4-7 years of experience. - RECRUITMENT MANAGER: Average CTC ₹8,00,000, 3-5 years of experience. - TRAINING AND DEVELOPMENT MANAGER: Average CTC ₹9,50,000, 4-6 years of experience. - HR BUSINESS PARTNER: Average CTC ₹10,00,000, 5-8 years of experience. - COMPENSATION AND BENEFITS MANAGER: Average CTC ₹11,00,000, 6-10 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "mba_it_jobs",
+  "patterns": [
+    "Job opportunities after completing MBA in Information Technology",
+    "Career options with MBA in IT degree",
+    "Jobs after MBA in IT",
+    "mba it jobs",
+    "mba information technology jobs"
+  ],
+  "responses": [
+    "- IT PROJECT MANAGER: Average CTC ₹12,00,000, 5-8 years of experience. - IT CONSULTANT: Average CTC ₹10,00,000, 4-7 years of experience. - SYSTEMS ANALYST: Average CTC ₹9,50,000, 4-6 years of experience. - BUSINESS ANALYST: Average CTC ₹9,00,000, 3-5 years of experience. - IT MANAGER: Average CTC ₹11,00,000, 6-10 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+}
+,
+{
+  "tag": "mba_operations_jobs",
+  "patterns": [
+    "Job opportunities after completing MBA in Operations Management",
+    "Career options with MBA in Operations degree",
+    "Jobs after MBA in Operations",
+    "mba operations mangement jobs"
+  ],
+  "responses": [
+    "- OPERATIONS MANAGER: Average CTC ₹10,00,000, 4-7 years of experience. - SUPPLY CHAIN MANAGER: Average CTC ₹9,00,000, 3-5 years of experience. - LOGISTICS MANAGER: Average CTC ₹8,50,000, 3-5 years of experience. - PROCUREMENT MANAGER: Average CTC ₹9,50,000, 4-6 years of experience. - QUALITY ASSURANCE MANAGER: Average CTC ₹10,50,000, 5-8 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "mtech_cse_jobs",
+  "patterns": [
+    "Job opportunities after completing M.Tech. Computer Science and Engineering",
+    "Career options with M.Tech. CSE degree",
+    "Jobs after M.Tech. CSE",
+    "mtech cse jobs",
+    "mtech computer science engineering jobs"
+  ],
+  "responses": [
+    "- SOFTWARE DEVELOPMENT ENGINEER: Average CTC ₹14,00,000, 6-10 years of experience. - MACHINE LEARNING ENGINEER: Average CTC ₹15,00,000, 7-12 years of experience. - COMPUTER NETWORK ARCHITECT: Average CTC ₹13,00,000, 5-8 years of experience. - DATABASE ADMINISTRATOR: Average CTC ₹12,00,000, 4-7 years of experience. - SYSTEMS ARCHITECT: Average CTC ₹16,00,000, 8-12 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+}
+,
+{
+  "tag": "mtech_eee_jobs",
+  "patterns": [
+    "Job opportunities after completing M.Tech. Electrical and Electronics Engineering",
+    "Career options with M.Tech. EEE degree",
+    "Jobs after M.Tech. EEE",
+    "mtech electrical and electronics engineering jobs"
+  ],
+  "responses": [
+    "- ELECTRICAL ENGINEER: Average CTC ₹12,00,000, 5-8 years of experience. - ELECTRONICS ENGINEER: Average CTC ₹11,00,000, 4-7 years of experience. - POWER ENGINEER: Average CTC ₹13,00,000, 6-10 years of experience. - CONTROL SYSTEMS ENGINEER: Average CTC ₹14,00,000, 7-12 years of experience. - AUTOMATION ENGINEER: Average CTC ₹12,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "mtech_mechanical_jobs",
+  "patterns": [
+    "Job opportunities after completing M.Tech. Mechanical Engineering",
+    "Career options with M.Tech. Mechanical degree",
+    "Jobs after M.Tech. Mechanical",
+    "mtech mechanical engineering"
+  ],
+  "responses": [
+    "- MECHANICAL ENGINEER: Average CTC ₹12,00,000, 5-8 years of experience. - DESIGN ENGINEER: Average CTC ₹11,00,000, 4-7 years of experience. - MANUFACTURING ENGINEER: Average CTC ₹13,00,000, 6-10 years of experience. - THERMAL ANALYST: Average CTC ₹14,00,000, 7-12 years of experience. - PROJECT MANAGER: Average CTC ₹15,00,000, 8-12 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "mtech_civil_jobs",
+  "patterns": [
+    "Job opportunities after completing M.Tech. Civil Engineering",
+    "Career options with M.Tech. Civil degree",
+    "Jobs after M.Tech. Civil",
+    "mtech civil engineering jobs"
+  ],
+  "responses": [
+    "- CIVIL ENGINEER: Average CTC ₹12,00,000, 5-8 years of experience. - STRUCTURAL ENGINEER: Average CTC ₹11,00,000, 4-7 years of experience. - TRANSPORTATION ENGINEER: Average CTC ₹13,00,000, 6-10 years of experience. - ENVIRONMENTAL ENGINEER: Average CTC ₹14,00,000, 7-12 years of experience. - PROJECT MANAGER: Average CTC ₹15,00,000, 8-12 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "mtech_ece_jobs",
+  "patterns": [
+    "Job opportunities after completing M.Tech. Electronics and Communication Engineering",
+    "Career options with M.Tech. ECE degree",
+    "Jobs after M.Tech. ECE",
+    "MTech Electronics and Communication Engineering"
+  ],
+  "responses": [
+    "- ELECTRONICS ENGINEER: Average CTC ₹12,00,000, 5-8 years of experience. - COMMUNICATIONS ENGINEER: Average CTC ₹11,00,000, 4-7 years of experience. - SIGNAL PROCESSING ENGINEER: Average CTC ₹13,00,000, 6-10 years of experience. - VLSI DESIGN ENGINEER: Average CTC ₹14,00,000, 7-12 years of experience. - TELECOMMUNICATIONS ENGINEER: Average CTC ₹15,00,000, 8-12 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "mca_jobs",
+  "patterns": [
+    "Job opportunities after completing MCA",
+    "Career options with MCA degree",
+    "Jobs after MCA",
+    "master of computer application"
+  ],
+  "responses": [
+    "- SOFTWARE DEVELOPER: Average CTC ₹8,00,000, 3-6 years of experience. - SYSTEMS ANALYST: Average CTC ₹7,50,000, 2-5 years of experience. - DATABASE ADMINISTRATOR: Average CTC ₹8,50,000, 3-6 years of experience. - NETWORK ENGINEER: Average CTC ₹9,00,000, 4-7 years of experience. - APPLICATION DEVELOPER: Average CTC ₹9,50,000, 5-8 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "msw_jobs",
+  "patterns": [
+    "Job opportunities after completing MSW",
+    "Career options with MSW degree",
+    "Jobs after MSW",
+    "master of social work jobs"
+  ],
+  "responses": [
+    "- SOCIAL WORKER: Average CTC ₹7,00,000, 3-6 years of experience. - COUNSELOR: Average CTC ₹6,50,000, 2-5 years of experience. - COMMUNITY SERVICE MANAGER: Average CTC ₹7,50,000, 3-6 years of experience. - HUMAN SERVICES SPECIALIST: Average CTC ₹8,00,000, 4-7 years of experience. - PROGRAM MANAGER (NON-PROFIT): Average CTC ₹8,50,000, 5-8 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "mcom_jobs",
+  "patterns": [
+    "Job opportunities after completing M.Com",
+    "Career options with M.Com degree",
+    "Jobs after M.Com",
+    "mcom",
+    "master of commerce"
+  ],
+  "responses": [
+    "- ACCOUNTANT: Average CTC ₹7,50,000, 3-6 years of experience. - FINANCIAL ANALYST: Average CTC ₹8,00,000, 4-7 years of experience. - AUDITOR: Average CTC ₹7,00,000, 2-5 years of experience. - TAX CONSULTANT: Average CTC ₹8,50,000, 5-8 years of experience. - TREASURY ANALYST: Average CTC ₹9,00,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "mpharm_jobs",
+  "patterns": [
+    "Job opportunities after completing M.Pharm",
+    "Career options with M.Pharm degree",
+    "Jobs after M.Pharm",
+    "mpharm jobs",
+    "mastre of pharmacy"
+  ],
+  "responses": [
+    "- PHARMACEUTICAL RESEARCHER: Average CTC ₹9,00,000, 4-7 years of experience. - PHARMACIST: Average CTC ₹8,50,000, 3-5 years of experience. - PHARMACEUTICAL MANUFACTURING MANAGER: Average CTC ₹8,80,000, 3-6 years of experience. - REGULATORY AFFAIRS MANAGER: Average CTC ₹9,50,000, 4-6 years of experience. - CLINICAL RESEARCH ASSOCIATE: Average CTC ₹10,00,000, 5-8 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "majmc_jobs",
+  "patterns": [
+    "Job opportunities after completing MA JMC",
+    "Career options with MA JMC degree",
+    "Jobs after MA JMC",
+    "ma jmc",
+    "Master of Arts in Journalism and Mass Communication jobs"
+  ],
+  "responses": [
+    "- JOURNALIST: Average CTC ₹6,50,000, 2-5 years of experience. - CONTENT WRITER: Average CTC ₹6,00,000, 1-3 years of experience. - MEDIA PLANNER: Average CTC ₹7,00,000, 3-6 years of experience. - PUBLIC RELATIONS SPECIALIST: Average CTC ₹7,50,000, 4-7 years of experience. - ADVERTISING MANAGER: Average CTC ₹8,00,000, 5-8 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "bpharm_jobs",
+  "patterns": [
+    "Job opportunities after B.Pharm",
+    "Career options with B.Pharm degree",
+    "Jobs after completing B.Pharm",
+    "bpharm jobs"
+  ],
+  "responses": [
+    "- PHARMACEUTICAL RESEARCHER: Average CTC ₹8,00,000, 2-5 years of experience. - PHARMACIST: Average CTC ₹7,50,000, 2-4 years of experience. - PHARMACEUTICAL MANUFACTURING MANAGER: Average CTC ₹7,80,000, 2-5 years of experience. - REGULATORY AFFAIRS MANAGER: Average CTC ₹7,50,000, 2-4 years of experience. - CLINICAL RESEARCH ASSOCIATE: Average CTC ₹7,00,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "ba_jmc_jobs",
+  "patterns": [
+    "Job opportunities after B.A. Journalism and Mass Communication",
+    "Career options with BA JMC degree",
+    "Jobs after completing Journalism and Mass Communication course",
+    "ba jmc jobs",
+    ""
+  ],
+  "responses": [
+    "- JOURNALIST: Average CTC ₹7,00,000, 3-6 years of experience.\n- MEDIA PLANNER: Average CTC ₹8,00,000, 4-7 years of experience.\n- CONTENT WRITER: Average CTC ₹6,50,000, 2-4 years of experience.\n- PUBLIC RELATIONS SPECIALIST: Average CTC ₹7,50,000, 3-6 years of experience.\n- SOCIAL MEDIA MANAGER: Average CTC ₹8,50,000, 4-7 years of experience.\nThese figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "pgdm_jobs",
+  "patterns": [
+    "Job opportunities after completing PGDM",
+    "Career options with PGDM degree",
+    "Jobs after PGDM",
+    "PGDM jobs",
+    "Post Graduate Diploma in Management jobs"
+  ],
+  "responses": [
+    "- MARKETING MANAGER: Average CTC ₹15,00,000, 4-7 years of experience. - FINANCIAL ANALYST: Average CTC ₹14,00,000, 3-5 years of experience. - HUMAN RESOURCE MANAGER: Average CTC ₹13,00,000, 3-6 years of experience. - OPERATIONS MANAGER: Average CTC ₹14,50,000, 4-6 years of experience. - BUSINESS DEVELOPMENT MANAGER: Average CTC ₹15,50,000, 5-8 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "emba_jobs",
+  "patterns": [
+    "Job opportunities after completing EMBA",
+    "Career options with EMBA degree",
+    "Jobs after EMBA",
+    "EMBA jobs",
+    "Executive Master of Business Administration"
+  ],
+  "responses": [
+    "- EXECUTIVE DIRECTOR: Average CTC ₹25,00,000, 8-12 years of experience. - CHIEF EXECUTIVE OFFICER (CEO): Average CTC ₹30,00,000, 10-15 years of experience. - CHIEF OPERATING OFFICER (COO): Average CTC ₹28,00,000, 10-14 years of experience. - CHIEF FINANCIAL OFFICER (CFO): Average CTC ₹29,00,000, 10-14 years of experience. - CHIEF MARKETING OFFICER (CMO): Average CTC ₹27,00,000, 10-13 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "diploma_eng_jobs",
+  "patterns": [
+    "Job opportunities after Diploma in Engineering",
+    "Career options with Diploma in Engineering",
+    "Jobs after completing Diploma in Engineering",
+    "diploma engineering"
+  ],
+  "responses": [
+    "- JUNIOR ENGINEER: Average CTC ₹4,50,000, 1-3 years of experience. - TECHNICIAN: Average CTC ₹4,00,000, 1-3 years of experience. - DESIGN ENGINEER: Average CTC ₹5,00,000, 2-4 years of experience. - MAINTENANCE TECHNICIAN: Average CTC ₹4,20,000, 1-3 years of experience. - ELECTRICAL ENGINEERING TECHNICIAN: Average CTC ₹4,30,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "diploma_pharm_jobs",
+  "patterns": [
+    "Job opportunities after Diploma in Pharmacy",
+    "Career options with Diploma in Pharmacy",
+    "Jobs after completing Diploma in Pharmacy",
+    "diploma pharmacy jobs"
+  ],
+  "responses": [
+    "- PHARMACY TECHNICIAN: Average CTC ₹3,80,000, 1-3 years of experience. - HOSPITAL PHARMACY TECHNICIAN: Average CTC ₹4,00,000, 1-3 years of experience. - RETAIL PHARMACIST: Average CTC ₹4,20,000, 2-4 years of experience. - PHARMACEUTICAL SALES REPRESENTATIVE: Average CTC ₹4,50,000, 2-4 years of experience. - PHARMACEUTICAL MANUFACTURING TECHNICIAN: Average CTC ₹4,30,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "diploma_hotel_mgmt_jobs",
+  "patterns": [
+    "Job opportunities after Diploma in Hotel Management",
+    "Career options with Diploma in Hotel Management",
+    "Jobs after completing Diploma in Hotel Management",
+    "diploma hotel management"
+  ],
+  "responses": [
+    "- FRONT DESK OFFICER: Average CTC ₹3,50,000, 1-3 years of experience. - HOTEL SUPERVISOR: Average CTC ₹3,80,000, 1-3 years of experience. - EVENT PLANNER: Average CTC ₹3,60,000, 1-3 years of experience. - GUEST SERVICE AGENT: Average CTC ₹3,40,000, 1-3 years of experience. - RESTAURANT MANAGER: Average CTC ₹4,00,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "diploma_edu_jobs",
+  "patterns": [
+    "Job opportunities after Diploma in Education (D.Ed)",
+    "Career options with D.Ed",
+    "Jobs after completing D.Ed",
+    "ded jobs"
+  ],
+  "responses": [
+    "- ELEMENTARY SCHOOL TEACHER: Average CTC ₹3,50,000, 1-3 years of experience. - SPECIAL EDUCATION TEACHER: Average CTC ₹3,80,000, 1-3 years of experience. - PRESCHOOL TEACHER: Average CTC ₹3,60,000, 1-3 years of experience. - EDUCATIONAL CONSULTANT: Average CTC ₹3,40,000, 1-3 years of experience. - SCHOOL ADMINISTRATOR: Average CTC ₹4,00,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+}
+
+,
+{
+  "tag": "dca_jobs",
+  "patterns": [
+    "Job opportunities after Diploma in Computer Applications (DCA)",
+    "Career options with DCA",
+    "Jobs after completing DCA",
+    "dca jobs",
+    "Diploma Computer Applications"
+  ],
+  "responses": [
+    "- COMPUTER TECHNICIAN: Average CTC ₹4,00,000, 1-3 years of experience. - DATA ENTRY OPERATOR: Average CTC ₹3,50,000, 1-3 years of experience. - IT SUPPORT TECHNICIAN: Average CTC ₹4,20,000, 2-4 years of experience. - WEB DEVELOPER: Average CTC ₹4,50,000, 2-4 years of experience. - SOFTWARE SUPPORT ENGINEER: Average CTC ₹4,30,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "btech_ai_ds_jobs",
+  "patterns": [
+    "Job opportunities after B.Tech in Artificial Intelligence and Data Science",
+    "Career options with B.Tech AI/DS degree",
+    "Jobs after completing AI and Data Science course",
+    "btech ai/ds jobs"
+  ],
+  "responses": [
+    "- DATA SCIENTIST: Average CTC ₹10,00,000, 2-5 years of experience. - MACHINE LEARNING ENGINEER: Average CTC ₹9,50,000, 2-4 years of experience. - ARTIFICIAL INTELLIGENCE ENGINEER: Average CTC ₹9,80,000, 2-5 years of experience. - BIG DATA ENGINEER: Average CTC ₹9,50,000, 2-4 years of experience. - BUSINESS INTELLIGENCE ANALYST: Average CTC ₹9,00,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "btech_aero_engg_jobs",
+  "patterns": [
+    "Job opportunities after completing B.Tech in Aeronautical Engineering",
+    "Career options with B.Tech Aeronautical Engineering degree",
+    "Jobs after B.Tech in Aeronautical Engineering",
+    "btech aeronautical jobs"
+  ],
+  "responses": [
+    "- AEROSPACE ENGINEER: Average CTC ₹7,00,000, 3-6 years of experience. - AIRCRAFT MAINTENANCE ENGINEER: Average CTC ₹6,50,000, 2-5 years of experience. - AVIONICS ENGINEER: Average CTC ₹6,80,000, 3-6 years of experience. - FLIGHT TEST ENGINEER: Average CTC ₹7,20,000, 4-7 years of experience. - AERODYNAMICS ENGINEER: Average CTC ₹6,50,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "btech_auto_engg_jobs",
+  "patterns": [
+    "Job opportunities after completing B.Tech in Automobile Engineering",
+    "Career options with B.Tech Automobile Engineering degree",
+    "Jobs after B.Tech in Automobile Engineering",
+    "btech automobile jobs",
+    "btech automobile engineering"
+  ],
+  "responses": [
+    "- AUTOMOTIVE ENGINEER: Average CTC ₹6,00,000, 2-5 years of experience. - AUTOMOBILE DESIGN ENGINEER: Average CTC ₹5,80,000, 2-5 years of experience. - PRODUCTION PLANNING ENGINEER: Average CTC ₹5,50,000, 2-5 years of experience. - AUTOMOBILE SERVICE ENGINEER: Average CTC ₹5,70,000, 2-5 years of experience. - TESTING ENGINEER (AUTOMOBILE): Average CTC ₹5,90,000, 2-5 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "btech_biotech_jobs",
+  "patterns": [
+    "Job opportunities after completing B.Tech in Biotechnology",
+    "Career options with B.Tech Biotechnology degree",
+    "Jobs after B.Tech in Biotechnology",
+    "BTECH BIOTECH",
+    "btech biotech"
+  ],
+  "responses": [
+    "- BIOTECHNOLOGIST: Average CTC ₹5,50,000, 2-5 years of experience. - RESEARCH SCIENTIST (BIOTECH): Average CTC ₹6,00,000, 2-5 years of experience. - BIOINFORMATICIAN: Average CTC ₹5,80,000, 2-5 years of experience. - PHARMACEUTICAL BIOCHEMIST: Average CTC ₹5,70,000, 2-5 years of experience. - MEDICAL LABORATORY TECHNICIAN: Average CTC ₹5,40,000, 2-5 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  ]
+}
