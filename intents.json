@@ -8,7 +8,47 @@
         "hey"      
       ],
       "responses": [
-        "Hey Bitch!"
+        "Hey Bitch!",
+        "Aanmai illaiyendral aaspathri pongada potta pasangala"
+      ]
+    },
+    {
+      "tag": "Owner",
+      "patterns": [
+        "Who are you?",
+        "Who created you?",
+        "What can do you do?",
+        "What is your name?"
+        
+      ],
+      "responses": [
+        "Hey! Thanks for asking, My name is Future Forge your job recommender. I'm created by Selvan, Sreeraam, Sudarsan. "
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
       ]
     },
     {
@@ -19,7 +59,7 @@
         "Common courses job prospects"
       ],
       "responses": [
-        "- Sales Representative: Average CTC $60,000, 1-3 years of experience. 2. Customer Service Representative: Average CTC $50,000, 1-3 years of experience. 3. Administrative Assistant: Average CTC $55,000, 1-3 years of experience."
+        "- Sales Representative: Average CTC ₹60,000, 1-3 years of experience. 2. Customer Service Representative: Average CTC ₹50,000, 1-3 years of experience. 3. Administrative Assistant: Average CTC ₹55,000, 1-3 years of experience."
       ]
     },
     {
