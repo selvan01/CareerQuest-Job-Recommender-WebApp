@@ -3,7 +3,7 @@
     {
       "tag": "greeting",
       "patterns": [
-        "Hiiiiii",
+        "Hiii",
         "haiii",
         "hellooo",
         "heyyyy",
@@ -65,12 +65,31 @@
       ]
     },
     {
+  "tag": "tenth_twelfth_fail_jobs",
+  "patterns": [
+    "Career options for 10th fail students",
+    "Career options for 12th fail students",
+    "Job opportunities without completing 10th grade",
+    "Jobs for individuals who haven't completed 10th",
+    "Jobs for individuals who haven't completed 12th",
+    "jobs for 10th fail students",
+    "jobs for 12th fail students",
+    "10th fail",
+    "12th fail"
+  ],
+  "responses": [
+    "- SKILLED TRADES: Explore vocational training in carpentry, plumbing, or electrical work. - RETAIL JOBS: Opportunities in retail, such as sales, cashier, or customer service roles. - ENTREPRENEURSHIP: Consider starting a small business based on your skills or interests. - APPRENTICESHIPS: Look for apprenticeship programs in various industries. - FREELANCING: Explore freelancing opportunities in areas like writing, graphic design, or online services. It's important to focus on developing skills and finding a path that aligns with your strengths and interests."
+  ]
+},
+
+    {
       "tag": "ece_jobs",
       "patterns": [
         "Job opportunities after completing Electronics and Communication Engineering",
         "Career options with ECE degree",
         "Jobs after ECE",
         "be ece jobs",
+        "b.e ece jobs",
         "be Electronics and Communication Engineering jobs"
       ],
       "responses": [
@@ -85,12 +104,27 @@
         "Jobs after Mechanical Engineering",
         "be mechanical engineering jobs",
         "be mechanical jobs",
-         "be mech jobs"
+        "be mech jobs",
+        "b.e mech jobs"
       ],
       "responses": [
         "- MECHANICAL ENGINEER: Average Salary(LPA) Rs.7,00,000, 2-5 years of experience. DESIGN ENGINEER: Average Salary(LPA) Rs.7,50,000, 3-6 years of experience. MANUFACTURING ENGINEER: Average Salary(LPA) Rs.8,00,000, 3-5 years of experience. AUTOMATION ENGINEER: Average Salary(LPA) Rs.6,80,000, 2-4 years of experience. PROJECT ENGINEER: Average Salary(LPA) Rs.7,80,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
       ]
     },
+    {
+  "tag": "automobile_engineering_jobs",
+  "patterns": [
+    "Job opportunities after completing B.Tech in Automobile Engineering",
+    "Career options with Automobile Engineering degree",
+    "Jobs after Automobile Engineering jobs",
+    "b.e Automobile Engineering jobs",
+    "be Automobile Engineering jobs"
+  ],
+  "responses": [
+    "- AUTOMOBILE ENGINEER: Average Salary ₹7,50,000 per annum, 2-5 years of experience. AUTOMOTIVE DESIGN ENGINEER: Average Salary ₹8,00,000 per annum, 3-6 years of experience. VEHICLE DYNAMICS ENGINEER: Average Salary ₹7,80,000 per annum, 2-4 years of experience. AUTOMOBILE SERVICE MANAGER: Average Salary ₹7,00,000 per annum, 2-4 years of experience. AUTOMOTIVE TESTING ENGINEER: Average Salary ₹8,50,000 per annum, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+
     {
       "tag": "cse_jobs",
       "patterns": [
@@ -98,6 +132,7 @@
         "Career options with CSE degree",
         "Jobs after CSE",
         "be cse jobs",
+        "b.e cse jobs",
         "be computer science jobs"
       ],
       "responses": [
@@ -105,12 +140,28 @@
       ]
     },
     {
+  "tag": "chemical_engineering_jobs",
+  "patterns": [
+    "Job opportunities after completing Chemical Engineering",
+    "Career options with Chemical Engineering degree",
+    "Jobs after Chemical Engineering",
+    "be chemical engineering jobs",
+    "btech chemical jobs",
+    "b.tech chemical engineering jobs"
+  ],
+  "responses": [
+    "- CHEMICAL ENGINEER: Average Salary(LPA) ₹7,20,000, 2-5 years of experience. PROCESS ENGINEER: Average Salary(LPA) ₹7,80,000, 3-6 years of experience. PETROLEUM ENGINEER: Average Salary(LPA) ₹8,50,000, 3-5 years of experience. RESEARCH SCIENTIST: Average Salary(LPA) ₹8,00,000, 2-4 years of experience. ENVIRONMENTAL ENGINEER: Average Salary(LPA) ₹7,50,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+
+    {
       "tag": "civil_engineering_jobs",
       "patterns": [
         "Job opportunities after completing Civil Engineering",
         "Career options with Civil Engineering degree",
         "Jobs after Civil Engineering",
         "be civil jobs",
+        "b.e civil jobs",
         "be civil engineering jobs"
       ],
       "responses": [
@@ -118,12 +169,30 @@
       ]
     },
     {
+  "tag": "instrumentation_control_engineering_jobs",
+  "patterns": [
+    "Job opportunities after completing B.Tech in Instrumentation and Control Engineering",
+    "Career options with Instrumentation and Control Engineering degree",
+    "Jobs after Instrumentation and Control Engineering",
+    "b.tech instrumentation and control engineerinhg jobs",
+    "btech instrumentation and control engineerinhg jobs",
+    "b.e instrumentation and control engineerinhg jobs",
+    "be instrumentation and control engineerinhg jobs"
+    
+  ],
+  "responses": [
+    "- INSTRUMENTATION ENGINEER: Average Salary(LPA) ₹7,50,000, 2-5 years of experience. CONTROL SYSTEMS ENGINEER: Average Salary(LPA) ₹8,00,000, 3-6 years of experience. AUTOMATION ENGINEER: Average Salary(LPA) ₹7,80,000, 2-4 years of experience. PROCESS CONTROL ENGINEER: Average Salary(LPA) ₹7,00,000, 2-4 years of experience. INDUSTRIAL AUTOMATION CONSULTANT: Average Salary(LPA) ₹8,50,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+
+    {
       "tag": "ece_jobs",
       "patterns": [
         "Job opportunities after completing Electronics and Communication Engineering",
         "Career options with ECE degree",
         "Jobs after ECE",
-        "be ece jobs"
+        "be ece jobs",
+        "b.e ece jobs"
       ],
       "responses": [
         "- ELECTRONICS ENGINEER: Average Salary(LPA) Rs.7,00,000, 2-4 years of experience. COMMUNICATIONS ENGINEER: Average Salary(LPA) Rs.7,20,000, 2-4 years of experience. HARDWARE DESIGN ENGINEER: Average Salary(LPA) Rs.7,50,000, 3-5 years of experience. NETWORK ENGINEER: Average Salary(LPA) Rs.6,80,000, 2-4 years of experience. SIGNAL PROCESSING ENGINEER: Average Salary(LPA) Rs.7,80,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
