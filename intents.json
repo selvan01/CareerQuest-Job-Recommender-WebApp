@@ -3,15 +3,26 @@
     {
       "tag": "greeting",
       "patterns": [
-        "Hi",
+        "Hiii",
         "hello",
-        "hey"      
+        "hey"     
       ],
       "responses": [
-        "Hey Bitch!",
-        "Aanmai illaiyendral aaspathri pongada potta pasangala"
+        "Hey! My name is Future Forge I can give you job Recommendations, Tell me the Course, I will provide you the recommended jobs Based on the course.",
       ]
     },
+    {
+      "tag": "Asking",
+      "patterns": [
+        "How are you?",
+        "How you doing",
+      ],
+        "responses": [
+          "Thanks for asking,I'm doing good how about you?!"
+        ]
+    },
+    
+        
     {
       "tag": "Owner",
       "patterns": [
@@ -22,7 +33,7 @@
         
       ],
       "responses": [
-        "Hey! Thanks for asking, My name is Future Forge your job recommender. I'm created by Selvan, Sreeraam, Sudarsan. "
+        "Hey! Thanks for asking, My name is Future Forge your job recommender. I'm was created by Selvan, Sreeraam, Sudarsan. "
       ]
     },
     {
@@ -36,7 +47,7 @@
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "patterns": ["Thankssss", "Thank you", "That's helpful", "Thank's a lot!","tqsm"],
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
@@ -52,27 +63,16 @@
       ]
     },
     {
-      "tag": "common_courses_jobs",
-      "patterns": [
-        "Job opportunities after completing common courses",
-        "Career options with general degrees",
-        "Common courses job prospects"
-      ],
-      "responses": [
-        "- Sales Representative: Average CTC ₹60,000, 1-3 years of experience. 2. Customer Service Representative: Average CTC ₹50,000, 1-3 years of experience. 3. Administrative Assistant: Average CTC ₹55,000, 1-3 years of experience."
-      ]
-    },
-    {
       "tag": "ece_jobs",
       "patterns": [
         "Job opportunities after completing Electronics and Communication Engineering",
         "Career options with ECE degree",
         "Jobs after ECE",
-        "be eee jobs",
+        "be ece jobs",
         "be Electronics and Communication Engineering jobs"
       ],
       "responses": [
-        "- ELECTRONICS ENGINEER: Average CTC ₹70,000, 2-4 years of experience. COMMUNICATIONS ENGINEER: Average CTC ₹72,000, 2-4 years of experience. HARDWARE DESIGN ENGINEER: Average CTC ₹75,000, 3-5 years of experience. NETWORK ENGINEER: Average CTC ₹68,000, 2-4 years of experience. SIGNAL PROCESSING ENGINEER: Average CTC ₹78,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
+        "- ELECTRONICS ENGINEER: Average Salary(LPA) Rs.7,00,000, 2-4 years of experience. COMMUNICATIONS ENGINEER: Average Salary(LPA) Rs.7,20,000, 2-4 years of experience. HARDWARE DESIGN ENGINEER: Average Salary(LPA) Rs.7,50,000, 3-5 years of experience. NETWORK ENGINEER: Average Salary(LPA) Rs.6,80,000, 2-4 years of experience. SIGNAL PROCESSING ENGINEER: Average Salary(LPA) Rs.7,80,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
       ]
     },
     {
@@ -81,10 +81,12 @@
         "Job opportunities after completing Mechanical Engineering",
         "Career options with Mechanical Engineering degree",
         "Jobs after Mechanical Engineering",
-        "be mechanical engineering jobs"
+        "be mechanical engineering jobs",
+        "be mechanical jobs",
+         "be mech jobs"
       ],
       "responses": [
-        "- MECHANICAL ENGINEER: Average CTC ₹70,000, 2-5 years of experience. DESIGN ENGINEER: Average CTC ₹75,000, 3-6 years of experience. MANUFACTURING ENGINEER: Average CTC ₹80,000, 3-5 years of experience. AUTOMATION ENGINEER: Average CTC ₹68,000, 2-4 years of experience. PROJECT ENGINEER: Average CTC ₹78,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
+        "- MECHANICAL ENGINEER: Average Salary(LPA) Rs.7,00,000, 2-5 years of experience. DESIGN ENGINEER: Average Salary(LPA) Rs.7,50,000, 3-6 years of experience. MANUFACTURING ENGINEER: Average Salary(LPA) Rs.8,00,000, 3-5 years of experience. AUTOMATION ENGINEER: Average Salary(LPA) Rs.6,80,000, 2-4 years of experience. PROJECT ENGINEER: Average Salary(LPA) Rs.7,80,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
       ]
     },
     {
@@ -97,7 +99,7 @@
         "be computer science jobs"
       ],
       "responses": [
-        "- SOFTWARE ENGINEER: Average CTC ₹75,000, 2-5 years of experience. DATA SCIENTIST: Average CTC ₹85,000, 3-6 years of experience. CYBERSECURITY ANALYST: Average CTC ₹80,000, 3-5 years of experience. WEB DEVELOPER: Average CTC ₹70,000, 2-4 years of experience. IT PROJECT MANAGER: Average CTC ₹90,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+        "- SOFTWARE ENGINEER: Average Salary(LPA) Rs.7,50,000, 2-5 years of experience. DATA SCIENTIST: Average Salary(LPA) Rs.8,50,000, 3-6 years of experience. CYBERSECURITY ANALYST: Average Salary(LPA) Rs.8,00,000, 3-5 years of experience. WEB DEVELOPER: Average Salary(LPA) Rs.7,00,000, 2-4 years of experience. IT PROJECT MANAGER: Average Salary(LPA) Rs.9,00,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
       ]
     },
     {
@@ -110,7 +112,7 @@
         "be civil engineering jobs"
       ],
       "responses": [
-        "- CIVIL ENGINEER: Average CTC ₹70,000, 2-5 years of experience. STRUCTURAL ENGINEER: Average CTC ₹75,000, 3-6 years of experience. PROJECT MANAGER (CIVIL): Average CTC ₹80,000, 3-5 years of experience. GEOTECHNICAL ENGINEER: Average CTC ₹68,000, 2-4 years of experience. CONSTRUCTION MANAGER: Average CTC ₹78,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
+        "- CIVIL ENGINEER: Average Salary(LPA) Rs.7,00,000, 2-5 years of experience. STRUCTURAL ENGINEER: Average Salary(LPA) Rs.7,50,000, 3-6 years of experience. PROJECT MANAGER (CIVIL): Average Salary(LPA) Rs.8,00,000, 3-5 years of experience. GEOTECHNICAL ENGINEER: Average Salary(LPA) Rs.6,80,000, 2-4 years of experience. CONSTRUCTION MANAGER: Average Salary(LPA) Rs.7,80,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
       ]
     },
     {
@@ -122,7 +124,7 @@
         "be ece jobs"
       ],
       "responses": [
-        "- ELECTRONICS ENGINEER: Average CTC ₹70,000, 2-4 years of experience. COMMUNICATIONS ENGINEER: Average CTC ₹72,000, 2-4 years of experience. HARDWARE DESIGN ENGINEER: Average CTC ₹75,000, 3-5 years of experience. NETWORK ENGINEER: Average CTC ₹68,000, 2-4 years of experience. SIGNAL PROCESSING ENGINEER: Average CTC ₹78,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
+        "- ELECTRONICS ENGINEER: Average Salary(LPA) Rs.7,00,000, 2-4 years of experience. COMMUNICATIONS ENGINEER: Average Salary(LPA) Rs.7,20,000, 2-4 years of experience. HARDWARE DESIGN ENGINEER: Average Salary(LPA) Rs.7,50,000, 3-5 years of experience. NETWORK ENGINEER: Average Salary(LPA) Rs.6,80,000, 2-4 years of experience. SIGNAL PROCESSING ENGINEER: Average Salary(LPA) Rs.7,80,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
       ]
     },
     {
@@ -133,10 +135,11 @@
         "Jobs after MBBS",
         "mbbs jobs",
         "mbbs",
-        "(Bachelor of Medicine, Bachelor of Surgery jobs"
+        "Bachelor of Medicine, Bachelor of Surgery jobs",
+        "doctor course jobs"
       ],
       "responses": [
-        "- DOCTOR: Average CTC ₹1,00,000, 5-8 years of experience. SURGEON: Average CTC ₹1,20,000, 6-10 years of experience. PHYSICIAN: Average CTC ₹90,000, 3-6 years of experience. MEDICAL RESEARCHER: Average CTC ₹1,10,000, 5-8 years of experience. PROFESSOR OF MEDICINE: Average CTC ₹1,25,000, 8-12 years of experience. These figures are approximate and may vary based on location and individual factors."
+        "- DOCTOR: Average Salary(LPA) Rs.10,00,000, 5-8 years of experience. SURGEON: Average Salary(LPA) Rs.12,00,000, 6-10 years of experience. PHYSICIAN: Average Salary(LPA) Rs.9,00,000, 3-6 years of experience. MEDICAL RESEARCHER: Average Salary(LPA) Rs.7,10,000, 5-8 years of experience. PROFESSOR OF MEDICINE: Average Salary(LPA) Rs.8,25,000, 8-12 years of experience. These figures are approximate and may vary based on location and individual factors."
       ]
     },
     
@@ -147,10 +150,11 @@
         "Career options with BDS degree",
         "Jobs after BDS",
         "bds jobs",
-        "bachelor od dental surgery jobs"
+        "bachelor of dental surgery jobs",
+        "dental jobs"
       ],
       "responses": [
-        "- DENTIST: Average CTC ₹70,000, 2-5 years of experience. ORAL SURGEON: Average CTC ₹80,000, 3-6 years of experience. DENTAL HYGIENIST: Average CTC ₹65,000, 1-3 years of experience. DENTAL CONSULTANT: Average CTC ₹75,000, 2-4 years of experience. DENTAL RESEARCHER: Average CTC ₹85,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+        "- DENTIST: Average Salary(LPA) Rs.7,00,000, 2-5 years of experience. ORAL SURGEON: Average Salary(LPA) Rs.8,00,000, 3-6 years of experience. DENTAL HYGIENIST: Average Salary(LPA) Rs.6,50,000, 1-3 years of experience. DENTAL CONSULTANT: Average Salary(LPA) Rs.7,50,000, 2-4 years of experience. DENTAL RESEARCHER: Average Salary(LPA) Rs.8,50,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
       ]
     },
     
@@ -161,10 +165,11 @@
         "Career options with BAMS degree",
         "Jobs after BAMS",
         "bams jobs",
-        "Bachelor of Ayurvedic Medicine and Surgery jobs"
+        "Bachelor of Ayurvedic Medicine and Surgery jobs",
+        "ayurvedic jobs"
       ],
       "responses": [
-        "- AYURVEDIC DOCTOR: Average CTC ₹60,000, 2-4 years of experience. AYURVEDIC CONSULTANT: Average CTC ₹55,000, 1-3 years of experience. RESEARCHER IN AYURVEDA: Average CTC ₹65,000, 2-4 years of experience. AYURVEDIC PHARMACIST: Average CTC ₹50,000, 1-3 years of experience. YOGA THERAPIST: Average CTC ₹58,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+        "- AYURVEDIC DOCTOR: Average Salary(LPA) Rs.6,00,000, 2-4 years of experience. AYURVEDIC CONSULTANT: Average Salary(LPA) Rs.5,50,000, 1-3 years of experience. RESEARCHER IN AYURVEDA: Average Salary(LPA) Rs.6,50,000, 2-4 years of experience. AYURVEDIC PHARMACIST: Average Salary(LPA) Rs.5,00,000, 1-3 years of experience. YOGA THERAPIST: Average Salary(LPA) Rs.5,80,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
       ]
     },
     {
@@ -174,10 +179,11 @@
         "Career options with BHMS degree",
         "Jobs after BHMS",
         "bhms jobs",
-        "Bachelor of Homeopathic Medicine and Surgery jobs"
+        "Bachelor of Homeopathic Medicine and Surgery jobs",
+        "homeopathic course jobs"
       ],
       "responses": [
-        "- HOMEOPATHIC DOCTOR: Average CTC ₹55,000, 2-4 years of experience. HOMEOPATHIC CONSULTANT: Average CTC ₹50,000, 1-3 years of experience. RESEARCHER IN HOMEOPATHY: Average CTC ₹60,000, 2-4 years of experience. HOMEOPATHIC PHARMACIST: Average CTC ₹45,000, 1-3 years of experience. LECTURER IN HOMEOPATHY COLLEGE: Average CTC ₹58,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+        "- HOMEOPATHIC DOCTOR: Average Salary(LPA) Rs.5,50,000, 2-4 years of experience. HOMEOPATHIC CONSULTANT: Average Salary(LPA) Rs.5,00,000, 1-3 years of experience. RESEARCHER IN HOMEOPATHY: Average Salary(LPA) Rs.6,00,000, 2-4 years of experience. HOMEOPATHIC PHARMACIST: Average Salary(LPA) Rs.4,50,000, 1-3 years of experience. LECTURER IN HOMEOPATHY COLLEGE: Average Salary(LPA) Rs.5,80,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
       ]
     },
     {
@@ -187,10 +193,11 @@
         "Career options with BPT degree",
         "Jobs after BPT",
         "bpt jobs",
-        "bachelor of physiotheraphy jobs"
+        "bachelor of physiotheraphy jobs",
+        "physiotheraphy jobs"
       ],
       "responses": [
-        "- PHYSIOTHERAPIST: Average CTC ₹45,000, 1-3 years of experience. REHABILITATION SPECIALIST: Average CTC ₹50,000, 1-3 years of experience. FITNESS CONSULTANT: Average CTC ₹42,000, 1-3 years of experience. SPORTS PHYSIOTHERAPIST: Average CTC ₹48,000, 1-3 years of experience. CLINICAL PHYSIOTHERAPIST: Average CTC ₹55,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+        "- PHYSIOTHERAPIST: Average Salary(LPA) Rs.4,50,000, 1-3 years of experience. REHABILITATION SPECIALIST: Average Salary(LPA) Rs.5,00,000, 1-3 years of experience. FITNESS CONSULTANT: Average Salary(LPA) Rs.4,20,000, 1-3 years of experience. SPORTS PHYSIOTHERAPIST: Average Salary(LPA) Rs.4,80,000, 1-3 years of experience. CLINICAL PHYSIOTHERAPIST: Average Salary(LPA) Rs.5,50,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
       ]
     },
     {
@@ -203,7 +210,7 @@
         "bachelor of commerce jobs"
       ],
       "responses": [
-        "- ACCOUNTANT: Average CTC ₹55,000, 1-3 years of experience. FINANCIAL ANALYST: Average CTC ₹60,000, 2-4 years of experience. AUDITOR: Average CTC ₹58,000, 1-3 years of experience. TAX CONSULTANT: Average CTC ₹62,000, 2-4 years of experience. BUSINESS ANALYST: Average CTC ₹65,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+        "- ACCOUNTANT: Average Salary(LPA) Rs.5,50,000, 1-3 years of experience. FINANCIAL ANALYST: Average Salary(LPA) Rs.6,00,000, 2-4 years of experience. AUDITOR: Average Salary(LPA) Rs.5,80,000, 1-3 years of experience. TAX CONSULTANT: Average Salary(LPA) Rs.6,20,000, 2-4 years of experience. BUSINESS ANALYST: Average Salary(LPA) Rs.6,50,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
       ]
     },
     {
@@ -216,7 +223,7 @@
         "bachelor of business administration jobs"
       ],
       "responses": [
-        "- MARKETING MANAGER: Average CTC ₹65,000, 2-4 years of experience. FINANCIAL ANALYST: Average CTC ₹60,000, 2-4 years of experience. HR MANAGER: Average CTC ₹62,000, 2-4 years of experience. OPERATIONS MANAGER: Average CTC ₹68,000, 3-5 years of experience. BUSINESS DEVELOPMENT EXECUTIVE: Average CTC ₹55,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
+        "- MARKETING MANAGER: Average Salary(LPA) Rs.6,50,000, 2-4 years of experience. FINANCIAL ANALYST: Average Salary(LPA) Rs.6,00,000, 2-4 years of experience. HR MANAGER: Average Salary(LPA) Rs.6,20,000, 2-4 years of experience. OPERATIONS MANAGER: Average Salary(LPA) Rs.6,80,000, 3-5 years of experience. BUSINESS DEVELOPMENT EXECUTIVE: Average Salary(LPA) Rs.5,50,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
       ]
     },
     
@@ -230,7 +237,7 @@
         "ca jobs"
       ],
       "responses": [
-        "- CHARTERED ACCOUNTANT: Average CTC ₹80,000, 3-6 years of experience. TAX CONSULTANT: Average CTC ₹75,000, 2-4 years of experience. AUDITOR: Average CTC ₹78,000, 3-5 years of experience. FINANCIAL ANALYST: Average CTC ₹85,000, 4-7 years of experience. CONSULTING: Average CTC ₹90,000, 4-6 years of experience. These figures are approximate and may vary based on location and individual factors."
+        "- CHARTERED ACCOUNTANT: Average Salary(LPA) Rs.8,00,000, 3-6 years of experience. TAX CONSULTANT: Average Salary(LPA) Rs.7,50,000, 2-4 years of experience. AUDITOR: Average Salary(LPA) Rs.7,80,000, 3-5 years of experience. FINANCIAL ANALYST: Average Salary(LPA) Rs.8,50,000, 4-7 years of experience. CONSULTING: Average Salary(LPA) Rs.9,00,000, 4-6 years of experience. These figures are approximate and may vary based on location and individual factors."
       ]
     },
     
@@ -244,7 +251,7 @@
         "bba"
       ],
       "responses": [
-        "- BUSINESS ANALYST: Average CTC $75,000, 2-5 years of experience. - MARKETING EXECUTIVE: Average CTC $70,000, 2-4 years of experience. - HUMAN RESOURCE MANAGER: Average CTC $80,000, 3-5 years of experience. - FINANCIAL ADVISOR: Average CTC $78,000, 2-4 years of experience. - ENTREPRENEUR: Potential earnings vary. These figures are approximate and may vary based on location and individual factors."
+        "- BUSINESS ANALYST: Average Salary(LPA) Rs.7,50,000, 2-5 years of experience. - MARKETING EXECUTIVE: Average Salary(LPA) Rs.7,00,000, 2-4 years of experience. - HUMAN RESOURCE MANAGER: Average Salary(LPA) Rs.8,00,000, 3-5 years of experience. - FINANCIAL ADVISOR: Average Salary(LPA) Rs.7,80,000, 2-4 years of experience. - ENTREPRENEUR: Potential earnings vary. These figures are approximate and may vary based on location and individual factors."
       ]
     },
     {
@@ -256,7 +263,7 @@
         "company secretary jobs"
       ],
       "responses": [
-        "- COMPANY SECRETARY: Average CTC ₹70,000, 2-5 years of experience. LEGAL ADVISOR: Average CTC ₹65,000, 1-3 years of experience. CORPORATE CONSULTANT: Average CTC ₹68,000, 2-4 years of experience. COMPLIANCE OFFICER: Average CTC ₹72,000, 3-5 years of experience. EXECUTIVE ASSISTANT: Average CTC ₹60,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
+        "- COMPANY SECRETARY: Average Salary(LPA) Rs.7,00,000, 2-5 years of experience. LEGAL ADVISOR: Average Salary(LPA) Rs.6,50,000, 1-3 years of experience. CORPORATE CONSULTANT: Average Salary(LPA) Rs.6,80,000, 2-4 years of experience. COMPLIANCE OFFICER: Average Salary(LPA) Rs.7,20,000, 3-5 years of experience. EXECUTIVE ASSISTANT: Average Salary(LPA) Rs.6,00,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
       ]
     },
     {
@@ -269,7 +276,7 @@
         "cost and management accountancy jobs"
       ],
       "responses": [
-        "- COST ACCOUNTANT: Average CTC ₹65,000, 2-4 years of experience. MANAGEMENT ACCOUNTANT: Average CTC ₹68,000, 2-4 years of experience. FINANCIAL ANALYST: Average CTC ₹70,000, 2-4 years of experience. BUDGET ANALYST: Average CTC ₹62,000, 1-3 years of experience. TREASURY ANALYST: Average CTC ₹72,000, 3-5 years of experience. These figures are approximate and may vary based on location and individual factors."
+        "- COST ACCOUNTANT: Average Salary(LPA) Rs.6,50,000, 2-4 years of experience. MANAGEMENT ACCOUNTANT: Average Salary(LPA) Rs.6,80,000, 2-4 years of experience. FINANCIAL ANALYST: Average Salary(LPA) Rs.7,00,000, 2-4 years of experience. BUDGET ANALYST: Average Salary(LPA) Rs.6,20,000, 1-3 years of experience. TREASURY ANALYST: Average Salary(LPA) Rs.7,20,000, 3-5 years of experience. These figures are approximate and may vary based on location and individual factors."
       ]
     },
     {
@@ -282,7 +289,7 @@
         "ba jobs"
       ],
       "responses": [
-        "- CONTENT WRITER: Average CTC ₹40,000, 1-3 years of experience. EVENT PLANNER: Average CTC ₹45,000, 1-3 years of experience. GRAPHIC DESIGNER: Average CTC ₹42,000, 1-3 years of experience. SOCIAL MEDIA MANAGER: Average CTC ₹38,000, 0-2 years of experience. PUBLIC RELATIONS SPECIALIST: Average CTC ₹40,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
+        "- CONTENT WRITER: Average Salary(LPA) Rs.4,00,000, 1-3 years of experience. EVENT PLANNER: Average Salary(LPA) Rs.4,50,000, 1-3 years of experience. GRAPHIC DESIGNER: Average Salary(LPA) Rs.4,20,000, 1-3 years of experience. SOCIAL MEDIA MANAGER: Average Salary(LPA) Rs.3,80,000, 0-2 years of experience. PUBLIC RELATIONS SPECIALIST: Average Salary(LPA) Rs.4,00,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
       ]
     },
     {
@@ -295,7 +302,7 @@
         "bachelor of science jobs"
       ],
       "responses": [
-        "- RESEARCH SCIENTIST: Average CTC ₹70,000, 2-5 years of experience. DATA ANALYST: Average CTC ₹65,000, 2-4 years of experience. STATISTICIAN: Average CTC ₹68,000, 2-4 years of experience. PHYSICS TEACHER: Average CTC ₹55,000, 1-3 years of experience. LAB TECHNICIAN: Average CTC ₹50,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
+        "- RESEARCH SCIENTIST: Average Salary(LPA) Rs.7,00,000, 2-5 years of experience. DATA ANALYST: Average Salary(LPA) Rs.6,50,000, 2-4 years of experience. STATISTICIAN: Average Salary(LPA) Rs.6,80,000, 2-4 years of experience. PHYSICS TEACHER: Average Salary(LPA) Rs.5,50,000, 1-3 years of experience. LAB TECHNICIAN: Average Salary(LPA) Rs.5,00,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
       ]
     },
     {
@@ -309,7 +316,7 @@
         "bca jobs"
       ],
       "responses": [
-        "- SOFTWARE DEVELOPER: Average CTC ₹65,000, 2-4 years of experience. SYSTEM ANALYST: Average CTC ₹70,000, 3-5 years of experience. NETWORK ADMINISTRATOR: Average CTC ₹68,000, 2-4 years of experience. DATABASE ADMINISTRATOR: Average CTC ₹72,000, 3-5 years of experience. WEB DEVELOPER: Average CTC ₹75,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
+        "- SOFTWARE DEVELOPER: Average Salary(LPA) Rs.6,50,000, 2-4 years of experience. SYSTEM ANALYST: Average Salary(LPA) Rs.7,00,000, 3-5 years of experience. NETWORK ADMINISTRATOR: Average Salary(LPA) Rs.6,80,000, 2-4 years of experience. DATABASE ADMINISTRATOR: Average Salary(LPA) Rs.7,20,000, 3-5 years of experience. WEB DEVELOPER: Average Salary(LPA) Rs.7,50,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
       ]
     },
     {
@@ -322,7 +329,7 @@
         "bachelor of architecture jobs"
       ],
       "responses": [
-        "- ARCHITECT: Average CTC ₹80,000, 3-6 years of experience. URBAN PLANNER: Average CTC ₹75,000, 2-4 years of experience. INTERIOR DESIGNER: Average CTC ₹70,000, 2-4 years of experience. LANDSCAPE ARCHITECT: Average CTC ₹78,000, 3-6 years of experience. PROJECT MANAGER: Average CTC ₹85,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+        "- ARCHITECT: Average Salary(LPA) Rs.8,00,000, 3-6 years of experience. URBAN PLANNER: Average Salary(LPA) Rs.7,50,000, 2-4 years of experience. INTERIOR DESIGNER: Average Salary(LPA) Rs.7,00,000, 2-4 years of experience. LANDSCAPE ARCHITECT: Average Salary(LPA) Rs.7,80,000, 3-6 years of experience. PROJECT MANAGER: Average Salary(LPA) Rs.8,50,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
       ]
     },
     {
@@ -335,7 +342,7 @@
         "bachelor of design jobs"
       ],
       "responses": [
-        "- FASHION DESIGNER: Average CTC ₹60,000, 2-4 years of experience. GRAPHIC DESIGNER: Average CTC ₹55,000, 1-3 years of experience. UX/UI DESIGNER: Average CTC ₹65,000, 2-4 years of experience. INDUSTRIAL DESIGNER: Average CTC ₹70,000, 3-5 years of experience. CREATIVE DIRECTOR: Average CTC ₹80,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+        "- FASHION DESIGNER: Average Salary(LPA) Rs.6,00,000, 2-4 years of experience. GRAPHIC DESIGNER: Average Salary(LPA) Rs.5,50,000, 1-3 years of experience. UX/UI DESIGNER: Average Salary(LPA) Rs.6,50,000, 2-4 years of experience. INDUSTRIAL DESIGNER: Average Salary(LPA) Rs.7,00,000, 3-5 years of experience. CREATIVE DIRECTOR: Average Salary(LPA) Rs.8,00,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
       ]
     },
     {
@@ -348,7 +355,7 @@
         "llb jobs"
       ],
       "responses": [
-        "- LAWYER: Average CTC ₹60,000, 2-4 years of experience. LEGAL CONSULTANT: Average CTC ₹70,000, 3-5 years of experience. JUDICIAL CLERK: Average CTC ₹55,000, 1-3 years of experience. CORPORATE COUNSEL: Average CTC ₹75,000, 3-6 years of experience. LEGAL RESEARCHER: Average CTC ₹65,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+        "- LAWYER: Average Salary(LPA) Rs.6,00,000, 2-4 years of experience. LEGAL CONSULTANT: Average Salary(LPA) Rs.7,00,000, 3-5 years of experience. JUDICIAL CLERK: Average Salary(LPA) Rs.5,50,000, 1-3 years of experience. CORPORATE COUNSEL: Average Salary(LPA) Rs.7,50,000, 3-6 years of experience. LEGAL RESEARCHER: Average Salary(LPA) Rs.6,50,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
       ]
     },
     {
@@ -363,7 +370,7 @@
 
       ],
       "responses": [
-        "- LAWYER: Average CTC ₹70,000, 2-5 years of experience. - LEGAL ADVISOR: Average CTC ₹75,000, 3-7 years of experience. - CORPORATE COUNSEL: Average CTC ₹80,000, 3-6 years of experience. - JUDICIAL SERVICES: Average CTC ₹78,000, 2-5 years of experience. - LEGAL RESEARCHER: Average CTC  ₹68,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+        "- LAWYER: Average Salary(LPA) Rs.7,00,000, 2-5 years of experience. - LEGAL ADVISOR: Average Salary(LPA) Rs.7,50,000, 3-7 years of experience. - CORPORATE COUNSEL: Average Salary(LPA) Rs.8,00,000, 3-6 years of experience. - JUDICIAL SERVICES: Average Salary(LPA) Rs.7,80,000, 2-5 years of experience. - LEGAL RESEARCHER: Average Salary(LPA)  Rs.6,80,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
       ]
     },
     {
@@ -375,7 +382,7 @@
         "hotel management jobs"
       ],
       "responses": [
-        "- HOTEL MANAGER: Average CTC ₹75,000, 3-5 years of experience. EVENT MANAGER: Average CTC ₹70,000, 2-4 years of experience. FRONT OFFICE MANAGER: Average CTC ₹68,000, 2-4 years of experience. FOOD AND BEVERAGE MANAGER: Average CTC ₹72,000, 3-5 years of experience. EXECUTIVE CHEF: Average CTC ₹80,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+        "- HOTEL MANAGER: Average Salary(LPA) Rs.7,50,000, 3-5 years of experience. EVENT MANAGER: Average Salary(LPA) Rs.7,00,000, 2-4 years of experience. FRONT OFFICE MANAGER: Average Salary(LPA) Rs.6,80,000, 2-4 years of experience. FOOD AND BEVERAGE MANAGER: Average Salary(LPA) Rs.7,20,000, 3-5 years of experience. EXECUTIVE CHEF: Average Salary(LPA) Rs.8,00,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
       ]
     },
 
@@ -390,7 +397,7 @@
         "mass communication and journalism jobs"
       ],
       "responses": [
-        "- JOURNALIST: Average CTC ₹50,000, 1-3 years of experience. EDITOR: Average CTC ₹55,000, 2-4 years of experience. PUBLIC RELATIONS SPECIALIST: Average CTC ₹48,000, 1-3 years of experience. MEDIA PLANNER: Average CTC ₹52,000, 2-4 years of experience. CONTENT WRITER: Average CTC ₹45,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
+        "- JOURNALIST: Average Salary(LPA) Rs.5,00,000, 1-3 years of experience. EDITOR: Average Salary(LPA) Rs.5,50,000, 2-4 years of experience. PUBLIC RELATIONS SPECIALIST: Average Salary(LPA) Rs.4,80,000, 1-3 years of experience. MEDIA PLANNER: Average Salary(LPA) Rs.5,20,000, 2-4 years of experience. CONTENT WRITER: Average Salary(LPA) Rs.4,50,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
       ]
     },
 {
@@ -405,7 +412,7 @@
 
   ],
   "responses": [
-    "- FASHION DESIGNER: Average CTC ₹60,000, 2-4 years of experience. FASHION MERCHANDISER: Average CTC ₹55,000, 1-3 years of experience. TEXTILE DESIGNER: Average CTC ₹58,000, 2-4 years of experience. STYLIST: Average CTC ₹52,000, 1-3 years of experience. RETAIL BUYER: Average CTC ₹65,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- FASHION DESIGNER: Average Salary(LPA) Rs.6,00,000, 2-4 years of experience. FASHION MERCHANDISER: Average Salary(LPA) Rs.5,50,000, 1-3 years of experience. TEXTILE DESIGNER: Average Salary(LPA) Rs.5,80,000, 2-4 years of experience. STYLIST: Average Salary(LPA) Rs.5,20,000, 1-3 years of experience. RETAIL BUYER: Average Salary(LPA) Rs.6,50,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -418,7 +425,7 @@
     "bfa jobs"
   ],
   "responses": [
-    "- GRAPHIC DESIGNER: Average CTC ₹40,000, 1-3 years of experience. VISUAL ARTIST: Average CTC ₹35,000, 0-2 years of experience. CREATIVE DIRECTOR: Average CTC ₹55,000, 3-5 years of experience. ILLUSTRATOR: Average CTC ₹38,000, 1-3 years of experience. ART TEACHER: Average CTC ₹30,000, 0-2 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- GRAPHIC DESIGNER: Average Salary(LPA) Rs.4,00,000, 1-3 years of experience. VISUAL ARTIST: Average Salary(LPA) Rs.3,50,000, 0-2 years of experience. CREATIVE DIRECTOR: Average Salary(LPA) Rs.5,50,000, 3-5 years of experience. ILLUSTRATOR: Average Salary(LPA) Rs.3,80,000, 1-3 years of experience. ART TEACHER: Average Salary(LPA) Rs.3,00,000, 0-2 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 
@@ -431,7 +438,7 @@
     "BSc Nursing jobs"
   ],
   "responses": [
-    "- REGISTERED NURSE: Average CTC ₹45,000, 1-3 years of experience. NURSE PRACTITIONER: Average CTC ₹50,000, 2-4 years of experience. NURSING SUPERVISOR: Average CTC ₹55,000, 3-5 years of experience. ICU NURSE: Average CTC ₹48,000, 1-3 years of experience. PEDIATRIC NURSE: Average CTC ₹50,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- REGISTERED NURSE: Average Salary(LPA) Rs.4,50,000, 1-3 years of experience. NURSE PRACTITIONER: Average Salary(LPA) Rs.5,00,000, 2-4 years of experience. NURSING SUPERVISOR: Average Salary(LPA) Rs.5,50,000, 3-5 years of experience. ICU NURSE: Average Salary(LPA) Rs.4,80,000, 1-3 years of experience. PEDIATRIC NURSE: Average Salary(LPA) Rs.5,00,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 
@@ -445,7 +452,7 @@
     "bsc cs jobs"
   ],
   "responses": [
-    "- SOFTWARE ENGINEER: Average CTC ₹75,000, 2-5 years of experience. DATA SCIENTIST: Average CTC ₹85,000, 3-6 years of experience. CYBERSECURITY ANALYST: Average CTC ₹80,000, 3-5 years of experience. WEB DEVELOPER: Average CTC ₹70,000, 2-4 years of experience. IT PROJECT MANAGER: Average CTC ₹90,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- SOFTWARE ENGINEER: Average Salary(LPA) Rs.7,50,000, 2-5 years of experience. DATA SCIENTIST: Average Salary(LPA) Rs.8,50,000, 3-6 years of experience. CYBERSECURITY ANALYST: Average Salary(LPA) Rs.8,00,000, 3-5 years of experience. WEB DEVELOPER: Average Salary(LPA) Rs.7,00,000, 2-4 years of experience. IT PROJECT MANAGER: Average Salary(LPA) Rs.9,00,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 }
 ,
@@ -459,7 +466,7 @@
     "bsc information technology jobs"
   ],
   "responses": [
-    "- IT SUPPORT SPECIALIST: Average CTC ₹65,000, 2-4 years of experience. NETWORK ADMINISTRATOR: Average CTC ₹70,000, 3-5 years of experience. WEB DEVELOPER: Average CTC ₹68,000, 2-4 years of experience. DATABASE ANALYST: Average CTC ₹72,000, 3-5 years of experience. SYSTEMS ANALYST: Average CTC ₹75,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- IT SUPPORT SPECIALIST: Average Salary(LPA) Rs.6,50,000, 2-4 years of experience. NETWORK ADMINISTRATOR: Average Salary(LPA) Rs.7,00,000, 3-5 years of experience. WEB DEVELOPER: Average Salary(LPA) Rs.6,80,000, 2-4 years of experience. DATABASE ANALYST: Average Salary(LPA) Rs.7,20,000, 3-5 years of experience. SYSTEMS ANALYST: Average Salary(LPA) Rs.7,50,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -471,7 +478,7 @@
     "BSc Physics jobs"
   ],
   "responses": [
-    "- RESEARCH SCIENTIST: Average CTC ₹70,000, 2-5 years of experience. DATA ANALYST: Average CTC ₹65,000, 2-4 years of experience. STATISTICIAN: Average CTC ₹68,000, 2-4 years of experience. PHYSICS TEACHER: Average CTC ₹55,000, 1-3 years of experience. LAB TECHNICIAN: Average CTC ₹50,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- RESEARCH SCIENTIST: Average Salary(LPA) Rs.7,00,000, 2-5 years of experience. DATA ANALYST: Average Salary(LPA) Rs.6,50,000, 2-4 years of experience. STATISTICIAN: Average Salary(LPA) Rs.6,80,000, 2-4 years of experience. PHYSICS TEACHER: Average Salary(LPA) Rs.5,00,000, 1-3 years of experience. LAB TECHNICIAN: Average Salary(LPA) Rs.5,00,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -483,7 +490,7 @@
     "BSc Chemistry jobs"
   ],
   "responses": [
-    "- CHEMIST: Average CTC ₹60,000, 2-4 years of experience. PHARMACEUTICAL RESEARCHER: Average CTC ₹65,000, 2-4 years of experience. CHEMICAL ANALYST: Average CTC ₹58,000, 2-4 years of experience. QUALITY CONTROL OFFICER: Average CTC ₹55,000, 1-3 years of experience. LAB TECHNICIAN: Average CTC ₹50,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- CHEMIST: Average Salary(LPA) Rs.6,00,000, 2-4 years of experience. PHARMACEUTICAL RESEARCHER: Average Salary(LPA) Rs.6,50,000, 2-4 years of experience. CHEMICAL ANALYST: Average Salary(LPA) Rs.5,80,000, 2-4 years of experience. QUALITY CONTROL OFFICER: Average Salary(LPA) Rs.5,50,000, 1-3 years of experience. LAB TECHNICIAN: Average Salary(LPA) Rs.5,00,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -496,7 +503,7 @@
     "bsc maths jobs"
   ],
   "responses": [
-    "- ACTUARY: Average CTC ₹80,000, 3-6 years of experience. DATA ANALYST: Average CTC ₹70,000, 2-4 years of experience. STATISTICIAN: Average CTC ₹75,000, 3-5 years of experience. FINANCIAL ANALYST: Average CTC ₹85,000, 4-7 years of experience. OPERATIONS RESEARCH ANALYST: Average CTC ₹78,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- ACTUARY: Average Salary(LPA) Rs.8,00,000, 3-6 years of experience. DATA ANALYST: Average Salary(LPA) Rs.7,00,000, 2-4 years of experience. STATISTICIAN: Average Salary(LPA) Rs.7,50,000, 3-5 years of experience. FINANCIAL ANALYST: Average Salary(LPA) Rs.8,50,000, 4-7 years of experience. OPERATIONS RESEARCH ANALYST: Average Salary(LPA) Rs.7,80,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -509,7 +516,7 @@
     "10 standard jobs"
   ],
   "responses": [
-    "- SALES ASSOCIATE: Average CTC ₹25,000, 0-2 years of experience. RETAIL ASSISTANT: Average CTC ₹22,000, 0-1 year of experience. DATA ENTRY OPERATOR: Average CTC ₹20,000, 0-1 year of experience. CUSTOMER SERVICE REPRESENTATIVE: Average CTC ₹23,000, 0-1 year of experience. DELIVERY PERSON: Average CTC ₹18,000, 0-1 year of experience. These figures are approximate and may vary based on location and individual factors."
+    "- SALES ASSOCIATE: Average Salary(LPA) Rs.2,50,000, 0-2 years of experience. RETAIL ASSISTANT: Average Salary(LPA) Rs.2,20,000, 0-1 year of experience. DATA ENTRY OPERATOR: Average Salary(LPA) Rs.2,00,000, 0-1 year of experience. CUSTOMER SERVICE REPRESENTATIVE: Average Salary(LPA) Rs.2,30,000, 0-1 year of experience. DELIVERY PERSON: Average Salary(LPA) Rs.1,80,000, 0-1 year of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -522,7 +529,7 @@
     "12 science jobs"
   ],
   "responses": [
-    "- ENGINEER: Average CTC ₹70,000, 2-5 years of experience. DATA ANALYST: Average CTC ₹65,000, 2-4 years of experience. STATISTICIAN: Average CTC ₹68,000, 2-4 years of experience. PHYSICS TEACHER: Average CTC ₹55,000, 1-3 years of experience. LAB TECHNICIAN: Average CTC ₹50,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- ENGINEER: Average Salary(LPA) Rs.7,00,000, 2-5 years of experience. DATA ANALYST: Average Salary(LPA) Rs.6,50,000, 2-4 years of experience. STATISTICIAN: Average Salary(LPA) Rs.6,80,000, 2-4 years of experience. PHYSICS TEACHER: Average Salary(LPA) Rs.5,50,000, 1-3 years of experience. LAB TECHNICIAN: Average Salary(LPA) Rs.5,00,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 
@@ -536,7 +543,7 @@
     "12 commerce group jobs"
   ],
   "responses": [
-    "- ACCOUNTANT: Average CTC ₹50,000, 1-3 years of experience. FINANCIAL ANALYST: Average CTC ₹55,000, 2-4 years of experience. MARKETING EXECUTIVE: Average CTC ₹48,000, 1-3 years of experience. HUMAN RESOURCE ASSISTANT: Average CTC ₹45,000, 0-2 years of experience. CUSTOMER SERVICE REPRESENTATIVE: Average CTC ₹42,000, 0-2 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- ACCOUNTANT: Average Salary(LPA) Rs.5,00,000, 1-3 years of experience. FINANCIAL ANALYST: Average Salary(LPA) Rs.5,50,000, 2-4 years of experience. MARKETING EXECUTIVE: Average Salary(LPA) Rs.4,80,000, 1-3 years of experience. HUMAN RESOURCE ASSISTANT: Average Salary(LPA) Rs.4,50,000, 0-2 years of experience. CUSTOMER SERVICE REPRESENTATIVE: Average Salary(LPA) Rs.4,20,000, 0-2 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -550,7 +557,7 @@
     
   ],
   "responses": [
-    "- CONTENT WRITER: Average CTC ₹40,000, 1-3 years of experience. EVENT PLANNER: Average CTC ₹45,000, 1-3 years of experience. GRAPHIC DESIGNER: Average CTC ₹42,000, 1-3 years of experience. SOCIAL MEDIA MANAGER: Average CTC ₹38,000, 0-2 years of experience. PUBLIC RELATIONS SPECIALIST: Average CTC ₹40,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- CONTENT WRITER: Average Salary(LPA) Rs.4,00,000, 1-3 years of experience. EVENT PLANNER: Average Salary(LPA) Rs.4,50,000, 1-3 years of experience. GRAPHIC DESIGNER: Average Salary(LPA) Rs.4,20,000, 1-3 years of experience. SOCIAL MEDIA MANAGER: Average Salary(LPA) Rs.3,80,000, 0-2 years of experience. PUBLIC RELATIONS SPECIALIST: Average Salary(LPA) Rs.4,00,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -563,7 +570,7 @@
     "bsc agri jobs"
   ],
   "responses": [
-    "- AGRICULTURAL OFFICER: Average CTC ₹5,00,000, 1-3 years of experience. - FARM MANAGER: Average CTC ₹4,50,000, 1-3 years of experience. - AGRICULTURAL CONSULTANT: Average CTC ₹6,00,000, 2-4 years of experience. - AGRICULTURAL RESEARCH SCIENTIST: Average CTC ₹5,50,000, 2-4 years of experience. - AGRICULTURAL TECHNICIAN: Average CTC ₹4,00,000, 0-2 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- AGRICULTURAL OFFICER: Average Salary(LPA) Rs.5,00,000, 1-3 years of experience. - FARM MANAGER: Average Salary(LPA) Rs.4,50,000, 1-3 years of experience. - AGRICULTURAL CONSULTANT: Average Salary(LPA) Rs.6,00,000, 2-4 years of experience. - AGRICULTURAL RESEARCH SCIENTIST: Average Salary(LPA) Rs.5,50,000, 2-4 years of experience. - AGRICULTURAL TECHNICIAN: Average Salary(LPA) Rs.4,00,000, 0-2 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 }
 ,
@@ -577,7 +584,7 @@
     "BTech Agricultural jobs"
   ],
   "responses": [
-    "- AGRICULTURAL ENGINEER: Average CTC ₹6,00,000, 2-4 years of experience. - FARM MECHANIZATION ENGINEER: Average CTC ₹5,50,000, 2-4 years of experience. - IRRIGATION ENGINEER: Average CTC ₹5,80,000, 2-4 years of experience. - FOOD PROCESSING ENGINEER: Average CTC ₹6,20,000, 2-4 years of experience. - AGRICULTURAL CONSULTANT: Average CTC ₹6,00,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- AGRICULTURAL ENGINEER: Average Salary(LPA) Rs.6,00,000, 2-4 years of experience. - FARM MECHANIZATION ENGINEER: Average Salary(LPA) Rs.5,50,000, 2-4 years of experience. - IRRIGATION ENGINEER: Average Salary(LPA) Rs.5,80,000, 2-4 years of experience. - FOOD PROCESSING ENGINEER: Average Salary(LPA) Rs.6,20,000, 2-4 years of experience. - AGRICULTURAL CONSULTANT: Average Salary(LPA) Rs.6,00,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 
@@ -591,7 +598,7 @@
     "bsc horti jobs"
   ],
   "responses": [
-    "- HORTICULTURIST: Average CTC ₹5,50,000, 1-3 years of experience. - LANDSCAPE DESIGNER: Average CTC ₹5,00,000, 1-3 years of experience. - NURSERY MANAGER: Average CTC ₹4,80,000, 1-3 years of experience. - PLANTATION MANAGER: Average CTC ₹5,20,000, 1-3 years of experience. - HORTICULTURE TECHNICIAN: Average CTC ₹4,00,000, 0-2 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- HORTICULTURIST: Average Salary(LPA) Rs.5,50,000, 1-3 years of experience. - LANDSCAPE DESIGNER: Average Salary(LPA) Rs.5,00,000, 1-3 years of experience. - NURSERY MANAGER: Average Salary(LPA) Rs.4,80,000, 1-3 years of experience. - PLANTATION MANAGER: Average Salary(LPA) Rs.5,20,000, 1-3 years of experience. - HORTICULTURE TECHNICIAN: Average Salary(LPA) Rs.4,00,000, 0-2 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -603,7 +610,7 @@
     "bsc forestry jobs"
   ],
   "responses": [
-    "- FORESTER: Average CTC ₹5,20,000, 1-3 years of experience. - WILDLIFE MANAGER: Average CTC ₹5,50,000, 1-3 years of experience. - CONSERVATION OFFICER: Average CTC ₹5,00,000, 1-3 years of experience. - TIMBER BUYER: Average CTC ₹4,80,000, 1-3 years of experience. - FOREST RANGER: Average CTC ₹4,50,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- FORESTER: Average Salary(LPA) Rs.5,20,000, 1-3 years of experience. - WILDLIFE MANAGER: Average Salary(LPA) Rs.5,50,000, 1-3 years of experience. - CONSERVATION OFFICER: Average Salary(LPA) Rs.5,00,000, 1-3 years of experience. - TIMBER BUYER: Average Salary(LPA) Rs.4,80,000, 1-3 years of experience. - FOREST RANGER: Average Salary(LPA) Rs.4,50,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -615,7 +622,7 @@
     "btech food technology jobs"
   ],
   "responses": [
-    "- FOOD TECHNOLOGIST: Average CTC ₹5,50,000, 2-4 years of experience. - QUALITY CONTROL ANALYST: Average CTC ₹5,20,000, 2-4 years of experience. - FOOD SAFETY OFFICER: Average CTC ₹5,80,000, 2-4 years of experience. - PRODUCT DEVELOPMENT MANAGER: Average CTC ₹6,00,000, 3-5 years of experience. - RESEARCH AND DEVELOPMENT SCIENTIST: Average CTC ₹6,20,000, 3-5 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- FOOD TECHNOLOGIST: Average Salary(LPA) Rs.5,50,000, 2-4 years of experience. - QUALITY CONTROL ANALYST: Average Salary(LPA) Rs.5,20,000, 2-4 years of experience. - FOOD SAFETY OFFICER: Average Salary(LPA) Rs.5,80,000, 2-4 years of experience. - PRODUCT DEVELOPMENT MANAGER: Average Salary(LPA) Rs.6,00,000, 3-5 years of experience. - RESEARCH AND DEVELOPMENT SCIENTIST: Average Salary(LPA) Rs.6,20,000, 3-5 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -628,7 +635,7 @@
     "MSc Agri jobs"
   ],
   "responses": [
-    "- AGRICULTURAL SCIENTIST: Average CTC ₹8,00,000, 3-6 years of experience. - AGRICULTURAL ECONOMIST: Average CTC ₹7,50,000, 3-6 years of experience. - AGRICULTURAL EXTENSION OFFICER: Average CTC ₹7,00,000, 3-6 years of experience. - AGRICULTURAL CONSULTANT: Average CTC ₹8,50,000, 3-6 years of experience. - AGRICULTURAL RESEARCHER: Average CTC ₹8,20,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- AGRICULTURAL SCIENTIST: Average Salary(LPA) Rs.8,00,000, 3-6 years of experience. - AGRICULTURAL ECONOMIST: Average Salary(LPA) Rs.7,50,000, 3-6 years of experience. - AGRICULTURAL EXTENSION OFFICER: Average Salary(LPA) Rs.7,00,000, 3-6 years of experience. - AGRICULTURAL CONSULTANT: Average Salary(LPA) Rs.8,50,000, 3-6 years of experience. - AGRICULTURAL RESEARCHER: Average Salary(LPA) Rs.8,20,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -641,7 +648,7 @@
     "mtech agri"
   ],
   "responses": [
-    "- SENIOR AGRICULTURAL ENGINEER: Average CTC ₹9,00,000, 4-7 years of experience. - AGRICULTURAL SYSTEMS ENGINEER: Average CTC ₹8,50,000, 4-7 years of experience. - RESEARCH AND DEVELOPMENT MANAGER: Average CTC ₹9,50,000, 5-8 years of experience. - PROFESSOR/LECTURER IN AGRICULTURAL ENGINEERING: Average CTC ₹10,00,000, 6-9 years of experience. - AGRICULTURAL CONSULTANT: Average CTC ₹9,20,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- SENIOR AGRICULTURAL ENGINEER: Average Salary(LPA) Rs.9,00,000, 4-7 years of experience. - AGRICULTURAL SYSTEMS ENGINEER: Average Salary(LPA) Rs.8,50,000, 4-7 years of experience. - RESEARCH AND DEVELOPMENT MANAGER: Average Salary(LPA) Rs.9,50,000, 5-8 years of experience. - PROFESSOR/LECTURER IN AGRICULTURAL ENGINEERING: Average Salary(LPA) Rs.10,00,000, 6-9 years of experience. - AGRICULTURAL CONSULTANT: Average Salary(LPA) Rs.9,20,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -654,7 +661,7 @@
     "mtech horti"
   ],
   "responses": [
-    "- SENIOR HORTICULTURIST: Average CTC ₹8,50,000, 3-6 years of experience. - HORTICULTURE MANAGER: Average CTC ₹8,20,000, 3-6 years of experience. - RESEARCH AND DEVELOPMENT SPECIALIST: Average CTC ₹9,00,000, 4-7 years of experience. - PROFESSOR/LECTURER IN HORTICULTURE: Average CTC ₹9,50,000, 5-8 years of experience. - HORTICULTURE CONSULTANT: Average CTC ₹9,20,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- SENIOR HORTICULTURIST: Average Salary(LPA) Rs.8,50,000, 3-6 years of experience. - HORTICULTURE MANAGER: Average Salary(LPA) Rs.8,20,000, 3-6 years of experience. - RESEARCH AND DEVELOPMENT SPECIALIST: Average Salary(LPA) Rs.9,00,000, 4-7 years of experience. - PROFESSOR/LECTURER IN HORTICULTURE: Average Salary(LPA) Rs.9,50,000, 5-8 years of experience. - HORTICULTURE CONSULTANT: Average Salary(LPA) Rs.9,20,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -666,7 +673,7 @@
     "MSc Forestry jobs"
   ],
   "responses": [
-    "- SENIOR FORESTER: Average CTC ₹8,20,000, 3-6 years of experience. - FOREST MANAGER: Average CTC ₹8,50,000, 3-6 years of experience. - RESEARCH AND DEVELOPMENT SPECIALIST: Average CTC ₹9,00,000, 4-7 years of experience. - PROFESSOR/LECTURER IN FORESTRY: Average CTC ₹9,50,000, 5-8 years of experience. - FORESTRY CONSULTANT: Average CTC ₹9,20,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- SENIOR FORESTER: Average Salary(LPA) Rs.8,20,000, 3-6 years of experience. - FOREST MANAGER: Average Salary(LPA) Rs.8,50,000, 3-6 years of experience. - RESEARCH AND DEVELOPMENT SPECIALIST: Average Salary(LPA) Rs.9,00,000, 4-7 years of experience. - PROFESSOR/LECTURER IN FORESTRY: Average Salary(LPA) Rs.9,50,000, 5-8 years of experience. - FORESTRY CONSULTANT: Average Salary(LPA) Rs.9,20,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -679,7 +686,7 @@
     "phd in argriculture jobs"
   ],
   "responses": [
-    "- SENIOR AGRICULTURAL SCIENTIST: Average CTC ₹12,00,000, 7-10 years of experience. - PROFESSOR/LECTURER IN AGRICULTURE: Average CTC ₹14,00,000, 8-12 years of experience. - RESEARCH AND DEVELOPMENT HEAD: Average CTC ₹15,00,000, 10+ years of experience. - AGRICULTURAL CONSULTANT: Average CTC ₹13,50,000, 9-12 years of experience. - CHIEF AGRICULTURAL OFFICER: Average CTC ₹14,50,000, 10+ years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- SENIOR AGRICULTURAL SCIENTIST: Average Salary(LPA) Rs.12,00,000, 7-10 years of experience. - PROFESSOR/LECTURER IN AGRICULTURE: Average Salary(LPA) Rs.14,00,000, 8-12 years of experience. - RESEARCH AND DEVELOPMENT HEAD: Average Salary(LPA) Rs.15,00,000, 10+ years of experience. - AGRICULTURAL CONSULTANT: Average Salary(LPA) Rs.13,50,000, 9-12 years of experience. - CHIEF AGRICULTURAL OFFICER: Average Salary(LPA) Rs.14,50,000, 10+ years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -691,7 +698,7 @@
     "MSc Physics jobs"
   ],
   "responses": [
-    "- PHYSICIST: Average CTC ₹8,00,000, 4-7 years of experience. - RESEARCH SCIENTIST (PHYSICS): Average CTC ₹7,50,000, 3-6 years of experience. - DATA SCIENTIST: Average CTC ₹8,50,000, 4-7 years of experience. - PROFESSOR OF PHYSICS: Average CTC ₹9,00,000, 5-8 years of experience. - SCIENCE WRITER: Average CTC ₹7,00,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- PHYSICIST: Average Salary(LPA) Rs.8,00,000, 4-7 years of experience. - RESEARCH SCIENTIST (PHYSICS): Average Salary(LPA) Rs.7,50,000, 3-6 years of experience. - DATA SCIENTIST: Average Salary(LPA) Rs.8,50,000, 4-7 years of experience. - PROFESSOR OF PHYSICS: Average Salary(LPA) Rs.9,00,000, 5-8 years of experience. - SCIENCE WRITER: Average Salary(LPA) Rs.7,00,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -703,7 +710,7 @@
     "MSc Chemistry jobs"
   ],
   "responses": [
-    "- CHEMIST: Average CTC ₹8,00,000, 4-7 years of experience. - RESEARCH SCIENTIST (CHEMISTRY): Average CTC ₹7,50,000, 3-6 years of experience. - LABORATORY TECHNICIAN: Average CTC ₹7,00,000, 2-5 years of experience. - PROFESSOR OF CHEMISTRY: Average CTC ₹9,00,000, 5-8 years of experience. - PHARMACEUTICAL RESEARCHER: Average CTC ₹8,50,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- CHEMIST: Average Salary(LPA) Rs.8,00,000, 4-7 years of experience. - RESEARCH SCIENTIST (CHEMISTRY): Average Salary(LPA) Rs.7,50,000, 3-6 years of experience. - LABORATORY TECHNICIAN: Average Salary(LPA) Rs.7,00,000, 2-5 years of experience. - PROFESSOR OF CHEMISTRY: Average Salary(LPA) Rs.9,00,000, 5-8 years of experience. - PHARMACEUTICAL RESEARCHER: Average Salary(LPA) Rs.8,50,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -715,7 +722,7 @@
     "msc mathematics jobs"
   ],
   "responses": [
-    "- MATHEMATICIAN: Average CTC ₹8,50,000, 4-7 years of experience. - STATISTICIAN: Average CTC ₹8,00,000, 3-6 years of experience. - DATA ANALYST: Average CTC ₹7,50,000, 2-5 years of experience. - PROFESSOR OF MATHEMATICS: Average CTC ₹9,00,000, 5-8 years of experience. - ACTUARY: Average CTC ₹9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- MATHEMATICIAN: Average Salary(LPA) Rs.8,50,000, 4-7 years of experience. - STATISTICIAN: Average Salary(LPA) Rs.8,00,000, 3-6 years of experience. - DATA ANALYST: Average Salary(LPA) Rs.7,50,000, 2-5 years of experience. - PROFESSOR OF MATHEMATICS: Average Salary(LPA) Rs.9,00,000, 5-8 years of experience. - ACTUARY: Average Salary(LPA) Rs.9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -727,7 +734,7 @@
     "msc botany jobs"
   ],
   "responses": [
-    "- BOTANIST: Average CTC ₹8,00,000, 4-7 years of experience. - ECOLOGIST: Average CTC ₹7,50,000, 3-6 years of experience. - ENVIRONMENTAL CONSULTANT: Average CTC ₹7,50,000, 3-6 years of experience. - PROFESSOR OF BOTANY: Average CTC ₹9,00,000, 5-8 years of experience. - PLANT BIOLOGIST: Average CTC ₹8,50,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- BOTANIST: Average Salary(LPA) Rs.8,00,000, 4-7 years of experience. - ECOLOGIST: Average Salary(LPA) Rs.7,50,000, 3-6 years of experience. - ENVIRONMENTAL CONSULTANT: Average Salary(LPA) Rs.7,50,000, 3-6 years of experience. - PROFESSOR OF BOTANY: Average Salary(LPA) Rs.9,00,000, 5-8 years of experience. - PLANT BIOLOGIST: Average Salary(LPA) Rs.8,50,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -739,7 +746,7 @@
     "msc zoology jobs"
   ],
   "responses": [
-    "- ZOOLOGIST: Average CTC ₹8,00,000, 4-7 years of experience. - WILDLIFE BIOLOGIST: Average CTC ₹7,50,000, 3-6 years of experience. - CONSERVATION BIOLOGIST: Average CTC ₹7,50,000, 3-6 years of experience. - PROFESSOR OF ZOOLOGY: Average CTC ₹9,00,000, 5-8 years of experience. - RESEARCH SCIENTIST (ZOLOGY): Average CTC ₹8,50,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- ZOOLOGIST: Average Salary(LPA) Rs.8,00,000, 4-7 years of experience. - WILDLIFE BIOLOGIST: Average Salary(LPA) Rs.7,50,000, 3-6 years of experience. - CONSERVATION BIOLOGIST: Average Salary(LPA) Rs.7,50,000, 3-6 years of experience. - PROFESSOR OF ZOOLOGY: Average Salary(LPA) Rs.9,00,000, 5-8 years of experience. - RESEARCH SCIENTIST (ZOLOGY): Average Salary(LPA) Rs.8,50,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -751,7 +758,7 @@
     "msc computer science jobs"
   ],
   "responses": [
-    "- SOFTWARE DEVELOPER: Average CTC ₹9,00,000, 4-7 years of experience. - DATA SCIENTIST: Average CTC ₹8,50,000, 3-6 years of experience. - SYSTEMS ANALYST: Average CTC ₹8,50,000, 3-6 years of experience. - PROFESSOR OF COMPUTER SCIENCE: Average CTC ₹10,00,000, 5-8 years of experience. - NETWORK ARCHITECT: Average CTC ₹9,50,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- SOFTWARE DEVELOPER: Average Salary(LPA) Rs.9,00,000, 4-7 years of experience. - DATA SCIENTIST: Average Salary(LPA) Rs.8,50,000, 3-6 years of experience. - SYSTEMS ANALYST: Average Salary(LPA) Rs.8,50,000, 3-6 years of experience. - PROFESSOR OF COMPUTER SCIENCE: Average Salary(LPA) Rs.10,00,000, 5-8 years of experience. - NETWORK ARCHITECT: Average Salary(LPA) Rs.9,50,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 
@@ -764,7 +771,7 @@
     "MSc Biotechnology jobs"
   ],
   "responses": [
-    "- BIOTECHNOLOGIST: Average CTC ₹8,50,000, 4-7 years of experience. - RESEARCH SCIENTIST (BIOTECHNOLOGY): Average CTC ₹8,00,000, 3-6 years of experience. - PHARMACEUTICAL RESEARCHER: Average CTC ₹7,50,000, 2-5 years of experience. - PROFESSOR OF BIOTECHNOLOGY: Average CTC ₹9,00,000, 5-8 years of experience. - CLINICAL RESEARCH ASSOCIATE: Average CTC ₹9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- BIOTECHNOLOGIST: Average Salary(LPA) Rs.8,50,000, 4-7 years of experience. - RESEARCH SCIENTIST (BIOTECHNOLOGY): Average Salary(LPA) Rs.8,00,000, 3-6 years of experience. - PHARMACEUTICAL RESEARCHER: Average Salary(LPA) Rs.7,50,000, 2-5 years of experience. - PROFESSOR OF BIOTECHNOLOGY: Average Salary(LPA) Rs.9,00,000, 5-8 years of experience. - CLINICAL RESEARCH ASSOCIATE: Average Salary(LPA) Rs.9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -776,7 +783,7 @@
     "msc environmental scienec jobs"
   ],
   "responses": [
-    "- ENVIRONMENTAL SCIENTIST: Average CTC ₹8,00,000, 4-7 years of experience. - ENVIRONMENTAL CONSULTANT: Average CTC ₹7,50,000, 3-6 years of experience. - SUSTAINABILITY CONSULTANT: Average CTC ₹7,50,000, 3-6 years of experience. - PROFESSOR OF ENVIRONMENTAL SCIENCE: Average CTC ₹9,00,000, 5-8 years of experience. - WASTE MANAGEMENT SPECIALIST: Average CTC ₹8,50,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- ENVIRONMENTAL SCIENTIST: Average Salary(LPA) Rs.8,00,000, 4-7 years of experience. - ENVIRONMENTAL CONSULTANT: Average Salary(LPA) Rs.7,50,000, 3-6 years of experience. - SUSTAINABILITY CONSULTANT: Average Salary(LPA) Rs.7,50,000, 3-6 years of experience. - PROFESSOR OF ENVIRONMENTAL SCIENCE: Average Salary(LPA) Rs.9,00,000, 5-8 years of experience. - WASTE MANAGEMENT SPECIALIST: Average Salary(LPA) Rs.8,50,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -788,7 +795,7 @@
     "msc microbiology jobs"
   ],
   "responses": [
-    "- MICROBIOLOGIST: Average CTC ₹8,00,000, 4-7 years of experience. - RESEARCH SCIENTIST (MICROBIOLOGY): Average CTC ₹7,50,000, 3-6 years of experience. - CLINICAL MICROBIOLOGIST: Average CTC ₹7,50,000, 3-6 years of experience. - PROFESSOR OF MICROBIOLOGY: Average CTC ₹9,00,000, 5-8 years of experience. - PHARMACEUTICAL RESEARCHER: Average CTC ₹8,50,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- MICROBIOLOGIST: Average Salary(LPA) Rs.8,00,000, 4-7 years of experience. - RESEARCH SCIENTIST (MICROBIOLOGY): Average Salary(LPA) Rs.7,50,000, 3-6 years of experience. - CLINICAL MICROBIOLOGIST: Average Salary(LPA) Rs.7,50,000, 3-6 years of experience. - PROFESSOR OF MICROBIOLOGY: Average Salary(LPA) Rs.9,00,000, 5-8 years of experience. - PHARMACEUTICAL RESEARCHER: Average Salary(LPA) Rs.8,50,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -800,7 +807,7 @@
     "msc statistics jobs"
   ],
   "responses": [
-    "- STATISTICIAN: Average CTC ₹8,50,000, 4-7 years of experience. - DATA SCIENTIST: Average CTC ₹8,00,000, 3-6 years of experience. - BUSINESS ANALYST: Average CTC ₹7,50,000, 2-5 years of experience. - PROFESSOR OF STATISTICS: Average CTC ₹9,00,000, 5-8 years of experience. - ECONOMETRICIAN: Average CTC ₹9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- STATISTICIAN: Average Salary(LPA) Rs.8,50,000, 4-7 years of experience. - DATA SCIENTIST: Average Salary(LPA) Rs.8,00,000, 3-6 years of experience. - BUSINESS ANALYST: Average Salary(LPA) Rs.7,50,000, 2-5 years of experience. - PROFESSOR OF STATISTICS: Average Salary(LPA) Rs.9,00,000, 5-8 years of experience. - ECONOMETRICIAN: Average Salary(LPA) Rs.9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -812,7 +819,7 @@
     "ma english jobs"
   ],
   "responses": [
-    "- ENGLISH PROFESSOR: Average CTC ₹8,50,000, 4-7 years of experience. - CONTENT WRITER: Average CTC ₹8,00,000, 3-6 years of experience. - EDITOR: Average CTC ₹7,50,000, 2-5 years of experience. - COMMUNICATION SPECIALIST: Average CTC ₹9,00,000, 5-8 years of experience. - LITERARY AGENT: Average CTC ₹9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- ENGLISH PROFESSOR: Average Salary(LPA) Rs.8,50,000, 4-7 years of experience. - CONTENT WRITER: Average Salary(LPA) Rs.8,00,000, 3-6 years of experience. - EDITOR: Average Salary(LPA) Rs.7,50,000, 2-5 years of experience. - COMMUNICATION SPECIALIST: Average Salary(LPA) Rs.9,00,000, 5-8 years of experience. - LITERARY AGENT: Average Salary(LPA) Rs.9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -824,7 +831,7 @@
     "ma tamil jobs"
   ],
   "responses": [
-    "- TAMIL PROFESSOR: Average CTC ₹8,50,000, 4-7 years of experience. - LINGUIST: Average CTC ₹8,00,000, 3-6 years of experience. - TRANSLATOR: Average CTC ₹7,50,000, 2-5 years of experience. - CONTENT WRITER (TAMIL): Average CTC ₹9,00,000, 5-8 years of experience. - JOURNALIST (TAMIL): Average CTC ₹9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- TAMIL PROFESSOR: Average Salary(LPA) Rs.8,50,000, 4-7 years of experience. - LINGUIST: Average Salary(LPA) Rs.8,00,000, 3-6 years of experience. - TRANSLATOR: Average Salary(LPA) Rs.7,50,000, 2-5 years of experience. - CONTENT WRITER (TAMIL): Average Salary(LPA) Rs.9,00,000, 5-8 years of experience. - JOURNALIST (TAMIL): Average Salary(LPA) Rs.9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -836,7 +843,7 @@
     "ma history jobs"
   ],
   "responses": [
-    "- HISTORY PROFESSOR: Average CTC ₹8,50,000, 4-7 years of experience. - MUSEUM CURATOR: Average CTC ₹8,00,000, 3-6 years of experience. - HISTORICAL RESEARCHER: Average CTC ₹7,50,000, 2-5 years of experience. - ARCHIVIST: Average CTC ₹9,00,000, 5-8 years of experience. - TOUR GUIDE: Average CTC ₹9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- HISTORY PROFESSOR: Average Salary(LPA) Rs.8,50,000, 4-7 years of experience. - MUSEUM CURATOR: Average Salary(LPA) Rs.8,00,000, 3-6 years of experience. - HISTORICAL RESEARCHER: Average Salary(LPA) Rs.7,50,000, 2-5 years of experience. - ARCHIVIST: Average Salary(LPA) Rs.9,00,000, 5-8 years of experience. - TOUR GUIDE: Average Salary(LPA) Rs.9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -848,7 +855,7 @@
     "ma economics jobs"
   ],
   "responses": [
-    "- ECONOMICS PROFESSOR: Average CTC ₹8,50,000, 4-7 years of experience. - ECONOMIC ANALYST: Average CTC ₹8,00,000, 3-6 years of experience. - FINANCIAL CONSULTANT: Average CTC ₹7,50,000, 2-5 years of experience. - POLICY ANALYST: Average CTC ₹9,00,000, 5-8 years of experience. - INVESTMENT BANKER: Average CTC ₹9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- ECONOMICS PROFESSOR: Average Salary(LPA) Rs.8,50,000, 4-7 years of experience. - ECONOMIC ANALYST: Average Salary(LPA) Rs.8,00,000, 3-6 years of experience. - FINANCIAL CONSULTANT: Average Salary(LPA) Rs.7,50,000, 2-5 years of experience. - POLICY ANALYST: Average Salary(LPA) Rs.9,00,000, 5-8 years of experience. - INVESTMENT BANKER: Average Salary(LPA) Rs.9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -860,7 +867,7 @@
     "ma political science jobs"
   ],
   "responses": [
-    "- POLITICAL SCIENCE PROFESSOR: Average CTC ₹8,50,000, 4-7 years of experience. - POLITICAL ANALYST: Average CTC ₹8,00,000, 3-6 years of experience. - PUBLIC RELATIONS SPECIALIST: Average CTC ₹7,50,000, 2-5 years of experience. - POLICY ADVISOR: Average CTC ₹9,00,000, 5-8 years of experience. - DIPLOMAT: Average CTC ₹9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- POLITICAL SCIENCE PROFESSOR: Average Salary(LPA) Rs.8,50,000, 4-7 years of experience. - POLITICAL ANALYST: Average Salary(LPA) Rs.8,00,000, 3-6 years of experience. - PUBLIC RELATIONS SPECIALIST: Average Salary(LPA) Rs.7,50,000, 2-5 years of experience. - POLICY ADVISOR: Average Salary(LPA) Rs.9,00,000, 5-8 years of experience. - DIPLOMAT: Average Salary(LPA) Rs.9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -872,7 +879,7 @@
     "ma sociology jobs"
   ],
   "responses": [
-    "- SOCIOLOGY PROFESSOR: Average CTC ₹8,50,000, 4-7 years of experience. - SOCIAL WORKER: Average CTC ₹8,00,000, 3-6 years of experience. - HUMAN RESOURCE SPECIALIST: Average CTC ₹7,50,000, 2-5 years of experience. - COUNSELOR: Average CTC ₹9,00,000, 5-8 years of experience. - MARKET RESEARCH ANALYST: Average CTC ₹9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- SOCIOLOGY PROFESSOR: Average Salary(LPA) Rs.8,50,000, 4-7 years of experience. - SOCIAL WORKER: Average Salary(LPA) Rs.8,00,000, 3-6 years of experience. - HUMAN RESOURCE SPECIALIST: Average Salary(LPA) Rs.7,50,000, 2-5 years of experience. - COUNSELOR: Average Salary(LPA) Rs.9,00,000, 5-8 years of experience. - MARKET RESEARCH ANALYST: Average Salary(LPA) Rs.9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -885,7 +892,7 @@
     "ma psychology"
   ],
   "responses": [
-    "- PSYCHOLOGY PROFESSOR: Average CTC ₹8,50,000, 4-7 years of experience. - CLINICAL PSYCHOLOGIST: Average CTC ₹8,00,000, 3-6 years of experience. - COUNSELING PSYCHOLOGIST: Average CTC ₹7,50,000, 2-5 years of experience. - INDUSTRIAL-ORGANIZATIONAL PSYCHOLOGIST: Average CTC ₹9,00,000, 5-8 years of experience. - SCHOOL PSYCHOLOGIST: Average CTC ₹9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- PSYCHOLOGY PROFESSOR: Average Salary(LPA) Rs.8,50,000, 4-7 years of experience. - CLINICAL PSYCHOLOGIST: Average Salary(LPA) Rs.8,00,000, 3-6 years of experience. - COUNSELING PSYCHOLOGIST: Average Salary(LPA) Rs.7,50,000, 2-5 years of experience. - INDUSTRIAL-ORGANIZATIONAL PSYCHOLOGIST: Average Salary(LPA) Rs.9,00,000, 5-8 years of experience. - SCHOOL PSYCHOLOGIST: Average Salary(LPA) Rs.9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -898,7 +905,7 @@
     "master of fashion technology"
   ],
   "responses": [
-    "- FASHION DESIGNER: Average CTC ₹8,50,000, 4-7 years of experience. - FASHION MERCHANDISER: Average CTC ₹8,00,000, 3-6 years of experience. - TEXTILE DESIGNER: Average CTC ₹7,50,000, 2-5 years of experience. - GARMENT TECHNOLOGIST: Average CTC ₹9,00,000, 5-8 years of experience. - FASHION CONSULTANT: Average CTC ₹9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- FASHION DESIGNER: Average Salary(LPA) Rs.8,50,000, 4-7 years of experience. - FASHION MERCHANDISER: Average Salary(LPA) Rs.8,00,000, 3-6 years of experience. - TEXTILE DESIGNER: Average Salary(LPA) Rs.7,50,000, 2-5 years of experience. - GARMENT TECHNOLOGIST: Average Salary(LPA) Rs.9,00,000, 5-8 years of experience. - FASHION CONSULTANT: Average Salary(LPA) Rs.9,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -910,7 +917,7 @@
     "mba marketing jobs"
   ],
   "responses": [
-    "- MARKETING MANAGER: Average CTC ₹10,00,000, 4-7 years of experience. - BRAND MANAGER: Average CTC ₹8,50,000, 3-5 years of experience. - SALES MANAGER: Average CTC ₹9,00,000, 4-6 years of experience. - DIGITAL MARKETING MANAGER: Average CTC ₹12,00,000, 5-8 years of experience. - PRODUCT MANAGER: Average CTC ₹11,00,000, 6-10 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- MARKETING MANAGER: Average Salary(LPA) Rs.10,00,000, 4-7 years of experience. - BRAND MANAGER: Average Salary(LPA) Rs.8,50,000, 3-5 years of experience. - SALES MANAGER: Average Salary(LPA) Rs.9,00,000, 4-6 years of experience. - DIGITAL MARKETING MANAGER: Average Salary(LPA) Rs.12,00,000, 5-8 years of experience. - PRODUCT MANAGER: Average Salary(LPA) Rs.11,00,000, 6-10 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 }
 ,
@@ -923,7 +930,7 @@
     "mba human resource management jobs"
   ],
   "responses": [
-    "- HR MANAGER: Average CTC ₹9,00,000, 4-7 years of experience. - RECRUITMENT MANAGER: Average CTC ₹8,00,000, 3-5 years of experience. - TRAINING AND DEVELOPMENT MANAGER: Average CTC ₹9,50,000, 4-6 years of experience. - HR BUSINESS PARTNER: Average CTC ₹10,00,000, 5-8 years of experience. - COMPENSATION AND BENEFITS MANAGER: Average CTC ₹11,00,000, 6-10 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- HR MANAGER: Average Salary(LPA) Rs.9,00,000, 4-7 years of experience. - RECRUITMENT MANAGER: Average Salary(LPA) Rs.8,00,000, 3-5 years of experience. - TRAINING AND DEVELOPMENT MANAGER: Average Salary(LPA) Rs.9,50,000, 4-6 years of experience. - HR BUSINESS PARTNER: Average Salary(LPA) Rs.10,00,000, 5-8 years of experience. - COMPENSATION AND BENEFITS MANAGER: Average Salary(LPA) Rs.11,00,000, 6-10 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -936,7 +943,7 @@
     "mba information technology jobs"
   ],
   "responses": [
-    "- IT PROJECT MANAGER: Average CTC ₹12,00,000, 5-8 years of experience. - IT CONSULTANT: Average CTC ₹10,00,000, 4-7 years of experience. - SYSTEMS ANALYST: Average CTC ₹9,50,000, 4-6 years of experience. - BUSINESS ANALYST: Average CTC ₹9,00,000, 3-5 years of experience. - IT MANAGER: Average CTC ₹11,00,000, 6-10 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- IT PROJECT MANAGER: Average Salary(LPA) Rs.12,00,000, 5-8 years of experience. - IT CONSULTANT: Average Salary(LPA) Rs.10,00,000, 4-7 years of experience. - SYSTEMS ANALYST: Average Salary(LPA) Rs.9,50,000, 4-6 years of experience. - BUSINESS ANALYST: Average Salary(LPA) Rs.9,00,000, 3-5 years of experience. - IT MANAGER: Average Salary(LPA) Rs.11,00,000, 6-10 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 }
 ,
@@ -949,7 +956,7 @@
     "mba operations mangement jobs"
   ],
   "responses": [
-    "- OPERATIONS MANAGER: Average CTC ₹10,00,000, 4-7 years of experience. - SUPPLY CHAIN MANAGER: Average CTC ₹9,00,000, 3-5 years of experience. - LOGISTICS MANAGER: Average CTC ₹8,50,000, 3-5 years of experience. - PROCUREMENT MANAGER: Average CTC ₹9,50,000, 4-6 years of experience. - QUALITY ASSURANCE MANAGER: Average CTC ₹10,50,000, 5-8 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- OPERATIONS MANAGER: Average Salary(LPA) Rs.10,00,000, 4-7 years of experience. - SUPPLY CHAIN MANAGER: Average Salary(LPA) Rs.9,00,000, 3-5 years of experience. - LOGISTICS MANAGER: Average Salary(LPA) Rs.8,50,000, 3-5 years of experience. - PROCUREMENT MANAGER: Average Salary(LPA) Rs.9,50,000, 4-6 years of experience. - QUALITY ASSURANCE MANAGER: Average Salary(LPA) Rs.10,50,000, 5-8 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -962,7 +969,7 @@
     "mtech computer science engineering jobs"
   ],
   "responses": [
-    "- SOFTWARE DEVELOPMENT ENGINEER: Average CTC ₹14,00,000, 6-10 years of experience. - MACHINE LEARNING ENGINEER: Average CTC ₹15,00,000, 7-12 years of experience. - COMPUTER NETWORK ARCHITECT: Average CTC ₹13,00,000, 5-8 years of experience. - DATABASE ADMINISTRATOR: Average CTC ₹12,00,000, 4-7 years of experience. - SYSTEMS ARCHITECT: Average CTC ₹16,00,000, 8-12 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- SOFTWARE DEVELOPMENT ENGINEER: Average Salary(LPA) Rs.14,00,000, 6-10 years of experience. - MACHINE LEARNING ENGINEER: Average Salary(LPA) Rs.15,00,000, 7-12 years of experience. - COMPUTER NETWORK ARCHITECT: Average Salary(LPA) Rs.13,00,000, 5-8 years of experience. - DATABASE ADMINISTRATOR: Average Salary(LPA) Rs.12,00,000, 4-7 years of experience. - SYSTEMS ARCHITECT: Average Salary(LPA) Rs.16,00,000, 8-12 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 }
 ,
@@ -975,7 +982,7 @@
     "mtech electrical and electronics engineering jobs"
   ],
   "responses": [
-    "- ELECTRICAL ENGINEER: Average CTC ₹12,00,000, 5-8 years of experience. - ELECTRONICS ENGINEER: Average CTC ₹11,00,000, 4-7 years of experience. - POWER ENGINEER: Average CTC ₹13,00,000, 6-10 years of experience. - CONTROL SYSTEMS ENGINEER: Average CTC ₹14,00,000, 7-12 years of experience. - AUTOMATION ENGINEER: Average CTC ₹12,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- ELECTRICAL ENGINEER: Average Salary(LPA) Rs.12,00,000, 5-8 years of experience. - ELECTRONICS ENGINEER: Average Salary(LPA) Rs.11,00,000, 4-7 years of experience. - POWER ENGINEER: Average Salary(LPA) Rs.13,00,000, 6-10 years of experience. - CONTROL SYSTEMS ENGINEER: Average Salary(LPA) Rs.14,00,000, 7-12 years of experience. - AUTOMATION ENGINEER: Average Salary(LPA) Rs.12,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -987,7 +994,7 @@
     "mtech mechanical engineering"
   ],
   "responses": [
-    "- MECHANICAL ENGINEER: Average CTC ₹12,00,000, 5-8 years of experience. - DESIGN ENGINEER: Average CTC ₹11,00,000, 4-7 years of experience. - MANUFACTURING ENGINEER: Average CTC ₹13,00,000, 6-10 years of experience. - THERMAL ANALYST: Average CTC ₹14,00,000, 7-12 years of experience. - PROJECT MANAGER: Average CTC ₹15,00,000, 8-12 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- MECHANICAL ENGINEER: Average Salary(LPA) Rs.12,00,000, 5-8 years of experience. - DESIGN ENGINEER: Average Salary(LPA) Rs.11,00,000, 4-7 years of experience. - MANUFACTURING ENGINEER: Average Salary(LPA) Rs.13,00,000, 6-10 years of experience. - THERMAL ANALYST: Average Salary(LPA) Rs.14,00,000, 7-12 years of experience. - PROJECT MANAGER: Average Salary(LPA) Rs.15,00,000, 8-12 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -999,7 +1006,7 @@
     "mtech civil engineering jobs"
   ],
   "responses": [
-    "- CIVIL ENGINEER: Average CTC ₹12,00,000, 5-8 years of experience. - STRUCTURAL ENGINEER: Average CTC ₹11,00,000, 4-7 years of experience. - TRANSPORTATION ENGINEER: Average CTC ₹13,00,000, 6-10 years of experience. - ENVIRONMENTAL ENGINEER: Average CTC ₹14,00,000, 7-12 years of experience. - PROJECT MANAGER: Average CTC ₹15,00,000, 8-12 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- CIVIL ENGINEER: Average Salary(LPA) Rs.12,00,000, 5-8 years of experience. - STRUCTURAL ENGINEER: Average Salary(LPA) Rs.11,00,000, 4-7 years of experience. - TRANSPORTATION ENGINEER: Average Salary(LPA) Rs.13,00,000, 6-10 years of experience. - ENVIRONMENTAL ENGINEER: Average Salary(LPA) Rs.14,00,000, 7-12 years of experience. - PROJECT MANAGER: Average Salary(LPA) Rs.15,00,000, 8-12 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -1011,7 +1018,7 @@
     "MTech Electronics and Communication Engineering"
   ],
   "responses": [
-    "- ELECTRONICS ENGINEER: Average CTC ₹12,00,000, 5-8 years of experience. - COMMUNICATIONS ENGINEER: Average CTC ₹11,00,000, 4-7 years of experience. - SIGNAL PROCESSING ENGINEER: Average CTC ₹13,00,000, 6-10 years of experience. - VLSI DESIGN ENGINEER: Average CTC ₹14,00,000, 7-12 years of experience. - TELECOMMUNICATIONS ENGINEER: Average CTC ₹15,00,000, 8-12 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- ELECTRONICS ENGINEER: Average Salary(LPA) Rs.12,00,000, 5-8 years of experience. - COMMUNICATIONS ENGINEER: Average Salary(LPA) Rs.11,00,000, 4-7 years of experience. - SIGNAL PROCESSING ENGINEER: Average Salary(LPA) Rs.13,00,000, 6-10 years of experience. - VLSI DESIGN ENGINEER: Average Salary(LPA) Rs.14,00,000, 7-12 years of experience. - TELECOMMUNICATIONS ENGINEER: Average Salary(LPA) Rs.15,00,000, 8-12 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -1023,7 +1030,7 @@
     "master of computer application"
   ],
   "responses": [
-    "- SOFTWARE DEVELOPER: Average CTC ₹8,00,000, 3-6 years of experience. - SYSTEMS ANALYST: Average CTC ₹7,50,000, 2-5 years of experience. - DATABASE ADMINISTRATOR: Average CTC ₹8,50,000, 3-6 years of experience. - NETWORK ENGINEER: Average CTC ₹9,00,000, 4-7 years of experience. - APPLICATION DEVELOPER: Average CTC ₹9,50,000, 5-8 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- SOFTWARE DEVELOPER: Average Salary(LPA) Rs.8,00,000, 3-6 years of experience. - SYSTEMS ANALYST: Average Salary(LPA) Rs.7,50,000, 2-5 years of experience. - DATABASE ADMINISTRATOR: Average Salary(LPA) Rs.8,50,000, 3-6 years of experience. - NETWORK ENGINEER: Average Salary(LPA) Rs.9,00,000, 4-7 years of experience. - APPLICATION DEVELOPER: Average Salary(LPA) Rs.9,50,000, 5-8 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -1035,7 +1042,7 @@
     "master of social work jobs"
   ],
   "responses": [
-    "- SOCIAL WORKER: Average CTC ₹7,00,000, 3-6 years of experience. - COUNSELOR: Average CTC ₹6,50,000, 2-5 years of experience. - COMMUNITY SERVICE MANAGER: Average CTC ₹7,50,000, 3-6 years of experience. - HUMAN SERVICES SPECIALIST: Average CTC ₹8,00,000, 4-7 years of experience. - PROGRAM MANAGER (NON-PROFIT): Average CTC ₹8,50,000, 5-8 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- SOCIAL WORKER: Average Salary(LPA) Rs.7,00,000, 3-6 years of experience. - COUNSELOR: Average Salary(LPA) Rs.6,50,000, 2-5 years of experience. - COMMUNITY SERVICE MANAGER: Average Salary(LPA) Rs.7,50,000, 3-6 years of experience. - HUMAN SERVICES SPECIALIST: Average Salary(LPA) Rs.8,00,000, 4-7 years of experience. - PROGRAM MANAGER (NON-PROFIT): Average Salary(LPA) Rs.8,50,000, 5-8 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -1048,7 +1055,7 @@
     "master of commerce"
   ],
   "responses": [
-    "- ACCOUNTANT: Average CTC ₹7,50,000, 3-6 years of experience. - FINANCIAL ANALYST: Average CTC ₹8,00,000, 4-7 years of experience. - AUDITOR: Average CTC ₹7,00,000, 2-5 years of experience. - TAX CONSULTANT: Average CTC ₹8,50,000, 5-8 years of experience. - TREASURY ANALYST: Average CTC ₹9,00,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- ACCOUNTANT: Average Salary(LPA) Rs.7,50,000, 3-6 years of experience. - FINANCIAL ANALYST: Average Salary(LPA) Rs.8,00,000, 4-7 years of experience. - AUDITOR: Average Salary(LPA) Rs.7,00,000, 2-5 years of experience. - TAX CONSULTANT: Average Salary(LPA) Rs.8,50,000, 5-8 years of experience. - TREASURY ANALYST: Average Salary(LPA) Rs.9,00,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -1061,7 +1068,7 @@
     "mastre of pharmacy"
   ],
   "responses": [
-    "- PHARMACEUTICAL RESEARCHER: Average CTC ₹9,00,000, 4-7 years of experience. - PHARMACIST: Average CTC ₹8,50,000, 3-5 years of experience. - PHARMACEUTICAL MANUFACTURING MANAGER: Average CTC ₹8,80,000, 3-6 years of experience. - REGULATORY AFFAIRS MANAGER: Average CTC ₹9,50,000, 4-6 years of experience. - CLINICAL RESEARCH ASSOCIATE: Average CTC ₹10,00,000, 5-8 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- PHARMACEUTICAL RESEARCHER: Average Salary(LPA) Rs.9,00,000, 4-7 years of experience. - PHARMACIST: Average Salary(LPA) Rs.8,50,000, 3-5 years of experience. - PHARMACEUTICAL MANUFACTURING MANAGER: Average Salary(LPA) Rs.8,80,000, 3-6 years of experience. - REGULATORY AFFAIRS MANAGER: Average Salary(LPA) Rs.9,50,000, 4-6 years of experience. - CLINICAL RESEARCH ASSOCIATE: Average Salary(LPA) Rs.10,00,000, 5-8 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -1074,7 +1081,7 @@
     "Master of Arts in Journalism and Mass Communication jobs"
   ],
   "responses": [
-    "- JOURNALIST: Average CTC ₹6,50,000, 2-5 years of experience. - CONTENT WRITER: Average CTC ₹6,00,000, 1-3 years of experience. - MEDIA PLANNER: Average CTC ₹7,00,000, 3-6 years of experience. - PUBLIC RELATIONS SPECIALIST: Average CTC ₹7,50,000, 4-7 years of experience. - ADVERTISING MANAGER: Average CTC ₹8,00,000, 5-8 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- JOURNALIST: Average Salary(LPA) Rs.6,50,000, 2-5 years of experience. - CONTENT WRITER: Average Salary(LPA) Rs.6,00,000, 1-3 years of experience. - MEDIA PLANNER: Average Salary(LPA) Rs.7,00,000, 3-6 years of experience. - PUBLIC RELATIONS SPECIALIST: Average Salary(LPA) Rs.7,50,000, 4-7 years of experience. - ADVERTISING MANAGER: Average Salary(LPA) Rs.8,00,000, 5-8 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -1086,7 +1093,7 @@
     "bpharm jobs"
   ],
   "responses": [
-    "- PHARMACEUTICAL RESEARCHER: Average CTC ₹8,00,000, 2-5 years of experience. - PHARMACIST: Average CTC ₹7,50,000, 2-4 years of experience. - PHARMACEUTICAL MANUFACTURING MANAGER: Average CTC ₹7,80,000, 2-5 years of experience. - REGULATORY AFFAIRS MANAGER: Average CTC ₹7,50,000, 2-4 years of experience. - CLINICAL RESEARCH ASSOCIATE: Average CTC ₹7,00,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- PHARMACEUTICAL RESEARCHER: Average Salary(LPA) Rs.8,00,000, 2-5 years of experience. - PHARMACIST: Average Salary(LPA) Rs.7,50,000, 2-4 years of experience. - PHARMACEUTICAL MANUFACTURING MANAGER: Average Salary(LPA) Rs.7,80,000, 2-5 years of experience. - REGULATORY AFFAIRS MANAGER: Average Salary(LPA) Rs.7,50,000, 2-4 years of experience. - CLINICAL RESEARCH ASSOCIATE: Average Salary(LPA) Rs.7,00,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -1099,7 +1106,7 @@
     ""
   ],
   "responses": [
-    "- JOURNALIST: Average CTC ₹7,00,000, 3-6 years of experience.\n- MEDIA PLANNER: Average CTC ₹8,00,000, 4-7 years of experience.\n- CONTENT WRITER: Average CTC ₹6,50,000, 2-4 years of experience.\n- PUBLIC RELATIONS SPECIALIST: Average CTC ₹7,50,000, 3-6 years of experience.\n- SOCIAL MEDIA MANAGER: Average CTC ₹8,50,000, 4-7 years of experience.\nThese figures are approximate and may vary based on location and individual factors."
+    "- JOURNALIST: Average Salary(LPA) Rs.7,00,000, 3-6 years of experience.\n- MEDIA PLANNER: Average Salary(LPA) Rs.8,00,000, 4-7 years of experience.\n- CONTENT WRITER: Average Salary(LPA) Rs.6,50,000, 2-4 years of experience.\n- PUBLIC RELATIONS SPECIALIST: Average Salary(LPA) Rs.7,50,000, 3-6 years of experience.\n- SOCIAL MEDIA MANAGER: Average Salary(LPA) Rs.8,50,000, 4-7 years of experience.\nThese figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -1112,7 +1119,7 @@
     "Post Graduate Diploma in Management jobs"
   ],
   "responses": [
-    "- MARKETING MANAGER: Average CTC ₹15,00,000, 4-7 years of experience. - FINANCIAL ANALYST: Average CTC ₹14,00,000, 3-5 years of experience. - HUMAN RESOURCE MANAGER: Average CTC ₹13,00,000, 3-6 years of experience. - OPERATIONS MANAGER: Average CTC ₹14,50,000, 4-6 years of experience. - BUSINESS DEVELOPMENT MANAGER: Average CTC ₹15,50,000, 5-8 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- MARKETING MANAGER: Average Salary(LPA) Rs.15,00,000, 4-7 years of experience. - FINANCIAL ANALYST: Average Salary(LPA) Rs.14,00,000, 3-5 years of experience. - HUMAN RESOURCE MANAGER: Average Salary(LPA) Rs.13,00,000, 3-6 years of experience. - OPERATIONS MANAGER: Average Salary(LPA) Rs.14,50,000, 4-6 years of experience. - BUSINESS DEVELOPMENT MANAGER: Average Salary(LPA) Rs.15,50,000, 5-8 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -1125,7 +1132,7 @@
     "Executive Master of Business Administration"
   ],
   "responses": [
-    "- EXECUTIVE DIRECTOR: Average CTC ₹25,00,000, 8-12 years of experience. - CHIEF EXECUTIVE OFFICER (CEO): Average CTC ₹30,00,000, 10-15 years of experience. - CHIEF OPERATING OFFICER (COO): Average CTC ₹28,00,000, 10-14 years of experience. - CHIEF FINANCIAL OFFICER (CFO): Average CTC ₹29,00,000, 10-14 years of experience. - CHIEF MARKETING OFFICER (CMO): Average CTC ₹27,00,000, 10-13 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- EXECUTIVE DIRECTOR: Average Salary(LPA) Rs.25,00,000, 8-12 years of experience. - CHIEF EXECUTIVE OFFICER (CEO): Average Salary(LPA) Rs.30,00,000, 10-15 years of experience. - CHIEF OPERATING OFFICER (COO): Average Salary(LPA) Rs.28,00,000, 10-14 years of experience. - CHIEF FINANCIAL OFFICER (CFO): Average Salary(LPA) Rs.29,00,000, 10-14 years of experience. - CHIEF MARKETING OFFICER (CMO): Average Salary(LPA) Rs.27,00,000, 10-13 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -1137,7 +1144,7 @@
     "diploma engineering"
   ],
   "responses": [
-    "- JUNIOR ENGINEER: Average CTC ₹4,50,000, 1-3 years of experience. - TECHNICIAN: Average CTC ₹4,00,000, 1-3 years of experience. - DESIGN ENGINEER: Average CTC ₹5,00,000, 2-4 years of experience. - MAINTENANCE TECHNICIAN: Average CTC ₹4,20,000, 1-3 years of experience. - ELECTRICAL ENGINEERING TECHNICIAN: Average CTC ₹4,30,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- JUNIOR ENGINEER: Average Salary(LPA) Rs.4,50,000, 1-3 years of experience. - TECHNICIAN: Average Salary(LPA) Rs.4,00,000, 1-3 years of experience. - DESIGN ENGINEER: Average Salary(LPA) Rs.5,00,000, 2-4 years of experience. - MAINTENANCE TECHNICIAN: Average Salary(LPA) Rs.4,20,000, 1-3 years of experience. - ELECTRICAL ENGINEERING TECHNICIAN: Average Salary(LPA) Rs.4,30,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -1149,7 +1156,7 @@
     "diploma pharmacy jobs"
   ],
   "responses": [
-    "- PHARMACY TECHNICIAN: Average CTC ₹3,80,000, 1-3 years of experience. - HOSPITAL PHARMACY TECHNICIAN: Average CTC ₹4,00,000, 1-3 years of experience. - RETAIL PHARMACIST: Average CTC ₹4,20,000, 2-4 years of experience. - PHARMACEUTICAL SALES REPRESENTATIVE: Average CTC ₹4,50,000, 2-4 years of experience. - PHARMACEUTICAL MANUFACTURING TECHNICIAN: Average CTC ₹4,30,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- PHARMACY TECHNICIAN: Average Salary(LPA) Rs.3,80,000, 1-3 years of experience. - HOSPITAL PHARMACY TECHNICIAN: Average Salary(LPA) Rs.4,00,000, 1-3 years of experience. - RETAIL PHARMACIST: Average Salary(LPA) Rs.4,20,000, 2-4 years of experience. - PHARMACEUTICAL SALES REPRESENTATIVE: Average Salary(LPA) Rs.4,50,000, 2-4 years of experience. - PHARMACEUTICAL MANUFACTURING TECHNICIAN: Average Salary(LPA) Rs.4,30,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -1161,7 +1168,7 @@
     "diploma hotel management"
   ],
   "responses": [
-    "- FRONT DESK OFFICER: Average CTC ₹3,50,000, 1-3 years of experience. - HOTEL SUPERVISOR: Average CTC ₹3,80,000, 1-3 years of experience. - EVENT PLANNER: Average CTC ₹3,60,000, 1-3 years of experience. - GUEST SERVICE AGENT: Average CTC ₹3,40,000, 1-3 years of experience. - RESTAURANT MANAGER: Average CTC ₹4,00,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- FRONT DESK OFFICER: Average Salary(LPA) Rs.3,50,000, 1-3 years of experience. - HOTEL SUPERVISOR: Average Salary(LPA) Rs.3,80,000, 1-3 years of experience. - EVENT PLANNER: Average Salary(LPA) Rs.3,60,000, 1-3 years of experience. - GUEST SERVICE AGENT: Average Salary(LPA) Rs.3,40,000, 1-3 years of experience. - RESTAURANT MANAGER: Average Salary(LPA) Rs.4,00,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -1173,7 +1180,7 @@
     "ded jobs"
   ],
   "responses": [
-    "- ELEMENTARY SCHOOL TEACHER: Average CTC ₹3,50,000, 1-3 years of experience. - SPECIAL EDUCATION TEACHER: Average CTC ₹3,80,000, 1-3 years of experience. - PRESCHOOL TEACHER: Average CTC ₹3,60,000, 1-3 years of experience. - EDUCATIONAL CONSULTANT: Average CTC ₹3,40,000, 1-3 years of experience. - SCHOOL ADMINISTRATOR: Average CTC ₹4,00,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- ELEMENTARY SCHOOL TEACHER: Average Salary(LPA) Rs.3,50,000, 1-3 years of experience. - SPECIAL EDUCATION TEACHER: Average Salary(LPA) Rs.3,80,000, 1-3 years of experience. - PRESCHOOL TEACHER: Average Salary(LPA) Rs.3,60,000, 1-3 years of experience. - EDUCATIONAL CONSULTANT: Average Salary(LPA) Rs.3,40,000, 1-3 years of experience. - SCHOOL ADMINISTRATOR: Average Salary(LPA) Rs.4,00,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 }
 
@@ -1188,7 +1195,7 @@
     "Diploma Computer Applications"
   ],
   "responses": [
-    "- COMPUTER TECHNICIAN: Average CTC ₹4,00,000, 1-3 years of experience. - DATA ENTRY OPERATOR: Average CTC ₹3,50,000, 1-3 years of experience. - IT SUPPORT TECHNICIAN: Average CTC ₹4,20,000, 2-4 years of experience. - WEB DEVELOPER: Average CTC ₹4,50,000, 2-4 years of experience. - SOFTWARE SUPPORT ENGINEER: Average CTC ₹4,30,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- COMPUTER TECHNICIAN: Average Salary(LPA) Rs.4,00,000, 1-3 years of experience. - DATA ENTRY OPERATOR: Average Salary(LPA) Rs.3,50,000, 1-3 years of experience. - IT SUPPORT TECHNICIAN: Average Salary(LPA) Rs.4,20,000, 2-4 years of experience. - WEB DEVELOPER: Average Salary(LPA) Rs.4,50,000, 2-4 years of experience. - SOFTWARE SUPPORT ENGINEER: Average Salary(LPA) Rs.4,30,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -1200,7 +1207,7 @@
     "btech ai/ds jobs"
   ],
   "responses": [
-    "- DATA SCIENTIST: Average CTC ₹10,00,000, 2-5 years of experience. - MACHINE LEARNING ENGINEER: Average CTC ₹9,50,000, 2-4 years of experience. - ARTIFICIAL INTELLIGENCE ENGINEER: Average CTC ₹9,80,000, 2-5 years of experience. - BIG DATA ENGINEER: Average CTC ₹9,50,000, 2-4 years of experience. - BUSINESS INTELLIGENCE ANALYST: Average CTC ₹9,00,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- DATA SCIENTIST: Average Salary(LPA) Rs.10,00,000, 2-5 years of experience. - MACHINE LEARNING ENGINEER: Average Salary(LPA) Rs.9,50,000, 2-4 years of experience. - ARTIFICIAL INTELLIGENCE ENGINEER: Average Salary(LPA) Rs.9,80,000, 2-5 years of experience. - BIG DATA ENGINEER: Average Salary(LPA) Rs.9,50,000, 2-4 years of experience. - BUSINESS INTELLIGENCE ANALYST: Average Salary(LPA) Rs.9,00,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -1208,11 +1215,11 @@
   "patterns": [
     "Job opportunities after completing B.Tech in Aeronautical Engineering",
     "Career options with B.Tech Aeronautical Engineering degree",
-    "Jobs after B.Tech in Aeronautical Engineering",
+    "Jobs after B.Tech in Aeronautical Engineering jobs",
     "btech aeronautical jobs"
   ],
   "responses": [
-    "- AEROSPACE ENGINEER: Average CTC ₹7,00,000, 3-6 years of experience. - AIRCRAFT MAINTENANCE ENGINEER: Average CTC ₹6,50,000, 2-5 years of experience. - AVIONICS ENGINEER: Average CTC ₹6,80,000, 3-6 years of experience. - FLIGHT TEST ENGINEER: Average CTC ₹7,20,000, 4-7 years of experience. - AERODYNAMICS ENGINEER: Average CTC ₹6,50,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- AEROSPACE ENGINEER: Average Salary(LPA) Rs.7,00,000, 3-6 years of experience. - AIRCRAFT MAINTENANCE ENGINEER: Average Salary(LPA) Rs.6,50,000, 2-5 years of experience. - AVIONICS ENGINEER: Average Salary(LPA) Rs.6,80,000, 3-6 years of experience. - FLIGHT TEST ENGINEER: Average Salary(LPA) Rs.7,20,000, 4-7 years of experience. - AERODYNAMICS ENGINEER: Average Salary(LPA) Rs.6,50,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -1225,7 +1232,7 @@
     "btech automobile engineering"
   ],
   "responses": [
-    "- AUTOMOTIVE ENGINEER: Average CTC ₹6,00,000, 2-5 years of experience. - AUTOMOBILE DESIGN ENGINEER: Average CTC ₹5,80,000, 2-5 years of experience. - PRODUCTION PLANNING ENGINEER: Average CTC ₹5,50,000, 2-5 years of experience. - AUTOMOBILE SERVICE ENGINEER: Average CTC ₹5,70,000, 2-5 years of experience. - TESTING ENGINEER (AUTOMOBILE): Average CTC ₹5,90,000, 2-5 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- AUTOMOTIVE ENGINEER: Average Salary(LPA) Rs.6,00,000, 2-5 years of experience. - AUTOMOBILE DESIGN ENGINEER: Average Salary(LPA) Rs.5,80,000, 2-5 years of experience. - PRODUCTION PLANNING ENGINEER: Average Salary(LPA) Rs.5,50,000, 2-5 years of experience. - AUTOMOBILE SERVICE ENGINEER: Average Salary(LPA) Rs.5,70,000, 2-5 years of experience. - TESTING ENGINEER (AUTOMOBILE): Average Salary(LPA) Rs.5,90,000, 2-5 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -1234,104 +1241,12 @@
     "Job opportunities after completing B.Tech in Biotechnology",
     "Career options with B.Tech Biotechnology degree",
     "Jobs after B.Tech in Biotechnology",
-    "BTECH BIOTECH",
-    "btech biotech"
+    "BTECH BIOTECHNOLOGY",
+    "btech biotech jobs"
   ],
   "responses": [
-    "- BIOTECHNOLOGIST: Average CTC ₹5,50,000, 2-5 years of experience. - RESEARCH SCIENTIST (BIOTECH): Average CTC ₹6,00,000, 2-5 years of experience. - BIOINFORMATICIAN: Average CTC ₹5,80,000, 2-5 years of experience. - PHARMACEUTICAL BIOCHEMIST: Average CTC ₹5,70,000, 2-5 years of experience. - MEDICAL LABORATORY TECHNICIAN: Average CTC ₹5,40,000, 2-5 years of experience. These figures are approximate and may vary based on location and individual factors."
+    "- BIOTECHNOLOGIST: Average Salary(LPA) Rs.5,50,000, 2-5 years of experience. - RESEARCH SCIENTIST (BIOTECH): Average Salary(LPA) Rs.6,00,000, 2-5 years of experience. - BIOINFORMATICIAN: Average Salary(LPA) Rs.5,80,000, 2-5 years of experience. - PHARMACEUTICAL BIOCHEMIST: Average Salary(LPA) Rs.5,70,000, 2-5 years of experience. - MEDICAL LABORATORY TECHNICIAN: Average Salary(LPA) Rs.5,40,000, 2-5 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
   ]
 }
