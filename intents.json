@@ -4,11 +4,14 @@
       "tag": "greeting",
       "patterns": [
         "Hiii",
-        "hello",
-        "hey"     
+        "haiii",
+        "hellooo",
+        "heyyyy",
+        "Who are you?"
+        
       ],
       "responses": [
-        "Hey! My name is Future Forge I can give you job Recommendations, Tell me the Course, I will provide you the recommended jobs Based on the course.",
+        "Hey! My name is Future Forge I can give you job Recommendations, Tell me the Course, I will provide you the recommended jobs Based on the course."
       ]
     },
     {
@@ -26,14 +29,13 @@
     {
       "tag": "Owner",
       "patterns": [
-        "Who are you?",
         "Who created you?",
         "What can do you do?",
         "What is your name?"
         
       ],
       "responses": [
-        "Hey! Thanks for asking, My name is Future Forge your job recommender. I'm was created by Selvan, Sreeraam, Sudarsan. "
+        "Hey! Thanks for asking, My name is Future Forge your job recommender. I'm was created by Selvan, Sreeraam, Sudarsan. Tell me the course name"
       ]
     },
     {
