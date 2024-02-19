@@ -98,6 +98,8 @@
         "Career options with ECE degree",
         "Jobs after ECE",
         "be ece jobs",
+        "b.e ece",
+        "be ece",
         "b.e ece jobs",
         "be Electronics and Communication Engineering jobs"
       ],
@@ -114,7 +116,8 @@
         "be mechanical engineering jobs",
         "be mechanical jobs",
         "be mech jobs",
-        "b.e mech jobs"
+        "b.e mech jobs",
+        "b.e mechanical engineering"
       ],
       "responses": [
         "- MECHANICAL ENGINEER: Average Salary(LPA) Rs.7,00,000, 2-5 years of experience. DESIGN ENGINEER: Average Salary(LPA) Rs.7,50,000, 3-6 years of experience. MANUFACTURING ENGINEER: Average Salary(LPA) Rs.8,00,000, 3-5 years of experience. AUTOMATION ENGINEER: Average Salary(LPA) Rs.6,80,000, 2-4 years of experience. PROJECT ENGINEER: Average Salary(LPA) Rs.7,80,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
@@ -142,7 +145,9 @@
         "Jobs after CSE",
         "be cse jobs",
         "b.e cse jobs",
-        "be computer science jobs"
+        "be computer science jobs",
+        "b.e computer science engineering",
+        "be computer science engineering"
       ],
       "responses": [
         "- SOFTWARE ENGINEER: Average Salary(LPA) Rs.7,50,000, 2-5 years of experience. DATA SCIENTIST: Average Salary(LPA) Rs.8,50,000, 3-6 years of experience. CYBERSECURITY ANALYST: Average Salary(LPA) Rs.8,00,000, 3-5 years of experience. WEB DEVELOPER: Average Salary(LPA) Rs.7,00,000, 2-4 years of experience. IT PROJECT MANAGER: Average Salary(LPA) Rs.9,00,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
@@ -156,6 +161,7 @@
     "Jobs after Chemical Engineering",
     "be chemical engineering jobs",
     "btech chemical jobs",
+    "btech chemical engineering",
     "b.tech chemical engineering jobs"
   ],
   "responses": [
@@ -193,28 +199,18 @@
     "Jobs after MA Film and Television Production"
   ],
   "responses": [
-    "- FILM PRODUCER: Average Salary ₹10,00,000 per annum, 5-8 years of experience.",
-    "- CINEMATOGRAPHER: Average Salary ₹9,50,000 per annum, 4-7 years of experience.",
-    "- VIDEO EDITOR: Average Salary ₹8,80,000 per annum, 3-6 years of experience.",
-    "- PRODUCTION DESIGNER: Average Salary ₹9,20,000 per annum, 4-6 years of experience.",
-    "- SCRIPTWRITER: Average Salary ₹8,50,000 per annum, 3-5 years of experience.",
-    "These figures are approximate and may vary based on location and individual factors."
+    "- FILM PRODUCER: Average Salary ₹10,00,000 per annum, 5-8 years of experience. - CINEMATOGRAPHER: Average Salary ₹9,50,000 per annum, 4-7 years of experience. - VIDEO EDITOR: Average Salary ₹8,80,000 per annum, 3-6 years of experience.- PRODUCTION DESIGNER: Average Salary ₹9,20,000 per annum, 4-6 years of experience. - SCRIPTWRITER: Average Salary ₹8,50,000 per annum, 3-5 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
     {
   "tag": "msc_cinematography_jobs",
   "patterns": [
-    "Job opportunities after completing M.Sc. in Cinematography",
-    "Career options with M.Sc. Cinematography degree",
-    "Jobs after M.Sc. Cinematography"
+    "Job opportunities after completing M.Sc. Cinematography",
+    "Career options with M.Sc Cinematography degree",
+    "Jobs after MSc Cinematography"
   ],
   "responses": [
-    "- DIRECTOR OF PHOTOGRAPHY: Average Salary ₹9,50,000 per annum, 4-7 years of experience.",
-    "- CINEMA TECHNICIAN: Average Salary ₹8,80,000 per annum, 3-6 years of experience.",
-    "- FILM EDITOR: Average Salary ₹8,50,000 per annum, 3-5 years of experience.",
-    "- LIGHTING TECHNICIAN: Average Salary ₹8,20,000 per annum, 2-4 years of experience.",
-    "- COLORIST: Average Salary ₹9,00,000 per annum, 4-6 years of experience.",
-    "These figures are approximate and may vary based on location and individual factors."
+    "- DIRECTOR OF PHOTOGRAPHY: Average Salary ₹9,50,000 per annum, 4-7 years of experience. - CINEMA TECHNICIAN: Average Salary ₹8,80,000 per annum, 3-6 years of experience. - FILM EDITOR: Average Salary ₹8,50,000 per annum, 3-5 years of experience. - LIGHTING TECHNICIAN: Average Salary ₹8,20,000 per annum, 2-4 years of experience. - COLORIST: Average Salary ₹9,00,000 per annum, 4-6 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
     {
@@ -226,12 +222,7 @@
     "MDes Film Design"
   ],
   "responses": [
-    "- FILM ART DIRECTOR: Average Salary ₹10,50,000 per annum, 5-8 years of experience.",
-    "- VISUAL EFFECTS (VFX) ARTIST: Average Salary ₹9,80,000 per annum, 4-7 years of experience.",
-    "- ANIMATION DIRECTOR: Average Salary ₹9,20,000 per annum, 3-6 years of experience.",
-    "- STORYBOARD ARTIST: Average Salary ₹8,50,000 per annum, 3-5 years of experience.",
-    "- FILM GRAPHIC DESIGNER: Average Salary ₹9,00,000 per annum, 4-6 years of experience.",
-    "These figures are approximate and may vary based on location and individual factors."
+    "- FILM ART DIRECTOR: Average Salary ₹10,50,000 per annum, 5-8 years of experience. - VISUAL EFFECTS (VFX) ARTIST: Average Salary ₹9,80,000 per annum, 4-7 years of experience. - ANIMATION DIRECTOR: Average Salary ₹9,20,000 per annum, 3-6 years of experience. - STORYBOARD ARTIST: Average Salary ₹8,50,000 per annum, 3-5 years of experience. - FILM GRAPHIC DESIGNER: Average Salary ₹9,00,000 per annum, 4-6 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
     {
@@ -239,7 +230,7 @@
   "patterns": [
     "Job opportunities after completing M.Sc. in Cinematography",
     "Career options with M.Sc. Cinematography degree",
-    "Jobs after M.Sc. Cinematography",
+    "Jobs after M.Sc Cinematography",
     "MSc Cinematography"
   ],
   "responses": [
@@ -249,17 +240,12 @@
     {
   "tag": "mft_cinematography_jobs",
   "patterns": [
-    "Job opportunities after completing MFTech in Cinematography",
+    "Job opportunities after completing M.F.Tech Cinematography",
     "Career options with MFTech Cinematography degree",
     "Jobs after MFTech Cinematography"
   ],
   "responses": [
-    "- DIRECTOR OF PHOTOGRAPHY: Average Salary ₹10,00,000 per annum, 5-8 years of experience.",
-    "- CINEMATOGRAPHY SUPERVISOR: Average Salary ₹9,50,000 per annum, 4-7 years of experience.",
-    "- CAMERA OPERATOR: Average Salary ₹8,80,000 per annum, 3-6 years of experience.",
-    "- LIGHTING TECHNICIAN: Average Salary ₹8,50,000 per annum, 3-5 years of experience.",
-    "- FILM COLORIST: Average Salary ₹9,20,000 per annum, 4-6 years of experience.",
-    "These figures are approximate and may vary based on location and individual factors."
+    "- DIRECTOR OF PHOTOGRAPHY: Average Salary ₹10,00,000 per annum, 5-8 years of experience. - CINEMATOGRAPHY SUPERVISOR: Average Salary ₹9,50,000 per annum, 4-7 years of experience. - CAMERA OPERATOR: Average Salary ₹8,80,000 per annum, 3-6 years of experience. - LIGHTING TECHNICIAN: Average Salary ₹8,50,000 per annum, 3-5 years of experience. - FILM COLORIST: Average Salary ₹9,20,000 per annum, 4-6 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 
@@ -271,7 +257,7 @@
         "Career options with Civil Engineering degree",
         "Jobs after Civil Engineering",
         "be civil jobs",
-        "b.e civil jobs",
+        "b.e civil engineering jobs",
         "be civil engineering jobs"
       ],
       "responses": [
@@ -284,30 +270,20 @@
     "Job opportunities after completing B.Tech in Instrumentation and Control Engineering",
     "Career options with Instrumentation and Control Engineering degree",
     "Jobs after Instrumentation and Control Engineering",
-    "b.tech instrumentation and control engineerinhg jobs",
-    "btech instrumentation and control engineerinhg jobs",
-    "b.e instrumentation and control engineerinhg jobs",
-    "be instrumentation and control engineerinhg jobs"
+    "b.tech instrumentation and control engineering jobs",
+    "btech instrumentation and control engineering jobs",
+    "b.e instrumentation and control engineering jobs",
+    "be instrumentation and control engineering jobs",
+    "be ic",
+    "b.e ic",
+    "b.tech ic jobs",
+    "btech ic jobs"
     
   ],
   "responses": [
     "- INSTRUMENTATION ENGINEER: Average Salary(LPA) ₹7,50,000, 2-5 years of experience. CONTROL SYSTEMS ENGINEER: Average Salary(LPA) ₹8,00,000, 3-6 years of experience. AUTOMATION ENGINEER: Average Salary(LPA) ₹7,80,000, 2-4 years of experience. PROCESS CONTROL ENGINEER: Average Salary(LPA) ₹7,00,000, 2-4 years of experience. INDUSTRIAL AUTOMATION CONSULTANT: Average Salary(LPA) ₹8,50,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
-
-    {
-      "tag": "ece_jobs",
-      "patterns": [
-        "Job opportunities after completing Electronics and Communication Engineering",
-        "Career options with ECE degree",
-        "Jobs after ECE",
-        "be ece jobs",
-        "b.e ece jobs"
-      ],
-      "responses": [
-        "- ELECTRONICS ENGINEER: Average Salary(LPA) Rs.7,00,000, 2-4 years of experience. COMMUNICATIONS ENGINEER: Average Salary(LPA) Rs.7,20,000, 2-4 years of experience. HARDWARE DESIGN ENGINEER: Average Salary(LPA) Rs.7,50,000, 3-5 years of experience. NETWORK ENGINEER: Average Salary(LPA) Rs.6,80,000, 2-4 years of experience. SIGNAL PROCESSING ENGINEER: Average Salary(LPA) Rs.7,80,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
-      ]
-    },
     {
       "tag": "mbbs_jobs",
       "patterns": [
@@ -316,7 +292,7 @@
         "Jobs after MBBS",
         "mbbs jobs",
         "mbbs",
-        "Bachelor of Medicine, Bachelor of Surgery jobs",
+        "Bachelor of Medicine and Bachelor of Surgery jobs",
         "doctor course jobs"
       ],
       "responses": [
@@ -332,7 +308,8 @@
         "Jobs after BDS",
         "bds jobs",
         "bachelor of dental surgery jobs",
-        "dental jobs"
+        "dental jobs",
+        "dentist jobs"
       ],
       "responses": [
         "- DENTIST: Average Salary(LPA) Rs.7,00,000, 2-5 years of experience. ORAL SURGEON: Average Salary(LPA) Rs.8,00,000, 3-6 years of experience. DENTAL HYGIENIST: Average Salary(LPA) Rs.6,50,000, 1-3 years of experience. DENTAL CONSULTANT: Average Salary(LPA) Rs.7,50,000, 2-4 years of experience. DENTAL RESEARCHER: Average Salary(LPA) Rs.8,50,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
@@ -347,7 +324,8 @@
         "Jobs after BAMS",
         "bams jobs",
         "Bachelor of Ayurvedic Medicine and Surgery jobs",
-        "ayurvedic jobs"
+        "ayurvedic jobs",
+        "ayurveda"
       ],
       "responses": [
         "- AYURVEDIC DOCTOR: Average Salary(LPA) Rs.6,00,000, 2-4 years of experience. AYURVEDIC CONSULTANT: Average Salary(LPA) Rs.5,50,000, 1-3 years of experience. RESEARCHER IN AYURVEDA: Average Salary(LPA) Rs.6,50,000, 2-4 years of experience. AYURVEDIC PHARMACIST: Average Salary(LPA) Rs.5,00,000, 1-3 years of experience. YOGA THERAPIST: Average Salary(LPA) Rs.5,80,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
@@ -361,7 +339,8 @@
         "Jobs after BHMS",
         "bhms jobs",
         "Bachelor of Homeopathic Medicine and Surgery jobs",
-        "homeopathic course jobs"
+        "homeopathic course jobs",
+        "homeopathy"
       ],
       "responses": [
         "- HOMEOPATHIC DOCTOR: Average Salary(LPA) Rs.5,50,000, 2-4 years of experience. HOMEOPATHIC CONSULTANT: Average Salary(LPA) Rs.5,00,000, 1-3 years of experience. RESEARCHER IN HOMEOPATHY: Average Salary(LPA) Rs.6,00,000, 2-4 years of experience. HOMEOPATHIC PHARMACIST: Average Salary(LPA) Rs.4,50,000, 1-3 years of experience. LECTURER IN HOMEOPATHY COLLEGE: Average Salary(LPA) Rs.5,80,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
@@ -415,7 +394,8 @@
         "Career options with CA degree",
         "Jobs after CA",
         "chartered accountancy jobs",
-        "ca jobs"
+        "ca jobs",
+        "chartered accountant"
       ],
       "responses": [
         "- CHARTERED ACCOUNTANT: Average Salary(LPA) Rs.8,00,000, 3-6 years of experience. TAX CONSULTANT: Average Salary(LPA) Rs.7,50,000, 2-4 years of experience. AUDITOR: Average Salary(LPA) Rs.7,80,000, 3-5 years of experience. FINANCIAL ANALYST: Average Salary(LPA) Rs.8,50,000, 4-7 years of experience. CONSULTING: Average Salary(LPA) Rs.9,00,000, 4-6 years of experience. These figures are approximate and may vary based on location and individual factors."
@@ -429,7 +409,8 @@
         "Career options with BBA degree",
         "Jobs after BBA",
         "bba jobs",
-        "bba"
+        "bba",
+        "bachelor of business administration"
       ],
       "responses": [
         "- BUSINESS ANALYST: Average Salary(LPA) Rs.7,50,000, 2-5 years of experience. - MARKETING EXECUTIVE: Average Salary(LPA) Rs.7,00,000, 2-4 years of experience. - HUMAN RESOURCE MANAGER: Average Salary(LPA) Rs.8,00,000, 3-5 years of experience. - FINANCIAL ADVISOR: Average Salary(LPA) Rs.7,80,000, 2-4 years of experience. - ENTREPRENEUR: Potential earnings vary. These figures are approximate and may vary based on location and individual factors."
@@ -438,9 +419,8 @@
     {
       "tag": "cs_jobs",
       "patterns": [
-        "Job opportunities after completing CS",
-        "Career options with CS degree",
-        "Jobs after CS",
+        "Career options with Company secretary degree",
+        "Jobs after Company secretary",
         "company secretary jobs"
       ],
       "responses": [
@@ -454,7 +434,7 @@
         "Career options with CMA degree",
         "Jobs after CMA",
         "cma jobs",
-        "cost and management accountancy jobs"
+        "cost and management accountancy"
       ],
       "responses": [
         "- COST ACCOUNTANT: Average Salary(LPA) Rs.6,50,000, 2-4 years of experience. MANAGEMENT ACCOUNTANT: Average Salary(LPA) Rs.6,80,000, 2-4 years of experience. FINANCIAL ANALYST: Average Salary(LPA) Rs.7,00,000, 2-4 years of experience. BUDGET ANALYST: Average Salary(LPA) Rs.6,20,000, 1-3 years of experience. TREASURY ANALYST: Average Salary(LPA) Rs.7,20,000, 3-5 years of experience. These figures are approximate and may vary based on location and individual factors."
@@ -464,7 +444,7 @@
       "tag": "ba_jobs",
       "patterns": [
         "Job opportunities after completing BA",
-        "Career options with BA degree",
+        "Career options with B.A degree",
         "Jobs after BA",
         "bachelor of arts jobs",
         "ba jobs"
@@ -506,7 +486,7 @@
         "Job opportunities after completing B.Arch",
         "Career options with B.Arch degree",
         "Jobs after B.Arch",
-        "b arch jobs",
+        "barch jobs",
         "bachelor of architecture jobs"
       ],
       "responses": [
@@ -546,7 +526,9 @@
         "Career options with integrated law degrees",
         "Jobs after B.A. LLB, B.Com LLB, BBA LLB",
         "B.A llb",
+        "ba llb",
         "b.com LLB",
+        "b.com llb",
         "bba llb"
 
       ],
@@ -575,7 +557,8 @@
     "Jobs after Fashion Design",
     "bf tech jobs",
     "bdes jobs",
-    "bachelor of fashion technology jobs"
+    "bachelor of fashion technology jobs",
+    "fashion technology"
 
   ],
   "responses": [
@@ -600,9 +583,9 @@
   "tag": "bsc_nursing_jobs",
   "patterns": [
     "Job opportunities after completing B.Sc. Nursing",
-    "Career options with B.Sc. Nursing degree",
+    "Career options with B.Sc Nursing degree",
     "Jobs after B.Sc. Nursing",
-    "BSc Nursing jobs"
+    "BSc Nursing"
   ],
   "responses": [
     "- REGISTERED NURSE: Average Salary(LPA) Rs.4,50,000, 1-3 years of experience. NURSE PRACTITIONER: Average Salary(LPA) Rs.5,00,000, 2-4 years of experience. NURSING SUPERVISOR: Average Salary(LPA) Rs.5,50,000, 3-5 years of experience. ICU NURSE: Average Salary(LPA) Rs.4,80,000, 1-3 years of experience. PEDIATRIC NURSE: Average Salary(LPA) Rs.5,00,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
@@ -612,11 +595,13 @@
 {
   "tag": "bsc_cs_jobs",
   "patterns": [
-    "Job opportunities after completing B.Sc. Computer Science",
+    "Job opportunities after completing B.Sc Computer Science",
     "Career options with B.Sc. CS degree",
     "Jobs after B.Sc. Computer Science",
     "bsc computer science jobs",
-    "bsc cs jobs"
+    "bsc cs jobs",
+    "b.sc cs",
+    "b.sc computer science"
   ],
   "responses": [
     "- SOFTWARE ENGINEER: Average Salary(LPA) Rs.7,50,000, 2-5 years of experience. DATA SCIENTIST: Average Salary(LPA) Rs.8,50,000, 3-6 years of experience. CYBERSECURITY ANALYST: Average Salary(LPA) Rs.8,00,000, 3-5 years of experience. WEB DEVELOPER: Average Salary(LPA) Rs.7,00,000, 2-4 years of experience. IT PROJECT MANAGER: Average Salary(LPA) Rs.9,00,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
@@ -628,8 +613,9 @@
   "patterns": [
     "Job opportunities after completing B.Sc. IT",
     "Career options with B.Sc. IT degree",
-    "Jobs after B.Sc. IT",
+    "Jobs after B.Sc IT",
     "BSc IT jobs",
+    "b.sc it",
     "bsc information technology jobs"
   ],
   "responses": [
@@ -641,7 +627,7 @@
   "patterns": [
     "Job opportunities after completing B.Sc. Physics",
     "Career options with B.Sc. Physics degree",
-    "Jobs after B.Sc. Physics",
+    "Jobs after B.Sc Physics",
     "BSc Physics jobs"
   ],
   "responses": [
@@ -653,7 +639,7 @@
   "patterns": [
     "Job opportunities after completing B.Sc. Chemistry",
     "Career options with B.Sc. Chemistry degree",
-    "Jobs after B.Sc. Chemistry",
+    "Jobs after B.Sc Chemistry",
     "BSc Chemistry jobs"
   ],
   "responses": [
@@ -665,7 +651,7 @@
   "patterns": [
     "Job opportunities after completing B.Sc. Mathematics",
     "Career options with B.Sc. Mathematics degree",
-    "Jobs after B.Sc. Mathematics",
+    "Jobs after B.Sc Mathematics",
     "BSc Mathematics jobs",
     "bsc maths jobs"
   ],
@@ -731,8 +717,8 @@
   "tag": "bsc_agriculture_jobs",
   "patterns": [
     "Job opportunities after completing B.Sc. Agriculture",
-    "Career options with B.Sc. Agriculture degree",
-    "Jobs after B.Sc. Agriculture",
+    "Career options with B.Sc Agriculture degree",
+    "Jobs after B.Sc Agriculture",
     "BSc Agriculture jobs",
     "bsc agri jobs"
   ],
@@ -745,10 +731,11 @@
   "tag": "btech_agricultural_engineering_jobs",
   "patterns": [
     "Job opportunities after completing B.Tech. Agricultural Engineering",
-    "Career options with B.Tech. Agricultural Engineering degree",
-    "Jobs after B.Tech. Agricultural Engineering",
+    "Career options with B.Tech Agricultural Engineering degree",
+    "Jobs after B.Tech Agricultural Engineering",
     "BTech Agricultural Engineering jobs",
-    "BTech Agricultural jobs"
+    "BTech Agri jobs",
+    "b.tech agri"
   ],
   "responses": [
     "- AGRICULTURAL ENGINEER: Average Salary(LPA) Rs.6,00,000, 2-4 years of experience. - FARM MECHANIZATION ENGINEER: Average Salary(LPA) Rs.5,50,000, 2-4 years of experience. - IRRIGATION ENGINEER: Average Salary(LPA) Rs.5,80,000, 2-4 years of experience. - FOOD PROCESSING ENGINEER: Average Salary(LPA) Rs.6,20,000, 2-4 years of experience. - AGRICULTURAL CONSULTANT: Average Salary(LPA) Rs.6,00,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
@@ -759,7 +746,7 @@
   "tag": "bsc_horticulture_jobs",
   "patterns": [
     "Job opportunities after completing B.Sc. Horticulture",
-    "Career options with B.Sc. Horticulture degree",
+    "Career options with B.Sc Horticulture degree",
     "Jobs after B.Sc. Horticulture",
     "bsc horticulture jobs",
     "bsc horti jobs"
@@ -772,8 +759,8 @@
   "tag": "bsc_forestry_jobs",
   "patterns": [
     "Job opportunities after completing B.Sc. Forestry",
-    "Career options with B.Sc. Forestry degree",
-    "Jobs after B.Sc. Forestry",
+    "Career options with B.Sc Forestry degree",
+    "Jobs after B.Sc Forestry",
     "bsc forestry jobs"
   ],
   "responses": [
@@ -784,20 +771,33 @@
   "tag": "btech_food_technology_jobs",
   "patterns": [
     "Job opportunities after completing B.Tech. Food Technology",
-    "Career options with B.Tech. Food Technology degree",
-    "Jobs after B.Tech. Food Technology",
+    "Career options with B.Tech Food Technology degree",
+    "Jobs after B.Tech Food Technology",
     "btech food technology jobs"
   ],
   "responses": [
     "- FOOD TECHNOLOGIST: Average Salary(LPA) Rs.5,50,000, 2-4 years of experience. - QUALITY CONTROL ANALYST: Average Salary(LPA) Rs.5,20,000, 2-4 years of experience. - FOOD SAFETY OFFICER: Average Salary(LPA) Rs.5,80,000, 2-4 years of experience. - PRODUCT DEVELOPMENT MANAGER: Average Salary(LPA) Rs.6,00,000, 3-5 years of experience. - RESEARCH AND DEVELOPMENT SCIENTIST: Average Salary(LPA) Rs.6,20,000, 3-5 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
+    {
+  "tag": "mtech_food_technology_jobs",
+  "patterns": [
+    "Job opportunities after completing M.Tech in Food Technology",
+    "Career options with M.Tech Food Technology degree",
+    "Jobs after M.Tech Food Technology",
+    "MTech Food Technology"
+  ],
+  "responses": [
+    "- FOOD PROCESS ENGINEER: Average Salary ₹9,50,000 per annum, 4-7 years of experience. QUALITY ASSURANCE MANAGER: Average Salary ₹9,00,000 per annum, 3-6 years of experience. RESEARCH AND DEVELOPMENT SCIENTIST: Average Salary ₹8,80,000 per annum, 3-5 years of experience. FOOD SAFETY CONSULTANT: Average Salary ₹9,20,000 per annum, 4-6 years of experience. SUPPLY CHAIN MANAGER: Average Salary ₹10,00,000 per annum, 5-8 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+
 {
   "tag": "msc_agriculture_jobs",
   "patterns": [
     "Job opportunities after completing M.Sc. Agriculture",
-    "Career options with M.Sc. Agriculture degree",
-    "Jobs after M.Sc. Agriculture",
+    "Career options with M.Sc Agriculture degree",
+    "Jobs after M.Sc Agriculture",
     "MSc Agriculture jobs",
     "MSc Agri jobs"
   ],
@@ -810,7 +810,7 @@
   "patterns": [
     "Job opportunities after completing M.Tech. Agricultural Engineering",
     "Career options with M.Tech. Agricultural Engineering degree",
-    "Jobs after M.Tech. Agricultural Engineering",
+    "Jobs after M.Tech Agricultural Engineering",
     "MTech Agricultural Engineering jobs",
     "mtech agri"
   ],
@@ -822,10 +822,11 @@
   "tag": "msc_horticulture_jobs",
   "patterns": [
     "Job opportunities after completing M.Sc. Horticulture",
-    "Career options with M.Sc. Horticulture degree",
-    "Jobs after M.Sc. Horticulture",
+    "Career options with M.Sc Horticulture degree",
+    "Jobs after M.Sc Horticulture",
     "MSc Horticulture jobs",
-    "mtech horti"
+    "mtech horticulture engineering",
+    "m.tech horticulture engineering"
   ],
   "responses": [
     "- SENIOR HORTICULTURIST: Average Salary(LPA) Rs.8,50,000, 3-6 years of experience. - HORTICULTURE MANAGER: Average Salary(LPA) Rs.8,20,000, 3-6 years of experience. - RESEARCH AND DEVELOPMENT SPECIALIST: Average Salary(LPA) Rs.9,00,000, 4-7 years of experience. - PROFESSOR/LECTURER IN HORTICULTURE: Average Salary(LPA) Rs.9,50,000, 5-8 years of experience. - HORTICULTURE CONSULTANT: Average Salary(LPA) Rs.9,20,000, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
@@ -835,8 +836,8 @@
   "tag": "msc_forestry_jobs",
   "patterns": [
     "Job opportunities after completing M.Sc. Forestry",
-    "Career options with M.Sc. Forestry degree",
-    "Jobs after M.Sc. Forestry",
+    "Career options with M.Sc Forestry degree",
+    "Jobs after M.Sc Forestry",
     "MSc Forestry jobs"
   ],
   "responses": [
@@ -848,7 +849,7 @@
   "patterns": [
     "Job opportunities after completing Ph.D. in Agriculture",
     "Career options with Ph.D. in Agriculture",
-    "Jobs after Ph.D. in Agriculture",
+    "Jobs after Ph.D in Agriculture",
     "phd argriculture jobs",
     "phd in argriculture jobs"
   ],
@@ -860,8 +861,8 @@
   "tag": "msc_physics_jobs",
   "patterns": [
     "Job opportunities after completing M.Sc. Physics",
-    "Career options with M.Sc. Physics degree",
-    "Jobs after M.Sc. Physics",
+    "Career options with M.Sc Physics degree",
+    "Jobs after M.Sc Physics",
     "MSc Physics jobs"
   ],
   "responses": [
@@ -872,8 +873,8 @@
   "tag": "msc_chemistry_jobs",
   "patterns": [
     "Job opportunities after completing M.Sc. Chemistry",
-    "Career options with M.Sc. Chemistry degree",
-    "Jobs after M.Sc. Chemistry",
+    "Career options with M.Sc Chemistry degree",
+    "Jobs after M.Sc Chemistry",
     "MSc Chemistry jobs"
   ],
   "responses": [
@@ -884,8 +885,8 @@
   "tag": "msc_mathematics_jobs",
   "patterns": [
     "Job opportunities after completing M.Sc. Mathematics",
-    "Career options with M.Sc. Mathematics degree",
-    "Jobs after M.Sc. Mathematics",
+    "Career options with M.Sc Mathematics degree",
+    "Jobs after M.Sc Mathematics",
     "msc mathematics jobs"
   ],
   "responses": [
@@ -893,11 +894,24 @@
   ]
 },
 {
+  "tag": "bsc_botany_jobs",
+  "patterns": [
+    "Job opportunities after completing B.Sc. Botany",
+    "Career options with B.Sc Botany degree",
+    "Jobs after B.Sc. Botany",
+    "BSc Botany"
+  ],
+  "responses": [
+    "- BOTANIST: Average Salary ₹8,50,000 per annum, 3-6 years of experience. PLANT GENETICIST: Average Salary ₹8,20,000 per annum, 2-5 years of experience. ENVIRONMENTAL CONSULTANT: Average Salary ₹8,80,000 per annum, 3-6 years of experience. ECOLOGIST: Average Salary ₹8,50,000 per annum, 3-5 years of experience. HORTICULTURIST: Average Salary ₹9,00,000 per annum, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+
+{
   "tag": "msc_botany_jobs",
   "patterns": [
     "Job opportunities after completing M.Sc. Botany",
-    "Career options with M.Sc. Botany degree",
-    "Jobs after M.Sc. Botany",
+    "Career options with M.Sc Botany degree",
+    "Jobs after M.Sc Botany",
     "msc botany jobs"
   ],
   "responses": [
@@ -905,11 +919,35 @@
   ]
 },
 {
+  "tag": "bsc_zoology_jobs",
+  "patterns": [
+    "Job opportunities after completing B.Sc. Zoology",
+    "Career options with B.Sc. Zoology degree",
+    "Jobs after B.Sc Zoology",
+    "BSc Zoology"
+  ],
+  "responses": [
+    "- ZOOLOGIST: Average Salary ₹8,50,000 per annum, 3-6 years of experience. WILDLIFE BIOLOGIST: Average Salary ₹8,20,000 per annum, 2-5 years of experience. MARINE BIOLOGIST: Average Salary ₹8,80,000 per annum, 3-6 years of experience. LABORATORY TECHNICIAN: Average Salary ₹8,50,000 per annum, 3-5 years of experience. BIOLOGY TEACHER: Average Salary ₹9,00,000 per annum, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "bsc_biotechnology_jobs",
+  "patterns": [
+    "Job opportunities after completing B.Sc. Biotechnology",
+    "Career options with B.Sc Biotechnology degree",
+    "Jobs after B.Sc. Biotechnology",
+    "BSc Biotechnology"
+  ],
+  "responses": [
+    "- BIOTECHNOLOGIST: Average Salary ₹9,50,000 per annum, 4-7 years of experience. RESEARCH SCIENTIST: Average Salary ₹9,00,000 per annum, 3-6 years of experience. BIOINFORMATICIAN: Average Salary ₹8,80,000 per annum, 3-5 years of experience. PHARMACEUTICAL SALES REPRESENTATIVE: Average Salary ₹8,50,000 per annum, 2-4 years of experience. GENETIC ENGINEER: Average Salary ₹9,20,000 per annum, 4-6 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
   "tag": "msc_zoology_jobs",
   "patterns": [
     "Job opportunities after completing M.Sc. Zoology",
-    "Career options with M.Sc. Zoology degree",
-    "Jobs after M.Sc. Zoology",
+    "Career options with M.Sc Zoology degree",
+    "Jobs after M.Sc Zoology",
     "msc zoology jobs"
   ],
   "responses": [
@@ -920,8 +958,8 @@
   "tag": "msc_computer_science_jobs",
   "patterns": [
     "Job opportunities after completing M.Sc. Computer Science",
-    "Career options with M.Sc. Computer Science degree",
-    "Jobs after M.Sc. Computer Science",
+    "Career options with M.Sc Computer Science degree",
+    "Jobs after M.Sc Computer Science",
     "msc computer science jobs"
   ],
   "responses": [
@@ -933,8 +971,8 @@
   "tag": "msc_biotechnology_jobs",
   "patterns": [
     "Job opportunities after completing M.Sc. Biotechnology",
-    "Career options with M.Sc. Biotechnology degree",
-    "Jobs after M.Sc. Biotechnology",
+    "Career options with M.Sc Biotechnology degree",
+    "Jobs after M.Sc Biotechnology",
     "MSc Biotechnology jobs"
   ],
   "responses": [
@@ -945,8 +983,8 @@
   "tag": "msc_environmental_science_jobs",
   "patterns": [
     "Job opportunities after completing M.Sc. Environmental Science",
-    "Career options with M.Sc. Environmental Science degree",
-    "Jobs after M.Sc. Environmental Science",
+    "Career options with M.Sc Environmental Science degree",
+    "Jobs after M.Sc Environmental Science",
     "msc environmental scienec jobs"
   ],
   "responses": [
@@ -957,8 +995,8 @@
   "tag": "msc_microbiology_jobs",
   "patterns": [
     "Job opportunities after completing M.Sc. Microbiology",
-    "Career options with M.Sc. Microbiology degree",
-    "Jobs after M.Sc. Microbiology",
+    "Career options with M.Sc Microbiology degree",
+    "Jobs after M.Sc Microbiology",
     "msc microbiology jobs"
   ],
   "responses": [
@@ -969,8 +1007,8 @@
   "tag": "msc_statistics_jobs",
   "patterns": [
     "Job opportunities after completing M.Sc. Statistics",
-    "Career options with M.Sc. Statistics degree",
-    "Jobs after M.Sc. Statistics",
+    "Career options with M.Sc Statistics degree",
+    "Jobs after M.Sc Statistics",
     "msc statistics jobs"
   ],
   "responses": [
@@ -981,8 +1019,8 @@
   "tag": "ma_english_jobs",
   "patterns": [
     "Job opportunities after completing M.A. English",
-    "Career options with M.A. English degree",
-    "Jobs after M.A. English",
+    "Career options with M.A English degree",
+    "Jobs after M.A English",
     "ma english jobs"
   ],
   "responses": [
@@ -993,8 +1031,8 @@
   "tag": "ma_tamil_jobs",
   "patterns": [
     "Job opportunities after completing M.A. Tamil",
-    "Career options with M.A. Tamil degree",
-    "Jobs after M.A. Tamil",
+    "Career options with M.A Tamil degree",
+    "Jobs after M.A Tamil",
     "ma tamil jobs"
   ],
   "responses": [
@@ -1005,8 +1043,8 @@
   "tag": "ma_history_jobs",
   "patterns": [
     "Job opportunities after completing M.A. History",
-    "Career options with M.A. History degree",
-    "Jobs after M.A. History",
+    "Career options with M.A History degree",
+    "Jobs after M.A History",
     "ma history jobs"
   ],
   "responses": [
@@ -1017,8 +1055,8 @@
   "tag": "ma_economics_jobs",
   "patterns": [
     "Job opportunities after completing M.A. Economics",
-    "Career options with M.A. Economics degree",
-    "Jobs after M.A. Economics",
+    "Career options with M.A Economics degree",
+    "Jobs after M.A Economics",
     "ma economics jobs"
   ],
   "responses": [
@@ -1029,8 +1067,8 @@
   "tag": "ma_political_science_jobs",
   "patterns": [
     "Job opportunities after completing M.A. Political Science",
-    "Career options with M.A. Political Science degree",
-    "Jobs after M.A. Political Science",
+    "Career options with M.A Political Science degree",
+    "Jobs after M.A Political Science",
     "ma political science jobs"
   ],
   "responses": [
@@ -1041,8 +1079,8 @@
   "tag": "ma_sociology_jobs",
   "patterns": [
     "Job opportunities after completing M.A. Sociology",
-    "Career options with M.A. Sociology degree",
-    "Jobs after M.A. Sociology",
+    "Career options with M.A Sociology degree",
+    "Jobs after M.A Sociology",
     "ma sociology jobs"
   ],
   "responses": [
@@ -1053,8 +1091,8 @@
   "tag": "ma_psychology_jobs",
   "patterns": [
     "Job opportunities after completing M.A. Psychology",
-    "Career options with M.A. Psychology degree",
-    "Jobs after M.A. Psychology",
+    "Career options with M.A Psychology degree",
+    "Jobs after M.A Psychology",
     "master of arts psychology jobs",
     "ma psychology"
   ],
@@ -1131,9 +1169,12 @@
   "patterns": [
     "Job opportunities after completing M.Tech. Computer Science and Engineering",
     "Career options with M.Tech. CSE degree",
-    "Jobs after M.Tech. CSE",
+    "Jobs after M.Tech CSE",
     "mtech cse jobs",
-    "mtech computer science engineering jobs"
+    "m.e computer science engineering",
+    "me computer science engineering",
+    "mtech computer science engineering jobs",
+    "m.tech computer science engineering jobs"
   ],
   "responses": [
     "- SOFTWARE DEVELOPMENT ENGINEER: Average Salary(LPA) Rs.14,00,000, 6-10 years of experience. - MACHINE LEARNING ENGINEER: Average Salary(LPA) Rs.15,00,000, 7-12 years of experience. - COMPUTER NETWORK ARCHITECT: Average Salary(LPA) Rs.13,00,000, 5-8 years of experience. - DATABASE ADMINISTRATOR: Average Salary(LPA) Rs.12,00,000, 4-7 years of experience. - SYSTEMS ARCHITECT: Average Salary(LPA) Rs.16,00,000, 8-12 years of experience. These figures are approximate and may vary based on location and individual factors."
@@ -1145,8 +1186,11 @@
   "patterns": [
     "Job opportunities after completing M.Tech. Electrical and Electronics Engineering",
     "Career options with M.Tech. EEE degree",
-    "Jobs after M.Tech. EEE",
-    "mtech electrical and electronics engineering jobs"
+    "Jobs after M.Tech EEE",
+    "mtech electrical and electronics engineering jobs",
+    "m.tech eee",
+    "m.e eee",
+    "me eee"
   ],
   "responses": [
     "- ELECTRICAL ENGINEER: Average Salary(LPA) Rs.12,00,000, 5-8 years of experience. - ELECTRONICS ENGINEER: Average Salary(LPA) Rs.11,00,000, 4-7 years of experience. - POWER ENGINEER: Average Salary(LPA) Rs.13,00,000, 6-10 years of experience. - CONTROL SYSTEMS ENGINEER: Average Salary(LPA) Rs.14,00,000, 7-12 years of experience. - AUTOMATION ENGINEER: Average Salary(LPA) Rs.12,50,000, 6-9 years of experience. These figures are approximate and may vary based on location and individual factors."
@@ -1157,8 +1201,10 @@
   "patterns": [
     "Job opportunities after completing M.Tech. Mechanical Engineering",
     "Career options with M.Tech. Mechanical degree",
-    "Jobs after M.Tech. Mechanical",
-    "mtech mechanical engineering"
+    "Jobs after M.Tech Mechanical enginneering",
+    "mtech mechanical engineering",
+    "m.e mechanical engineering",
+    "me mechanical engineering"
   ],
   "responses": [
     "- MECHANICAL ENGINEER: Average Salary(LPA) Rs.12,00,000, 5-8 years of experience. - DESIGN ENGINEER: Average Salary(LPA) Rs.11,00,000, 4-7 years of experience. - MANUFACTURING ENGINEER: Average Salary(LPA) Rs.13,00,000, 6-10 years of experience. - THERMAL ANALYST: Average Salary(LPA) Rs.14,00,000, 7-12 years of experience. - PROJECT MANAGER: Average Salary(LPA) Rs.15,00,000, 8-12 years of experience. These figures are approximate and may vary based on location and individual factors."
@@ -1169,8 +1215,11 @@
   "patterns": [
     "Job opportunities after completing M.Tech. Civil Engineering",
     "Career options with M.Tech. Civil degree",
-    "Jobs after M.Tech. Civil",
-    "mtech civil engineering jobs"
+    "Jobs after M.Tech Civil",
+    "mtech civil engineering jobs",
+    "m.tech civil engineering",
+    "me civil engineering",
+    "m.e civil engineering"
   ],
   "responses": [
     "- CIVIL ENGINEER: Average Salary(LPA) Rs.12,00,000, 5-8 years of experience. - STRUCTURAL ENGINEER: Average Salary(LPA) Rs.11,00,000, 4-7 years of experience. - TRANSPORTATION ENGINEER: Average Salary(LPA) Rs.13,00,000, 6-10 years of experience. - ENVIRONMENTAL ENGINEER: Average Salary(LPA) Rs.14,00,000, 7-12 years of experience. - PROJECT MANAGER: Average Salary(LPA) Rs.15,00,000, 8-12 years of experience. These figures are approximate and may vary based on location and individual factors."
@@ -1181,8 +1230,15 @@
   "patterns": [
     "Job opportunities after completing M.Tech. Electronics and Communication Engineering",
     "Career options with M.Tech. ECE degree",
-    "Jobs after M.Tech. ECE",
-    "MTech Electronics and Communication Engineering"
+    "Jobs after M.Tech ECE",
+    "MTech Electronics and Communication Engineering",
+    "m.tech Electronics and Communication Engineering",
+    "m.e Electronics and Communication Engineering",
+    "me Electronics and Communication Engineering",
+    "me ece",
+    "m.e ece",
+    "M.Tech ECE",
+    "MTech ECE"
   ],
   "responses": [
     "- ELECTRONICS ENGINEER: Average Salary(LPA) Rs.12,00,000, 5-8 years of experience. - COMMUNICATIONS ENGINEER: Average Salary(LPA) Rs.11,00,000, 4-7 years of experience. - SIGNAL PROCESSING ENGINEER: Average Salary(LPA) Rs.13,00,000, 6-10 years of experience. - VLSI DESIGN ENGINEER: Average Salary(LPA) Rs.14,00,000, 7-12 years of experience. - TELECOMMUNICATIONS ENGINEER: Average Salary(LPA) Rs.15,00,000, 8-12 years of experience. These figures are approximate and may vary based on location and individual factors."
@@ -1232,23 +1288,10 @@
     "Career options with M.Pharm degree",
     "Jobs after M.Pharm",
     "mpharm jobs",
-    "mastre of pharmacy"
+    "master of pharmacy"
   ],
   "responses": [
     "- PHARMACEUTICAL RESEARCHER: Average Salary(LPA) Rs.9,00,000, 4-7 years of experience. - PHARMACIST: Average Salary(LPA) Rs.8,50,000, 3-5 years of experience. - PHARMACEUTICAL MANUFACTURING MANAGER: Average Salary(LPA) Rs.8,80,000, 3-6 years of experience. - REGULATORY AFFAIRS MANAGER: Average Salary(LPA) Rs.9,50,000, 4-6 years of experience. - CLINICAL RESEARCH ASSOCIATE: Average Salary(LPA) Rs.10,00,000, 5-8 years of experience. These figures are approximate and may vary based on location and individual factors."
-  ]
-},
-{
-  "tag": "majmc_jobs",
-  "patterns": [
-    "Job opportunities after completing MA JMC",
-    "Career options with MA JMC degree",
-    "Jobs after MA JMC",
-    "ma jmc",
-    "Master of Arts in Journalism and Mass Communication jobs"
-  ],
-  "responses": [
-    "- JOURNALIST: Average Salary(LPA) Rs.6,50,000, 2-5 years of experience. - CONTENT WRITER: Average Salary(LPA) Rs.6,00,000, 1-3 years of experience. - MEDIA PLANNER: Average Salary(LPA) Rs.7,00,000, 3-6 years of experience. - PUBLIC RELATIONS SPECIALIST: Average Salary(LPA) Rs.7,50,000, 4-7 years of experience. - ADVERTISING MANAGER: Average Salary(LPA) Rs.8,00,000, 5-8 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -1261,19 +1304,6 @@
   ],
   "responses": [
     "- PHARMACEUTICAL RESEARCHER: Average Salary(LPA) Rs.8,00,000, 2-5 years of experience. - PHARMACIST: Average Salary(LPA) Rs.7,50,000, 2-4 years of experience. - PHARMACEUTICAL MANUFACTURING MANAGER: Average Salary(LPA) Rs.7,80,000, 2-5 years of experience. - REGULATORY AFFAIRS MANAGER: Average Salary(LPA) Rs.7,50,000, 2-4 years of experience. - CLINICAL RESEARCH ASSOCIATE: Average Salary(LPA) Rs.7,00,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
-  ]
-},
-{
-  "tag": "ba_jmc_jobs",
-  "patterns": [
-    "Job opportunities after B.A. Journalism and Mass Communication",
-    "Career options with BA JMC degree",
-    "Jobs after completing Journalism and Mass Communication course",
-    "ba jmc jobs",
-    ""
-  ],
-  "responses": [
-    "- JOURNALIST: Average Salary(LPA) Rs.7,00,000, 3-6 years of experience.\n- MEDIA PLANNER: Average Salary(LPA) Rs.8,00,000, 4-7 years of experience.\n- CONTENT WRITER: Average Salary(LPA) Rs.6,50,000, 2-4 years of experience.\n- PUBLIC RELATIONS SPECIALIST: Average Salary(LPA) Rs.7,50,000, 3-6 years of experience.\n- SOCIAL MEDIA MANAGER: Average Salary(LPA) Rs.8,50,000, 4-7 years of experience.\nThese figures are approximate and may vary based on location and individual factors."
   ]
 },
 {
@@ -1371,7 +1401,8 @@
     "Job opportunities after B.Tech in Artificial Intelligence and Data Science",
     "Career options with B.Tech AI/DS degree",
     "Jobs after completing AI and Data Science course",
-    "btech ai/ds jobs"
+    "btech ai/ds jobs",
+    "b.tech ai/ds"
   ],
   "responses": [
     "- DATA SCIENTIST: Average Salary(LPA) Rs.10,00,000, 2-5 years of experience. - MACHINE LEARNING ENGINEER: Average Salary(LPA) Rs.9,50,000, 2-4 years of experience. - ARTIFICIAL INTELLIGENCE ENGINEER: Average Salary(LPA) Rs.9,80,000, 2-5 years of experience. - BIG DATA ENGINEER: Average Salary(LPA) Rs.9,50,000, 2-4 years of experience. - BUSINESS INTELLIGENCE ANALYST: Average Salary(LPA) Rs.9,00,000, 2-4 years of experience. These figures are approximate and may vary based on location and individual factors."
@@ -1382,8 +1413,11 @@
   "patterns": [
     "Job opportunities after completing B.Tech in Aeronautical Engineering",
     "Career options with B.Tech Aeronautical Engineering degree",
-    "Jobs after B.Tech in Aeronautical Engineering jobs",
-    "btech aeronautical jobs"
+    "Jobs after B.Tech Aeronautical Engineering jobs",
+    "btech aeronautical engineering jobs",
+    "b.tech aeronautical engineerinng",
+    "b.e aeronautical engineering",
+    "be aeronautical engineering"
   ],
   "responses": [
     "- AEROSPACE ENGINEER: Average Salary(LPA) Rs.7,00,000, 3-6 years of experience. - AIRCRAFT MAINTENANCE ENGINEER: Average Salary(LPA) Rs.6,50,000, 2-5 years of experience. - AVIONICS ENGINEER: Average Salary(LPA) Rs.6,80,000, 3-6 years of experience. - FLIGHT TEST ENGINEER: Average Salary(LPA) Rs.7,20,000, 4-7 years of experience. - AERODYNAMICS ENGINEER: Average Salary(LPA) Rs.6,50,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
@@ -1396,7 +1430,10 @@
     "Career options with B.Tech Automobile Engineering degree",
     "Jobs after B.Tech in Automobile Engineering",
     "btech automobile jobs",
-    "btech automobile engineering"
+    "btech automobile engineering",
+    "b.tech automobile engineering",
+    "b.e automobile engineering",
+    "be automobile engineering"
   ],
   "responses": [
     "- AUTOMOTIVE ENGINEER: Average Salary(LPA) Rs.6,00,000, 2-5 years of experience. - AUTOMOBILE DESIGN ENGINEER: Average Salary(LPA) Rs.5,80,000, 2-5 years of experience. - PRODUCTION PLANNING ENGINEER: Average Salary(LPA) Rs.5,50,000, 2-5 years of experience. - AUTOMOBILE SERVICE ENGINEER: Average Salary(LPA) Rs.5,70,000, 2-5 years of experience. - TESTING ENGINEER (AUTOMOBILE): Average Salary(LPA) Rs.5,90,000, 2-5 years of experience. These figures are approximate and may vary based on location and individual factors."
@@ -1409,10 +1446,121 @@
     "Career options with B.Tech Biotechnology degree",
     "Jobs after B.Tech in Biotechnology",
     "BTECH BIOTECHNOLOGY",
-    "btech biotech jobs"
+    "btech biotech jobs",
+    "B.TECH BIOTECHNOLOGY",
+    "B.E BIOTECHNOLOGY",
+    "be BIOTECHNOLOGY"
   ],
   "responses": [
     "- BIOTECHNOLOGIST: Average Salary(LPA) Rs.5,50,000, 2-5 years of experience. - RESEARCH SCIENTIST (BIOTECH): Average Salary(LPA) Rs.6,00,000, 2-5 years of experience. - BIOINFORMATICIAN: Average Salary(LPA) Rs.5,80,000, 2-5 years of experience. - PHARMACEUTICAL BIOCHEMIST: Average Salary(LPA) Rs.5,70,000, 2-5 years of experience. - MEDICAL LABORATORY TECHNICIAN: Average Salary(LPA) Rs.5,40,000, 2-5 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "bsc_environmental_science_jobs",
+  "patterns": [
+    "Job opportunities after completing B.Sc. Environmental Science",
+    "Career options with B.Sc. Environmental Science degree",
+    "Jobs after B.Sc Environmental Science",
+    "BSc Environmental Science"
+  ],
+  "responses": [
+    "- ENVIRONMENTAL SCIENTIST: Average Salary ₹8,50,000 per annum, 3-6 years of experience. ECOLOGIST: Average Salary ₹8,20,000 per annum, 2-5 years of experience. WILDLIFE BIOLOGIST: Average Salary ₹8,80,000 per annum, 3-6 years of experience. SUSTAINABILITY CONSULTANT: Average Salary ₹8,50,000 per annum, 3-5 years of experience. ENVIRONMENTAL EDUCATOR: Average Salary ₹9,00,000 per annum, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "bsc_microbiology_jobs",
+  "patterns": [
+    "Job opportunities after completing B.Sc. Microbiology",
+    "Career options with B.Sc. Microbiology degree",
+    "Jobs after B.Sc Microbiology",
+    "BSc Microbiology"
+  ],
+  "responses": [
+    "- MICROBIOLOGIST: Average Salary ₹9,50,000 per annum, 4-7 years of experience. MEDICAL LAB TECHNICIAN: Average Salary ₹9,00,000 per annum, 3-6 years of experience. PHARMACEUTICAL SALES REPRESENTATIVE: Average Salary ₹8,80,000 per annum, 3-5 years of experience. RESEARCH ASSISTANT: Average Salary ₹8,50,000 per annum, 2-4 years of experience. FOOD TECHNOLOGIST: Average Salary ₹9,20,000 per annum, 4-6 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "bsc_statistics_jobs",
+  "patterns": [
+    "Job opportunities after completing B.Sc. Statistics",
+    "Career options with B.Sc. Statistics degree",
+    "Jobs after B.Sc Statistics",
+    "Bsc Statistics"
+  ],
+  "responses": [
+    "- STATISTICIAN: Average Salary ₹8,50,000 per annum, 3-6 years of experience. DATA ANALYST: Average Salary ₹8,20,000 per annum, 2-5 years of experience. RESEARCH ANALYST: Average Salary ₹8,80,000 per annum, 3-6 years of experience. ACTUARY: Average Salary ₹8,50,000 per annum, 3-5 years of experience. BUSINESS INTELLIGENCE ANALYST: Average Salary ₹9,00,000 per annum, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "ba_english_jobs",
+  "patterns": [
+    "Job opportunities after completing B.A. English",
+    "Career options with B.A. English degree",
+    "Jobs after B.A English",
+    "ba english"
+  ],
+  "responses": [
+    "- CONTENT WRITER: Average Salary ₹7,50,000 per annum, 1-3 years of experience. EDITOR: Average Salary ₹7,00,000 per annum, 1-3 years of experience. TEACHER/PROFESSOR: Average Salary ₹7,80,000 per annum, 2-4 years of experience. JOURNALIST: Average Salary ₹7,50,000 per annum, 2-4 years of experience. SOCIAL MEDIA MANAGER: Average Salary ₹8,00,000 per annum, 3-5 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "ba_tamil_jobs",
+  "patterns": [
+    "Job opportunities after completing B.A. Tamil",
+    "Career options with B.A. Tamil degree",
+    "Jobs after B.A Tamil",
+    "ba tamil"
+  ],
+  "responses": [
+    "- TRANSLATOR: Average Salary ₹7,50,000 per annum, 1-3 years of experience. TEACHER/PROFESSOR: Average Salary ₹7,00,000 per annum, 1-3 years of experience. CONTENT WRITER: Average Salary ₹7,80,000 per annum, 2-4 years of experience. JOURNALIST: Average Salary ₹7,50,000 per annum, 2-4 years of experience. LINGUIST: Average Salary ₹8,00,000 per annum, 3-5 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "ba_history_jobs",
+  "patterns": [
+    "Job opportunities after completing B.A. History",
+    "Career options with B.A. History degree",
+    "Jobs after B.A History",
+    "ba history"
+  ],
+  "responses": [
+    "- MUSEUM CURATOR: Average Salary ₹7,50,000 per annum, 1-3 years of experience. ARCHIVIST: Average Salary ₹7,00,000 per annum, 1-3 years of experience. TEACHER/PROFESSOR: Average Salary ₹7,80,000 per annum, 2-4 years of experience. HISTORICAL RESEARCHER: Average Salary ₹7,50,000 per annum, 2-4 years of experience. TOUR GUIDE: Average Salary ₹8,00,000 per annum, 3-5 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "ba_economics_jobs",
+  "patterns": [
+    "Job opportunities after completing B.A. Economics",
+    "Career options with B.A. Economics degree",
+    "Jobs after B.A. Economics",
+    "ba economics"
+  ],
+  "responses": [
+    "- ECONOMIST: Average Salary ₹8,50,000 per annum, 3-6 years of experience. FINANCIAL ANALYST: Average Salary ₹8,20,000 per annum, 2-5 years of experience. RESEARCH ANALYST: Average Salary ₹8,80,000 per annum, 3-6 years of experience. BANKING PROFESSIONAL: Average Salary ₹8,50,000 per annum, 3-5 years of experience. POLICY ANALYST: Average Salary ₹9,00,000 per annum, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "ba_political_science_jobs",
+  "patterns": [
+    "Job opportunities after completing B.A. Political Science",
+    "Career options with B.A. Political Science degree",
+    "Jobs after B.A Political Science",
+    "ba political science"
+  ],
+  "responses": [
+    "- POLITICAL ANALYST: Average Salary ₹8,50,000 per annum, 3-6 years of experience. PUBLIC RELATIONS SPECIALIST: Average Salary ₹8,20,000 per annum, 2-5 years of experience. JOURNALIST: Average Salary ₹8,80,000 per annum, 3-6 years of experience. LEGAL ASSISTANT: Average Salary ₹8,50,000 per annum, 3-5 years of experience. POLICY ADVISOR: Average Salary ₹9,00,000 per annum, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "bsc_sociology_jobs",
+  "patterns": [
+    "Job opportunities after completing B.Sc. Sociology",
+    "Career options with B.Sc. Sociology degree",
+    "Jobs after B.Sc Sociology",
+    "bsc Sociology"
+  ],
+  "responses": [
+    "- SOCIAL WORKER: Average Salary ₹8,50,000 per annum, 3-6 years of experience. HUMAN RESOURCES SPECIALIST: Average Salary ₹8,20,000 per annum, 2-5 years of experience. COUNSELOR: Average Salary ₹8,80,000 per annum, 3-6 years of experience. MARKET RESEARCH ANALYST: Average Salary ₹8,50,000 per annum, 3-5 years of experience. COMMUNITY DEVELOPMENT OFFICER: Average Salary ₹9,00,000 per annum, 4-7 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 }
   ]
