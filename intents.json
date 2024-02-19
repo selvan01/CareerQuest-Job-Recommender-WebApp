@@ -3,8 +3,10 @@
     {
       "tag": "greeting",
       "patterns": [
+        "Hi",
+        "Hii",
         "Hiii",
-        "haiii",
+        "haiiii",
         "hellooo",
         "heyyyy",
         "Who are you?"
@@ -21,7 +23,7 @@
         "How you doing"
       ],
         "responses": [
-          "Thanks for asking,I'm doing good how about you?!"
+          "Thanks for asking,I'm doing good how can I help you?!"
         ]
     },
     
@@ -49,20 +51,8 @@
     },
     {
       "tag": "thanks",
-      "patterns": ["Thankssss", "Thank you", "That's helpful", "Thank's a lot!","tqsm"],
+      "patterns": ["Thankssss", "Thank you", "That's helpful", "Thank's a lot!","tqsm","thank u"],
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
-      ]
     },
     {
   "tag": "tenth_twelfth_fail_jobs",
@@ -81,6 +71,25 @@
     "- SKILLED TRADES: Explore vocational training in carpentry, plumbing, or electrical work. - RETAIL JOBS: Opportunities in retail, such as sales, cashier, or customer service roles. - ENTREPRENEURSHIP: Consider starting a small business based on your skills or interests. - APPRENTICESHIPS: Look for apprenticeship programs in various industries. - FREELANCING: Explore freelancing opportunities in areas like writing, graphic design, or online services. It's important to focus on developing skills and finding a path that aligns with your strengths and interests."
   ]
 },
+    {
+  "tag": "it_jobs",
+  "patterns": [
+    "Job opportunities after completing Information Technology",
+    "Career options with IT degree",
+    "Jobs after IT",
+    "be it jobs",
+    "b.tech it",
+    "b.tech information technology",
+    "btech information technology",
+    "b.e information technology",
+    "be information technology",
+    "b.e it jobs"
+  ],
+  "responses": [
+    "- SOFTWARE DEVELOPER: Average Salary(LPA) Rs.6,50,000, 1-3 years of experience. SYSTEMS ANALYST: Average Salary(LPA) Rs.6,80,000, 2-4 years of experience. NETWORK ADMINISTRATOR: Average Salary(LPA) Rs.6,20,000, 2-4 years of experience. DATABASE ADMINISTRATOR: Average Salary(LPA) Rs.6,90,000, 2-4 years of experience. IT CONSULTANT: Average Salary(LPA) Rs.7,00,000, 2-5 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+}
+
 
     {
       "tag": "ece_jobs",
@@ -153,6 +162,107 @@
     "- CHEMICAL ENGINEER: Average Salary(LPA) ₹7,20,000, 2-5 years of experience. PROCESS ENGINEER: Average Salary(LPA) ₹7,80,000, 3-6 years of experience. PETROLEUM ENGINEER: Average Salary(LPA) ₹8,50,000, 3-5 years of experience. RESEARCH SCIENTIST: Average Salary(LPA) ₹8,00,000, 2-4 years of experience. ENVIRONMENTAL ENGINEER: Average Salary(LPA) ₹7,50,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
   ]
 },
+    {
+  "tag": "bsc_forensics_jobs",
+  "patterns": [
+    "Job opportunities after completing B.Sc in Forensics",
+    "Career options with Forensics degree",
+    "Forensic science jobs",
+    "bsc forensics jobs"
+  ],
+  "responses": [
+    "- FORENSIC SCIENTIST: Average Salary(LPA) Rs.5,50,000, 1-3 years of experience. CRIME SCENE INVESTIGATOR: Average Salary(LPA) Rs.5,80,000, 2-4 years of experience. FORENSIC TOXICOLOGIST: Average Salary(LPA) Rs.6,20,000, 2-4 years of experience. DIGITAL FORENSIC ANALYST: Average Salary(LPA) Rs.6,50,000, 2-5 years of experience. FORENSIC PATHOLOGIST: Average Salary(LPA) Rs.6,80,000, 3-6 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "mph_jobs",
+  "patterns": [
+    "Job opportunities after completing Master of Public Health",
+    "Career options with MPH degree",
+    "Jobs after MPH"
+  ],
+  "responses": [
+    "- PUBLIC HEALTH ANALYST: Average Salary ₹9,00,000 per annum, 4-7 years of experience. - HEALTH POLICY ADVISOR: Average Salary ₹8,50,000 per annum, 3-5 years of experience. - EPIDEMIOLOGIST: Average Salary ₹8,80,000 per annum, 3-6 years of experience. - HEALTHCARE CONSULTANT: Average Salary ₹9,50,000 per annum, 4-6 years of experience. - COMMUNITY HEALTH MANAGER: Average Salary ₹10,00,000 per annum, 5-8 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+{
+  "tag": "ma_film_tv_production_jobs",
+  "patterns": [
+    "Job opportunities after completing MA in Film and Television Production",
+    "Career options with MA Film and Television Production degree",
+    "Jobs after MA Film and Television Production"
+  ],
+  "responses": [
+    "- FILM PRODUCER: Average Salary ₹10,00,000 per annum, 5-8 years of experience.",
+    "- CINEMATOGRAPHER: Average Salary ₹9,50,000 per annum, 4-7 years of experience.",
+    "- VIDEO EDITOR: Average Salary ₹8,80,000 per annum, 3-6 years of experience.",
+    "- PRODUCTION DESIGNER: Average Salary ₹9,20,000 per annum, 4-6 years of experience.",
+    "- SCRIPTWRITER: Average Salary ₹8,50,000 per annum, 3-5 years of experience.",
+    "These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+    {
+  "tag": "msc_cinematography_jobs",
+  "patterns": [
+    "Job opportunities after completing M.Sc. in Cinematography",
+    "Career options with M.Sc. Cinematography degree",
+    "Jobs after M.Sc. Cinematography"
+  ],
+  "responses": [
+    "- DIRECTOR OF PHOTOGRAPHY: Average Salary ₹9,50,000 per annum, 4-7 years of experience.",
+    "- CINEMA TECHNICIAN: Average Salary ₹8,80,000 per annum, 3-6 years of experience.",
+    "- FILM EDITOR: Average Salary ₹8,50,000 per annum, 3-5 years of experience.",
+    "- LIGHTING TECHNICIAN: Average Salary ₹8,20,000 per annum, 2-4 years of experience.",
+    "- COLORIST: Average Salary ₹9,00,000 per annum, 4-6 years of experience.",
+    "These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+    {
+  "tag": "mdes_film_design_jobs",
+  "patterns": [
+    "Job opportunities after completing M.Des in Film Design",
+    "Career options with M.Des Film Design degree",
+    "Jobs after M.Des Film Design",
+    "MDes Film Design"
+  ],
+  "responses": [
+    "- FILM ART DIRECTOR: Average Salary ₹10,50,000 per annum, 5-8 years of experience.",
+    "- VISUAL EFFECTS (VFX) ARTIST: Average Salary ₹9,80,000 per annum, 4-7 years of experience.",
+    "- ANIMATION DIRECTOR: Average Salary ₹9,20,000 per annum, 3-6 years of experience.",
+    "- STORYBOARD ARTIST: Average Salary ₹8,50,000 per annum, 3-5 years of experience.",
+    "- FILM GRAPHIC DESIGNER: Average Salary ₹9,00,000 per annum, 4-6 years of experience.",
+    "These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+    {
+  "tag": "msc_cinematography_jobs",
+  "patterns": [
+    "Job opportunities after completing M.Sc. in Cinematography",
+    "Career options with M.Sc. Cinematography degree",
+    "Jobs after M.Sc. Cinematography",
+    "MSc Cinematography"
+  ],
+  "responses": [
+    "- DIRECTOR OF PHOTOGRAPHY: Average Salary ₹9,50,000 per annum, 4-7 years of experience. - CINEMA TECHNICIAN: Average Salary ₹8,80,000 per annum, 3-6 years of experience. - FILM EDITOR: Average Salary ₹8,50,000 per annum, 3-5 years of experience. - LIGHTING TECHNICIAN: Average Salary ₹8,20,000 per annum, 2-4 years of experience. - COLORIST: Average Salary ₹9,00,000 per annum, 4-6 years of experience. These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+    {
+  "tag": "mft_cinematography_jobs",
+  "patterns": [
+    "Job opportunities after completing MFTech in Cinematography",
+    "Career options with MFTech Cinematography degree",
+    "Jobs after MFTech Cinematography"
+  ],
+  "responses": [
+    "- DIRECTOR OF PHOTOGRAPHY: Average Salary ₹10,00,000 per annum, 5-8 years of experience.",
+    "- CINEMATOGRAPHY SUPERVISOR: Average Salary ₹9,50,000 per annum, 4-7 years of experience.",
+    "- CAMERA OPERATOR: Average Salary ₹8,80,000 per annum, 3-6 years of experience.",
+    "- LIGHTING TECHNICIAN: Average Salary ₹8,50,000 per annum, 3-5 years of experience.",
+    "- FILM COLORIST: Average Salary ₹9,20,000 per annum, 4-6 years of experience.",
+    "These figures are approximate and may vary based on location and individual factors."
+  ]
+},
+
 
     {
       "tag": "civil_engineering_jobs",
@@ -457,20 +567,6 @@
       ]
     },
 
-
-    {
-      "tag": "bjmc_jobs",
-      "patterns": [
-        "Job opportunities after completing BJMC",
-        "Career options with BJMC degree",
-        "Jobs after BJMC",
-        "bjmc jobs",
-        "mass communication and journalism jobs"
-      ],
-      "responses": [
-        "- JOURNALIST: Average Salary(LPA) Rs.5,00,000, 1-3 years of experience. EDITOR: Average Salary(LPA) Rs.5,50,000, 2-4 years of experience. PUBLIC RELATIONS SPECIALIST: Average Salary(LPA) Rs.4,80,000, 1-3 years of experience. MEDIA PLANNER: Average Salary(LPA) Rs.5,20,000, 2-4 years of experience. CONTENT WRITER: Average Salary(LPA) Rs.4,50,000, 1-3 years of experience. These figures are approximate and may vary based on location and individual factors."
-      ]
-    },
 {
   "tag": "fashion_design_jobs",
   "patterns": [
