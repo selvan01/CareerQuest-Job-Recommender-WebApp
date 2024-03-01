@@ -31,7 +31,8 @@ the following command to test it in the console.
 $ (venv) python chat.py
 ```
 
-To run this app locally:
+To run this app locally :
+open: localhost:127.0.0.1:5000
 ```
 $ (venv) python app.py
 ```
