@@ -8,6 +8,10 @@ app = Flask(__name__)
 def index_get():
     return render_template("base.html")
 
+@app.route("/Contact")
+def Contact():
+    return render_template("contact.html")
+
 
 @app.post("/predict")
 def predict():
