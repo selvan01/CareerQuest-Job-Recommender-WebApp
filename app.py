@@ -12,6 +12,21 @@ def index_get():
 def Contact():
     return render_template("contact.html")
 
+@app.route("/tenth")
+def tenth():
+    return render_template("10th.html")
+
+@app.route("/twelve")
+def twelve():
+    return render_template("12th.html")
+
+@app.route("/College")
+def College():
+    return render_template("college.html")
+
+@app.route("/Suggestion")
+def tips():
+    return render_template("tips.html")
 
 @app.post("/predict")
 def predict():
