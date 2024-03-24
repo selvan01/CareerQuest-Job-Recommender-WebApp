@@ -180,6 +180,51 @@ wrapper.addEventListener("mouseleave", autoPlay);
 var voice=document.getElementById("vvv");
 var hear=document.getElementById("hear");
 
+var sendbtn=document.getElementById("sendbtn")
+
+sendbtn.addEventListener("click",function(){
+    
+    let lastname=hear.value;
+    let firstname= "hello";
+    
+    if(lastname == ""){
+        alert("enter the chat")
+    }
+    else{
+        setCookie(firstname,lastname,365)
+    }
+})
+
+function setCookie(name,value,time){
+    let d = new Date()
+
+    d.setTime(d.getTime() + (time*24*60*60*1000))
+
+    let expires = "expires =" + d.toUTCString()
+    
+    document.cookie = `${name}=${value};${expires};path='/'`
+
+   
+}
+function getCookie(){
+    let cookies = document.cookie.split(";")
+
+    let res;
+
+    for(let i=1;i<cookies.length;i++){
+        res+=i+ '-' + cookies [i-1] + "<br>"
+    }
+
+    document.getElementById("result").innerHTML+= res
+    
+}
+ let result=document.getElementById("result");
+ let getbutton=document.getElementById("getbtn");
+
+ getbutton.addEventListener("click",function(){
+    result.style.display="block"
+ })
+
 voice.addEventListener("click",function(){
     var speech=true;
     window.SpeechRecongnition=window.webkitSpeechRecognition;
@@ -261,4 +306,12 @@ body.addEventListener("click" , e =>{
     }
 });
 
+var about = document.querySelector(".right");
+modeToggle.addEventListener ("click" ,()=>{
+    about.style.backgroundImage="url('funny.gif')";
+});
+
+function change(){
+    about.body.style.backgroundImage="url('funny.gif')";
+}
 
