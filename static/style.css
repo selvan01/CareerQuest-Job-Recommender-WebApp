@@ -120,6 +120,11 @@ body {
     border-bottom-right-radius: 20px;
 }
 
+.responsechat{
+  display: none;
+  color: white;
+}
+
 /* HEADER */
 .chatbox__header {
     background: var(--primaryGradient);
