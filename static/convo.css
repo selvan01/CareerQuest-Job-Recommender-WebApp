@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.conversation-container {
+    margin-top: 20px;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+.user {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.bot {
+    background-color: #e6e6ff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.center-align {
+    text-align: center;
+}
+
+.gback-btn {
+    background-color: #c82333; /* Blue */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.gback-btn:hover {
+    background-color: #393838; /* Darker Blue */
+}
+
