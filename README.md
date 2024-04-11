@@ -1,10 +1,10 @@
-# Chatbot Deployment with Flask and JavaScript
+# Career Quest- Integrating NLP Chatbot into Web Application
 This is my Final Year Academic Project.
 ## Initial Setup:
 
 Clone repo and create a virtual environment
 ```
-$ git clone https://github.com/selvan01/Job-Recommender.git
+$ git clone https://github.com/selvan01/Career Quest-Job Recommender.git
 $ cd Job-Recommender
 $ python3 -m venv venv
 $ . venv/bin/activate
