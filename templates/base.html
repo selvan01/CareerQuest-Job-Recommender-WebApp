@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="boxicons.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/jpg" href="https://icons8.com/icon/dxoYK8bxqiJr/globe-africa"/>
+  <title>Career Quest</title>
+</head>
+<body">
+<nav>
+      <div class="nav-bar">
+          <i class='bx bx-menu sidebarOpen' ></i>
+          <span class="logo navLogo"><a href="#">Career Quest</a></span>
+          <div class="menu">
+              <div class="logo-toggle">
+                  <span class="logo"><a href="#">Career Quest</a></span>
+                  <i class='bx bx-x siderbarClose'></i>
+              </div>
+              <ul class="nav-links">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#faq">FAQ</a></li>
+                  <li><a href="/Contact">Contact</a></li>
+              </ul>
+          </div>
+          
+          <div class="darkLight-searchBox">
+              <div class="dark-light">
+                  <i class='bx bx-moon moon'></i>
+                  <i class='bx bx-sun sun'></i>
+              </div>
+          </div>
+          {% if current_user.is_authenticated %}
+<div class="logout-btn">
+  <form action="{{ url_for('logout') }}" method="post">
+    <button type="submit">
+      <i class="bx bx-user"></i> Logout
+    </button>
+  </form>
+</div>
+{% endif %}
+
+      </div>
+  </nav>
+<!--<header class="header" data-aos="fade-top" data-aos-duration="3000">
+  <div class="portfolio">
+      <img src="mainlogo.avif" width="160x100">
+  </div>
+  <div class="menu-btn" id="menu-btn">
+      <i class='bx bx-menu' class="menu-btn" id="btn-menu"></i>
+  </div>
+  <div class="nav-bar">
+  <ul>
+      <li><a href="#home" class="active"  >Home</a></li>
+      <li><a href="about" >About </a></li>
+      <li><a href="#design" >Services</a></li>
+      <li><a href="contact.html" >Contact </a></li>
+
+  </ul>    
+  </div>
+ 
+</header>-->
+<div class="mainframe">
+  <img src="{{ url_for('static', filename='images/hd.jpg') }}" width="150%" class="main-back">
+  <div class="overlay"></div>
+  <div class="heading" data-aos="fade-top" data-aos-duration="3000">
+      <h1 class="heading-font">Your Bright Future Starts Here</h1>
+  </div>
+  <div class="heading2" data-aos="fade-top" data-aos-duration="3000">
+      <h3 class="heading-font2">Discover, Learn, and Succeed with Career Quest</h3>
+  </div>
+</div>
+
+ 
+  <div class="text">
+             
+        <h1 class="right"  data-aos="fade-top" data-aos-duration="3000" id="about">CAREER QUEST</h1>
+  </div>
+  <button id="btn" class="speak-btn"  data-aos="fade-right" data-aos-duration="3000"><img src="{{ url_for('static', filename='images/play2.jpg') }}" width="150x150"></button>
+  <div class="gallery" data-aos="fade-left" data-aos-duration="2000">
+    <div>
+      <button class="button">Personalized career guidance and job suggestions</button>
+  </div>
+  <div>
+      <button class="button">Interactive Chat Bot for instant job role recommendations</button>
+  </div>
+  <div>
+      <button class="button">Curated government exam suggestions and resource links</button>
+  </div>
+  </div>
+  <br><br><br><br><br>
+  <hr></hr>
+  <div class="text">
+             
+    <h1 class="rightfeatures" data-aos="fade-top" data-aos-duration="3000">OUR TEAM</h1>
+</div>
+<section class="team">
+  <div class="row">
+    <!-- Column 1-->
+    <div class="column">
+      <div class="team-card">
+        <div class="img-container">
+          <img src="{{ url_for('static', filename='images/sudarsan.webp') }}" />
+        </div>
+        <h3>SUDARSAN</h3>
+        <p>DEVELOPER</p>
+        <div class="icons">
+          <a href="https://www.linkedin.com/in/sudarsan-r-359786294/">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/14sudarsan">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:sudarsanraj14@gmail.com">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Column 2-->
+    <div class="column">
+      <div class="team-card">
+        <div class="img-container">
+          <img src="{{ url_for('static', filename='images/SN.jpg') }}" />
+        </div>
+        <h3>SELVAN</h3>
+        <p>Developer</p>
+        <div class="icons">
+          <a href="https://www.linkedin.com/in/selvant01">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://www.github.com/selvan01">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:localpurposeid@gmail.com">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Column 3-->
+    <div class="column">
+      <div class="team-card">
+        <div class="img-container">
+          <img src="{{ url_for('static', filename='images/sreeraam.png') }}" />
+        </div>
+        <h3>SREERAAM</h3>
+        <p>DeVELOPER</p>
+        <div class="icons">
+          <a href="https://www.linkedin.com/in/sreeraam-r-k-b48924295/">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://www.github.com/sreeraam25">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:rksreeramtanjore@gmail.com">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<hr class="belowhr"></hr>
+<div class="text">
+             
+  <h1 class="rightsuggestions" data-aos="fade-left" data-aos-duration="3000" id="services">SERVICES</h1>
+</div>
+<div class="wrapper" data-aos="fade-right" data-aos-duration="3000">
+  <i id="left" class="fas fa-angle-left"></i>
+
+  <ul class="carousel">
+      <li class="card">
+          <div class="img"><img src="{{ url_for('static', filename='images/10th.jpg') }}" alt="img" draggable="false"></div>
+          <h2><a href="/tenth">10th Students</a></h2>
+          <span><a href="/tenth">Competitive Examinations</a></span>
+      </li>
+      <li class="card">
+          <div class="img"><img src="{{ url_for('static', filename='images/12th.jpg') }}" alt="img" draggable="false"></div>
+          <h2><a href="/twelve">12th Students</a></h2>
+          <span><a href="/twelve">Competitive Examinations</a></span>
+      </li>
+      <li class="card">
+          <div class="img"><img src="{{ url_for('static', filename='images/ug.jpg') }}" alt="img" draggable="false"></div>
+          <h2><a href="/College">Graduates</a></h2>
+          <span><a href="/College">Competitive Examinations</a></span>
+      </li>
+      <li class="card">
+          <div class="img"><img src="{{ url_for('static', filename='images/focus.png') }}" alt="img" draggable="false"></div>
+          <h2><a href="/Courses">List of Courses</a></h2>
+          <span><a href="/Courses">Courses</a></span>
+      </li>
+    </ul>
+    
+    <i id="right" class="fas fa-angle-right"></i>
+</div>
+
+  <hr class="suggestionhr"></hr>
+
+<div class="container">
+  <div class="chatbox">
+      <div class="chatbox__support">
+          <div class="chatbox__header">
+            <button  id="getbtn" class="gbtn"><a href="/conversations">Recent<br>Chats</br></a></button>
+            <div id="result" class="responsechat">
+
+            </div>
+              <div class="chatbox__image--header">
+                  <img src="{{ url_for('static', filename='images/chatbot.jpg') }} " width="50x50" alt="image">
+              </div>
+              <div class="chatbox__content--header">
+                
+                  <h4 class="chatbox__heading--header">CAREER QUEST</h4>
+                  <p class="chatbox__description--header">Job suggestion chatbot. How can I help you?</p>
+                 
+              </div>
+          </div>
+          <div class="chatbox__messages">
+              <div></div>
+          </div>
+          <div class="chatbox__footer">
+              <input type="text" placeholder="Write a message..."  id="hear">
+              <button class="chatbox__send--footer send__button" id="sendbtn" >Send</button>
+              <button id="vvv" class="vbtn">Voice</button>
+          </div>
+      </div>
+      <div class="chatbox__button">
+          <button><img src="{{ url_for('static', filename='images/chatbot.jpg') }}" width="50x50" /></button>
+      </div>
+  </div>
+</div>
+<div class="text">
+             
+<h1 class="rightfaq" data-aos="fade-left" data-aos-duration="3000" id="faq">FAQ</h1>
+</div>
+<div class="accordion"  data-aos="fade-right"   data-aos-duration="3000">
+  <div class="image-box">
+    <img src="{{ url_for('static', filename='images/mainImg.png') }}" alt="">
+  </div>
+  <div class="accordion-text">
+    <div class="title">FAQ</div>
+  <ul class="faq-text">
+    <li>
+      <div class="question-arrow">
+        <span class="question">What is the purpose of CAREER QUEST</span>
+        <i class="bx bxs-chevron-down arrow"></i>
+      </div>
+      <p>Career Quest provides personalized career guidance and support using machine learning algorithms to analyze user input, offering tailored recommendations and insights for individuals at any stage of their professional journey.</p>
+      <span class="line"></span>
+    </li>
+    <li>
+      <div class="question-arrow">
+        <span class="question">Who can benefit from Career Quest?</span>
+        <i class="bx bxs-chevron-down arrow"></i>
+      </div>
+      <p>Career Quest is designed for anyone seeking career guidance, from students exploring career options to professionals looking to advance in their careers.</p>
+      <span class="line"></span>
+    </li>
+    <li>
+      <div class="question-arrow">
+        <span class="question">Can Career Quest guarantee job placements?</span>
+        <i class="bx bxs-chevron-down arrow"></i>
+      </div>
+      <p>While Career Quest provides valuable insights and recommendations, job placement cannot be guaranteed as it depends on various factors such as market conditions and individual efforts.
+      </p>
+      <span class="line"></span>
+    </li>
+    <li>
+      <div class="question-arrow">
+        <span class="question">Is my personal information secure with Career Quest?</span>
+        <i class="bx bxs-chevron-down arrow"></i>
+      </div>
+      <p>Yes, Career Quest takes user privacy and data security seriously. We adhere to strict privacy policies to ensure the confidentiality of user information.</p>
+      <span class="line"></span>
+    </li>
+    <li>
+      <div class="question-arrow">
+        <span class="question">Can I provide feedback or report issues with Career Quest?</span>
+        <i class="bx bxs-chevron-down arrow"></i>
+      </div>
+      <p>Yes, we welcome user feedback and actively work to improve the platform. If you encounter any issues or have suggestions for improvement, please feel free to reach out to our support team.</p>
+      <span class="line"></span>
+    </li>
+  </ul>
+  </div>
+</div>
+<section class="loaderfaq">
+      <div class="slider" style="--i:0">
+      </div>
+        <div class="slider" style="--i:1">
+      </div>
+        <div class="slider" style="--i:2">
+      </div>
+        <div class="slider" style="--i:3">
+      </div>
+        <div class="slider" style="--i:4">
+      </div>
+  </section>
+
+</div>
+<footer style="margin-top: -850px;">
+  <div class="footer-content">
+      <h3>CAREER QUEST</h3>
+      <p>Career Quest is an AI-driven project designed to provide personalized career guidance and support. Leveraging machine learning algorithms, it offers tailored advice to help individuals navigate their professional paths effectively. Our goal is to empower users to make informed career decisions and achieve success in today's competitive job market.</p>
+      <ul class="socials">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="mailto:projectbot646@gmail.com"><i class="fa fa-google-plus"></i></a></li>
+          <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+      </ul>
+  </div>
+  <div class="footer-bottom">
+      <p>copyright &copy; <a href="#">Career Quest</a>  </p>
+              <div class="footer-menu">
+                <ul class="f-menu">
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/#about">About</a></li>
+                  <li><a href="/Contact">Contact</a></li>
+                  <li><a href=""></a></li>
+                </ul>
+              </div>
+  </div>
+
+</footer>
+    <script>
+        $SCRIPT_ROOT : {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        
+      });
+    </script>
+</body>
+</html>

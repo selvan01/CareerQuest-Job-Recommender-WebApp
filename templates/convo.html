@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversations</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='convo.css') }}"> 
+</head>
+<body>
+    <h1>Recent Conversations</h1>
+
+    <div class="center-align">
+        <form action="{{ url_for('index_get') }}">
+            <button class="gback-btn" type="submit">Go Back</button>
+        </form>
+    </div>
+
+    <div class="conversation-container">
+        {% for conversation in conversations %}
+            <div class="message">
+                <div class="user">{{ conversation[2] }}</div>
+                <div class="bot">{{ conversation[3] }}</div>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,207 @@
+<html>
+<head>
+    <title>Graduates Competitive Examinations</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='college.css') }}">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ <body>
+  <nav>
+    <div class="nav-bar">
+        <i class='bx bx-menu sidebarOpen' ></i>
+        <span class="logo navLogo"><a href="#">Career Quest</a></span>
+        <div class="menu">
+            <div class="logo-toggle">
+                <span class="logo"><a href="#">Career Quest</a></span>
+                <i class='bx bx-x siderbarClose'></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/#about">About</a></li>
+                <li><a href="/#services">Services</a></li>
+                <li><a href="/#faq">FAQ</a></li>
+                <li><a href="/Contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="darkLight-searchBox " >
+            <div class="dark-light">
+                <i class='bx bx-moon moon'></i>
+                <i class='bx bx-sun sun'></i>
+            </div>
+        </div>
+        {% if current_user.is_authenticated %}
+<div class="logout-btn">
+  <form action="{{ url_for('logout') }}" method="post">
+    <button type="submit">
+      <i class="bx bx-user"></i> Logout
+    </button>
+  </form>
+</div>
+{% endif %}
+    </div>
+</nav>
+<div class="container">
+     <div class="header">
+         <img src="{{ url_for('static', filename='images/graduate.jpg') }}" width="1078x250">
+     </div>
+     <div class="section1">
+         <h1>For Graduate Students</h1>
+     </div>
+     <div class="section2"  data-aos-duration="1500"  data-aos="fade-left">
+        <h1 class="head-title">Union Public Service Commission (UPSC) Civil Services Exam</h1><br>
+        <h1 class="title">Description: The UPSC Civil Services Exam is one of the most prestigious exams for recruitment to various civil services including IAS, IPS, and IFS. <br><br>
+           
+        </h1>
+         <h4 class="section-part">
+            
+
+            Eligibility: A degree in any discipline from a recognized university.
+        </h4>
+        <p class="link" >Official Website: <a href="https://www.upsc.gov.in/"> UPSC</a> </p>
+    </div>
+    <div class="section2"  data-aos-duration="1500"  data-aos="fade-left">
+        <h1 class="head-title">Graduate Aptitude Test in Engineering (GATE)</h1><br>
+        <h1 class="title">Description: GATE is conducted jointly by the IISc and seven IITs for admission into postgraduate engineering programs and recruitment to various public sector jobs.<br><br>
+      
+        </h1>
+         <h4 class="section-part">
+            
+
+            Eligibility: Bachelor's degree in Engineering/Technology or Master's degree in Science.</h4>
+            <p class="link">Official Website : <a href="https://gate.iitkgp.ac.in/">GATE</a></p>
+    </div>
+    <div class="section2"  data-aos-duration="1500"  data-aos="fade-left">
+        <h1 class="head-title">Staff Selection Commission Combined Graduate Level (SSC CGL)</h1><br>
+        <h1 class="title">Description: SSC CGL is conducted for recruitment to various Group B and C posts in government departments and ministries.</h1><br>
+     
+        </h1><br>
+         <h4 class="section-part">
+            
+
+            Eligibility: Bachelor's degree from a recognized university.
+        </h4>
+        <p class="link">Official Website : <a href="https://ssc.nic.in/">SSC CGL</a></p>
+    </div>
+    <div class="section2"  data-aos-duration="1500"  data-aos="fade-left">
+        <h1 class="head-title">Reserve Bank of India (RBI) Grade B Officer Exam</h1><br>
+        <h1 class="title">Description: RBI Grade B Exam recruits officers for various positions in the Reserve Bank of India.</h1><br>
+          
+        </h1><br>
+         <h4 class="section-part">
+            
+
+            Eligibility: A minimum of 60% marks in Bachelor’s degree.
+        </h4>
+        <p class="link">Official Website : <a href="https://www.rbi.org.in/" > RBI-GRADE B</a></p>
+    </div>
+    <div class="section2"  data-aos-duration="1500"  data-aos="fade-left">
+        <h1 class="head-title">State Public Service Commission Exams (State-wise)</h1><br>
+        <h1 class="title">Description: State PSCs conduct exams for various administrative and civil services positions in the respective states.</h1><br>
+          
+        </h1><br>
+         <h4 class="section-part">
+            
+
+            Eligibility: Varies by state, generally a Bachelor's degree.
+   
+        </h4>
+        <p class="link">Official Website : Varies by state</p>
+    </div>
+    <div class="section2"  data-aos-duration="1500"  data-aos="fade-left">
+        <h1 class="head-title">SBI Probationary Officer (PO) Exam</h1><br>
+        <h1 class="title">Description: SBI PO Exam recruits Probationary Officers for the State Bank of India.</h1><br>
+             
+        </h1><br>
+         <h4 class="section-part">
+            
+
+            Eligibility: A degree in any discipline from a recognized university.
+        </h4>
+        <p class="link">Official Website: <a href="https://sbi.co.in/web/careers/probationary-officers" >SBI PO EXAM</a></p>
+    </div>
+    <div class="section2"  data-aos-duration="1500"  data-aos="fade-left">
+        <h1 class="head-title">Insurance Regulatory and Development Authority of India (IRDAI) Exam</h1><br>
+        <h1 class="title">Description: IRDAI conducts exams for the recruitment of various positions in the insurance sector.</h1> 
+          
+        </h1><br>
+         <h4 class="section-part">
+            
+
+            Eligibility: Varies by position, generally a Bachelor’s degree.
+        </h4>
+        <p class="link">Official Website : <a href="https://www.irdai.gov.in/">IRDAI EXAM</a></p>
+         
+    </div>
+    <div class="section2"  data-aos-duration="1500"  data-aos="fade-left">
+        <h1 class="head-title">National Eligibility Test (NET) for Lectureship and Junior Research Fellowship</h1><br>
+        <h1 class="title">Description: NET is conducted for determining eligibility for the post of Assistant Professor or Junior Research Fellowship in Indian universities and colleges.</h1> 
+            
+        </h1><br>
+         <h4 class="section-part">
+            
+
+            Eligibility: Master's degree or equivalent with 55% marks.
+
+        </h4>
+        <p class="link">Official Website :<a href="https://ugcnetonline.in/">NET EXAM</a></p>
+    </div>
+    <div class="section2"  data-aos-duration="1500"  data-aos="fade-left">
+        <h1 class="head-title">Indian Statistical Service (ISS) Exam</h1><br>
+        <h1 class="title">Description: ISS Exam is conducted by UPSC for the recruitment of statisticians in various government departments.
+           
+        </h1><br>
+         <h4 class="section-part">
+            
+
+            Eligibility: Bachelor's degree with Statistics/Mathematical Statistics/Applied Statistics as one of the subjects.
+        </h4>
+        <p class="link">Official Website : <a href="https://upsc.gov.in/">ISS EXAM</a></p>
+    </div>
+    <div class="section2"  data-aos-duration="1500"  data-aos="fade-left">
+        <h1 class="head-title">Indian Economic Service (IES) Exam</h1><br>
+        <h1 class="title">Description: IES Exam is conducted by UPSC for the recruitment of economists in various government departments. </h1><br>
+           
+        </h1><br>
+         <h4 class="section-part">
+            
+
+            Eligibility: Post-graduate degree in Economics/Applied Economics/Business Economics/Econometrics.
+        </h4>
+        <p class="link">Official Website : <a href="https://upsc.gov.in/">IES Exam</a></p>
+    </div>
+    <footer>
+      <div class="footer-content">
+          <h3>CAREER QUEST</h3>
+          <p>Career Quest is an AI-driven project designed to provide personalized career guidance and support. Leveraging machine learning algorithms, it offers tailored advice to help individuals navigate their professional paths effectively. Our goal is to empower users to make informed career decisions and achieve success in today's competitive job market.</p>
+          <ul class="socials">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+          </ul>
+      </div>
+      <div class="footer-bottom">
+          <p>copyright &copy; <a href="#">Career Quest</a>  </p>
+                  <div class="footer-menu">
+                    <ul class="f-menu">
+                      <li><a href="/">Home</a></li>
+                      <li><a href="/#about">About</a></li>
+                      <li><a href="/Contact">Contact</a></li>
+                      <li><a href=""></a></li>
+                    </ul>
+                  </div>
+      </div>
+    
+    </footer>
+<script type="text/javascript" src="{{ url_for('static', filename='pages.js') }}"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+ </body>   
+</head>
+</html>

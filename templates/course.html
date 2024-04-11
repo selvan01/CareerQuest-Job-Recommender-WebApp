@@ -1,0 +1,186 @@
+<html>
+<head>
+  <title>List of Courses</title>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{url_for('static', filename='course.css') }}">
+<body>
+  <nav>
+    <div class="nav-bar">
+        <i class='bx bx-menu sidebarOpen' ></i>
+        <span class="logo navLogo"><a href="#">Career Quest</a></span>
+        <div class="menu">
+            <div class="logo-toggle">
+                <span class="logo"><a href="#">Career Quest</a></span>
+                <i class='bx bx-x siderbarClose'></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/#about">About</a></li>
+                <li><a href="/#services">Services</a></li>
+                <li><a href="/#faq">FAQ</a></li>
+                <li><a href="/Contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="darkLight-searchBox " >
+            <div class="dark-light">
+                <i class='bx bx-moon moon'></i>
+                <i class='bx bx-sun sun'></i>
+            </div>
+        </div>
+        {% if current_user.is_authenticated %}
+<div class="logout-btn">
+  <form action="{{ url_for('logout') }}" method="post">
+    <button type="submit">
+      <i class="bx bx-user"></i> Logout
+    </button>
+  </form>
+</div>
+{% endif %}
+    </div>
+</nav>
+<div class="container">
+     <div class="header">
+      <img src="{{ url_for('static', filename='images/listofcourse.jpg') }}" width="1076x245">
+     </div>
+     <div class="section1">
+         <h1>List of courses</h1>
+     </div>
+     <div class="section2" data-aos-duration="1500"  data-aos="fade-left">
+      <h1 class="head-title">Diploma Courses</h1><br>
+     <div class="innerc" data-aos-duration="1500"  data-aos="fade-left"> 
+      <li>Diploma in Mechanical Engineering</li>
+      <li>Diploma in Electrical Engineering</li>
+      <li>Diploma in Civil Engineering</li>
+      <li>Diploma in Computer Science Engineering</li>
+      <li>Diploma in Electronics and Communication Engineering</li>
+      <li>Diploma in Information Technology</li>
+      <li>Diploma in Automobile Engineering</li>
+      <li>Diploma in Civil CAD</li>
+      <li>Diploma in Architecture</li>
+      <li>Diploma in Interior Design</li>
+      <li>Diploma in Web Designing</li>
+      <li>Diploma in Digital Marketing</li>
+
+     </div>
+  </div>
+    <div class="section2" data-aos-duration="1500"  data-aos="fade-left">
+        <h1 class="head-title">B.Sc Courses</h1><br>
+       <div class="innerc" data-aos-duration="1500"  data-aos="fade-left"> 
+        <li>B.Sc Computer Science</li>
+        <li>B.sc Mathematics</li>
+        <li>B.Sc Physics</li>
+        <li>B.Sc Chemistry</li>
+        <li>B.Sc Nursing </li>
+        <li>B.Sc Psychology </li>
+        <li>B.Sc Biotechnology </li>
+        <li>B.Sc Information Technology </li>
+        <li>B.Sc Economics </li>
+        <li>B.Sc Agriculture</li>
+       </div>
+    </div>
+    <div class="section2" data-aos-duration="1500"  data-aos="fade-left">
+      <h1 class="head-title">M.Sc Courses</h1><br>
+     <div class="innerc" data-aos-duration="1500"  data-aos="fade-left"> 
+      <li>M.Sc Computer Science</li>
+      <li>M.sc Data Science</li>
+      <li>M.Sc Artificial Intelligence</li>
+      <li>M.Sc Finance</li>
+      <li>M.Sc Biotechnology </li>
+      <li>M.Sc Psychology </li>
+      <li>M.Sc Biotechnology </li>
+      <li>M.Sc Finance </li>
+      <li>M.Sc Economics </li>
+      <li>M.Sc Agriculture</li>
+     </div>
+  </div>
+  <div class="section2" data-aos-duration="1500"  data-aos="fade-left">
+    <h1 class="head-title">UG Engineering Courses</h1><br>
+   <div class="innerc" data-aos-duration="1500"  data-aos="fade-left"> 
+      <li>BE Mechanical Engineering</li>
+      <li>BE Electrical Engineering  </li>
+      <li>BE Civil Engineering </li>
+      <li>BE Chemical Engineering </li>
+      <li>BE Computer Engineering  </li>
+      <li>BE Aerospace Engineering  </li>
+      <li>B.Tech Biomedical Engineering  </li>
+      <li>B.Tech Industrial Engineering  </li>
+      <li>B.Tech Petroleum Engineering  </li>
+      <li>B.Tech Information Technology </li>
+   
+</div>
+<div class="section2" data-aos-duration="1500"  data-aos="fade-left">
+  <h1 class="head-title">PG Engineering Courses</h1><br>
+ <div class="innerc" data-aos-duration="1500"  data-aos="fade-left"> 
+    <li>ME Mechanical Engineering</li>
+    <li>ME Electrical Engineering  </li>
+    <li>ME Civil Engineering </li>
+    <li>ME Chemical Engineering </li>
+    <li>ME Computer Engineering  </li>
+    <li>ME Aerospace Engineering  </li>
+    <li>M.Tech in Marine  </li>
+    <li>M.Tech Nuclear Engineering  </li>
+    <li>M.Tech Petroleum Engineering  </li>
+    <li>M.Tech Information Technology </li>
+ 
+</div>
+<div class="section2" data-aos-duration="1500"  data-aos="fade-left">
+  <h1 class="head-title">Medical Courses</h1><br>
+ <div class="innerc" data-aos-duration="1500"  data-aos="fade-left"> 
+    <li>MBBS (Bachelor of Medicine,Bachelor of Surgery)</li>
+    <li>Doctor of Medicine (MD)</li>
+    <li>Bachelor of Dental Surgery (BDS)</li>
+    <li>Doctor of Dental Surgery (DDS)</li>
+    <li>Bachelor of Pharmacy (BPharm)</li>
+    <li>Doctor of Pharmacy (PharmD)</li>
+    <li>Bachelor of Nursing (BN)</li>
+    <li>Bachelor of Physiotherapy (BPT)</li>
+    <li>Bachelor of Medical Laboratory Technology (BMLT)</li>
+    <li>Bachelor of Veterinary Science (B.V.Sc)</li>
+    <li>Bachelor of Optometry (B.Optom)</li>
+
+ 
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<footer style="margin-top: 400px;">
+  <div class="footer-content">
+      <h3>CAREER QUEST</h3>
+      <p>Career Quest is an AI-driven project designed to provide personalized career guidance and support. Leveraging machine learning algorithms, it offers tailored advice to help individuals navigate their professional paths effectively. Our goal is to empower users to make informed career decisions and achieve success in today's competitive job market.</p>
+      <ul class="socials">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+          <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+      </ul>
+  </div>
+  <div class="footer-bottom">
+      <p>copyright &copy; <a href="#">Career Quest</a>  </p>
+              <div class="footer-menu">
+                <ul class="f-menu">
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/#about">About</a></li>
+                  <li><a href="/Contact">Contact</a></li>
+                  <li><a href=""></a></li>
+                </ul>
+              </div>
+  </div>
+
+</footer>
+<script type="text/javascript" src="{{ url_for('static', filename='pages.js') }}"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</head>
+</html>

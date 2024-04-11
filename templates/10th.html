@@ -1,0 +1,208 @@
+<html>
+<head>
+  <title>10th Competitive Examinations</title>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='10th.css') }}">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ <body>
+ <nav>
+    <div class="nav-bar">
+        <i class='bx bx-menu sidebarOpen' ></i>
+        <span class="logo navLogo"><a href="#">Career Quest</a></span>
+        <div class="menu">
+            <div class="logo-toggle">
+                <span class="logo"><a href="#">Career Quest</a></span>
+                <i class='bx bx-x siderbarClose'></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/#about">About</a></li>
+                <li><a href="/#services">Services</a></li>
+                <li><a href="/#faq">FAQ</a></li>
+                <li><a href="/Contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="darkLight-searchBox " >
+            <div class="dark-light">
+                <i class='bx bx-moon moon'></i>
+                <i class='bx bx-sun sun'></i>
+            </div>
+        </div>
+        {% if current_user.is_authenticated %}
+<div class="logout-btn">
+  <form action="{{ url_for('logout') }}" method="post">
+    <button type="submit">
+      <i class="bx bx-user"></i> Logout
+    </button>
+  </form>
+</div>
+{% endif %}
+    </div>
+</nav>
+<div class="container">
+     <div class="header">
+         <img src="{{ url_for('static', filename='images/10thpage.jpg') }}" width="1076x245">
+     </div>
+     <div class="section1">
+         <h1>For 10th Students</h1>
+     </div>
+    <div class="section2" data-aos-duration="1500"  data-aos="fade-left">
+        <h1 class="head-title">Indian Army Soldier Recruitment</h1><br>
+        <h1 class="title"> Indian army conducts soldier recruitment for various categories like Soldier General Duty, Soldier Technical, Soldier Clerk/Storekeeper Technical, etc., can be applied for after class 10. 
+        </h1>
+         <h4 class="section-part"><br>
+            Eligibility:
+
+            
+    The age limit varies from one post to the other
+    In general, class 10th /matric pass with min 45% mks in aggregate and min 33% in each subject.
+
+        </h4>
+        <p class="link" >Official Website: <a href="https://www.joinindianarmy.nic.in/"> Army Recruitment</a> </p>
+    </div>
+    
+    <div class="section2" data-aos-duration="1500"  data-aos="fade-right">
+        <h1 class="head-title">Tamil Nadu Combined Civil Services Examination (Group 4)</h1><br>
+        <h1 class="title"> Brief Detail: The TNPSC Group 4 examination is conducted for the recruitment of candidates to various positions such as Junior Assistant, Typist, Stenographer, Village Administrative Officer (VAO), Field Surveyor, and Draftsman in the Tamil Nadu Ministerial Service, Tamil Nadu Judicial Ministerial Service, Tamil Nadu Survey and Land Records Subordinate Service, etc.  <br><br>
+           
+        </h1>
+         <h4 class="section-part">
+            Eligibility: Age Limit: The minimum age limit is 18 years, and the maximum age limit varies according to the category of the candidate.
+            Educational Qualification: Candidates should have completed their 10th standard or equivalent qualification from a recognized board or institution.
+        </h4>
+        <p class="link">Official Website : <a href="https://www.tnpsc.gov.in/" > TNPSC-Group 4</a></p>
+    </div>
+    <div class="section2" data-aos-duration="1500"  data-aos="fade-right">
+        <h1 class="head-title">Indian Navy Tradesman Mate Recruitment Examination</h1><br>
+        <h1 class="title"> Brief Detail: The Indian Navy conducts recruitment examinations to fill vacancies for the post of Tradesman Mate in various Naval Commands. Tradesman Mates are responsible for performing skilled and semi-skilled tasks related to trades such as carpentry, plumbing, welding, electrical work, and general maintenance onboard ships and naval establishments. <br><br>
+           
+        </h1>
+         <h4 class="section-part">
+            Eligibility: Age Limit: Candidates must be between 18 to 25 years of age. Age relaxation is applicable for candidates belonging to reserved categories as per government norms.
+            Educational Qualification: Candidates should have completed their 10th standard (Matriculation) from a recognized board or institution.
+        </h4>
+        <p class="link">Official Website : <a href="https://www.joinindiannavy.gov.in/" > INDIAN NAVY TRADESMAN</a></p>
+    </div>
+    
+    <div class="section2" data-aos-duration="1500"  data-aos="fade-right">
+        <h1 class="head-title">Railway Recruitment Board (RRB) - Group D</h1><br>
+        <h1 class="title"> Brief Detail: RRB Group D exam is for various posts like Track Maintainer, Helper, and Assistant in Indian Railways.  <br><br>
+           
+        </h1>
+         <h4 class="section-part">
+            Eligibility: 10th pass or ITI
+        </h4>
+        <p class="link">Official Website : <a href="https://www.rrcb.gov.in/" > RRB-Group D</a></p>
+    </div>
+    <div class="section2" data-aos-duration="1500"  data-aos="fade-right">
+        <h1 class="head-title">Railway Protection Force (RPF) Constable Recruitment</h1><br>
+        <h1 class="title"> Brief Detail: Railway Protection Force (RPF) Constables are responsible for maintaining law and order within the railway premises, ensuring the safety and security of passengers and railway property. They play a crucial role in preventing crimes, ensuring the safety of passengers, and enforcing regulations.  <br><br>
+           
+        </h1>
+         <h4 class="section-part">Age Limit: Candidates must be between 18 to 25 years of age. Age relaxation is applicable for candidates belonging to reserved categories as per government norms.
+            Educational Qualification: Candidates should have completed their 10th standard (Matriculation) from a recognized board or institution.10th pass or ITI
+        </h4>
+        <p class="link">Official Website : <a href="https://www.indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,7,1281" > RPF</a></p>
+    </div>
+    
+    <div class="section2" data-aos-duration="1500"  data-aos="fade-right">
+        <h1 class="head-title">Indian Navy Sailor</h1><br>
+        <h1 class="title"> The Indian Navy selects candidates when they complete government competitive exams after 12th successfully as sailors. The posts that they get after clearing these exams are:
+            
+            Seaman after training
+            Artificer apprentice in various branches. <br><br>
+           
+        </h1>
+         <h4 class="section-part">
+            Eligibility:
+                    The limit of age is from 17 years to 20 years
+        </h4>
+        <p class="link">Official Website :<a href="https://indiannavy.nic.in/">Indian Navy Soldier</a></p>
+    </div>
+    
+        
+    <div class="section2" data-aos-duration="1500"  data-aos="fade-left">
+        <h1 class="head-title">Border Security Force (BSF) Constable Tradesman Recruitment</h1><br>
+        <h1 class="title">  Brief Detail: BSF recruits Constable Tradesmen for various trades. <br><br>
+           
+        </h1>
+         <h4 class="section-part">
+            Eligibility: 10th pass
+        </h4>
+        <p class="link">Official Website: <a href="https://rectt.bsf.gov.in/" >BSF</a></p>
+    </div>
+        
+    <div class="section2" data-aos-duration="1500"  data-aos="fade-right">
+        <h1 class="head-title">Central Industrial Security Force (CISF) Constable/Tradesman Recruitment</h1><br>
+        <h1 class="title"> Brief Detail: CISF recruits Constable/Tradesman for various trades.. <br><br>
+           
+        </h1>
+         <h4 class="section-part">
+            Eligibility: 10th pass
+        </h4>
+        <p class="link">Official Website : <a href="https://www.cisf.gov.in/">CISF</a></p>
+    </div>
+    
+        <div class="section2" data-aos-duration="1500"  data-aos="fade-left">
+            <h1 class="head-title">Indian Coast Guard Navik (General Duty) Recruitment</h1><br>
+            <h1 class="title">  Brief Detail: The Indian Coast Guard recruits Navik (General Duty) for 10+2 entry. <br><br>
+               
+            </h1>
+             <h4 class="section-part">
+                Eligibility:
+                The limit of age is from 18 years to 29 years.<br>10+2 with Maths and Physics.
+            </h4>
+            <p class="link">Official Website :<a href="https://joinindiancoastguard.gov.in/">Coast Guard Navik</a></p>
+        </div>
+        <div class="section2" data-aos-duration="1500"  data-aos="fade-right">
+            <h1 class="head-title">Railway Constables</h1><br>
+            <h1 class="title">  Brief Detail: The Railway Constables maintain the right order and law in the railway premises. Candidates who have applied for the government competitive exams after 12th can apply for this post. <br><br>
+               
+            </h1>
+             <h4 class="section-part">
+                Eligibility:
+                The limit of age is from 18 years to 25 years
+             </h4>
+                <p class="link">Official Website : <a href="https://indianrailways.gov.in">Railway Constables</a></p>
+
+        </div>
+
+      </div>
+    </div>
+    <footer>
+      <div class="footer-content">
+          <h3>CAREER QUEST</h3>
+          <p>Career Quest is an AI-driven project designed to provide personalized career guidance and support. Leveraging machine learning algorithms, it offers tailored advice to help individuals navigate their professional paths effectively. Our goal is to empower users to make informed career decisions and achieve success in today's competitive job market.</p>
+          <ul class="socials">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+          </ul>
+      </div>
+      <div class="footer-bottom">
+          <p>copyright &copy; <a href="#">Career Quest</a>  </p>
+                  <div class="footer-menu">
+                    <ul class="f-menu">
+                      <li><a href="/">Home</a></li>
+                      <li><a href="/#about">About</a></li>
+                      <li><a href="/Contact">Contact</a></li>
+                      <li><a href=""></a></li>
+                    </ul>
+                  </div>
+      </div>
+    
+    </footer>
+    <script type="text/javascript" src="{{ url_for('static', filename='pages.js') }}"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+ </body>
+</head>
+</html>

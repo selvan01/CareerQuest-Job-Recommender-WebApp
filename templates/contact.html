@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="style.css">
+        
+    <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Contact Us</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen' ></i>
+            <span class="logo navLogo"><a href="#">Career Quest</a></span>
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">Career Quest</a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/#about">About</a></li>
+                    <li><a href="/#services">Services</a></li>
+                    <li><a href="/#faq">FAQ</a></li>
+                    <li><a href="/Contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="darkLight-searchBox " >
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun'></i>
+                </div>
+            </div>
+            {% if current_user.is_authenticated %}
+<div class="logout-btn">
+  <form action="{{ url_for('logout') }}" method="post">
+    <button type="submit">
+      <i class="bx bx-user"></i> Logout
+    </button>
+  </form>
+</div>
+{% endif %}
+        </div>
+    </nav>
+<link rel="stylesheet" href="{{ url_for('static', filename='contact-us-style.css') }}">
+</head>
+<body>
+<div class="contact-container">
+<form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+<div class="contact-left-title">
+<h2>Get in touch</h2>
+<hr>
+</div>
+ <input type="hidden" name="access_key" value="77515b90-c44b-4483-8a23-f894240b4c1c">
+<input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+<input type="text" name="email" placeholder="Your Email" class="contact-inputs" required>
+<textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+<button type="submit">Submit <img src="{{ url_for('static', filename='images/arrow_icon.png') }}" alt=""></button>
+</form>
+<div class="contact-right">
+<img src="{{ url_for('static', filename='images/right_img.png') }}" alt="">
+</div>
+</div>
+<footer>
+  <div class="footer-content">
+      <h3>CAREER QUEST</h3>
+      <p>Career Quest is an AI-driven project designed to provide personalized career guidance and support. Leveraging machine learning algorithms, it offers tailored advice to help individuals navigate their professional paths effectively. Our goal is to empower users to make informed career decisions and achieve success in today's competitive job market.</p>
+      <ul class="socials">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+          <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+      </ul>
+  </div>
+  <div class="footer-bottom">
+      <p>copyright &copy; <a href="#">Career Quest</a>  </p>
+              <div class="footer-menu">
+                <ul class="f-menu">
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/#about">About</a></li>
+                  <li><a href="/Contact">Contact</a></li>
+                  <li><a href=""></a></li>
+                </ul>
+              </div>
+  </div>
+
+</footer>
+<script type="text/javascript" src="{{ url_for('static', filename='pages.js') }}"></script>
+</body>
+</html>
