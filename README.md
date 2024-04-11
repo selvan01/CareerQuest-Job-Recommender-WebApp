@@ -4,14 +4,14 @@ This is my Final Year Academic Project.
 
 Clone repo and create a virtual environment
 ```
-$ git clone https://github.com/selvan01/Career Quest-Job Recommender.git
-$ cd Job-Recommender
+$ git clone https://github.com/selvan01/CareerQuest-AI-Job-Recommender.git
+$ cd CareerQuest-AI-Job-Recommender
 $ python3 -m venv venv
 $ . venv/bin/activate
 ```
 Install dependencies
 ```
-$ (venv) pip install Flask torch torchvision nltk
+$ (venv) pip install Flask torch torchvision nltk flask-login
 ```
 Install nltk package
 ```
@@ -36,3 +36,5 @@ To run this app locally :
 $ (venv) python app.py
 ```
 open: localhost:127.0.0.1:5000
+
+After sucessful login!! It will create chatbot.db to store the data was done with the help of sqlite3.
